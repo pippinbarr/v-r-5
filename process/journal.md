@@ -20,21 +20,21 @@ Specifically, I've been interested in setting up v r 5's buildings and shadows o
 
 But I like the idea of at least some sense of an organic landscape to go along with the more formal shadow stuff and the buildings, so I started playing around directly with some of the textures inside the pack, sizing them down, sizing them up, over and over again. Until I could barely understand what I was seeing. For instance here are three different resolutions of texture and normal map (as well as sometimes sizing down to lose information then back up to meet a resolution standard like 2048x2048):
 
-![](images/terrain-textures-1.png)
+![Example of terrain textures in the game](images/terrain-textures-1.png)
 
-![](images/terrain-textures-2.png)
+![Example of terrain textures in the game](images/terrain-textures-2.png)
 
-![](images/terrain-textures-3.png)
+![Example of terrain textures in the game](images/terrain-textures-3.png)
 
 I spent a while trying to figure out which was which until I realized something important: they all looked shitty.
 
 So this morning I've gone back a step and made my own horrible island
 
-![](images/my-own-horrible-island.png)
+![Poorly self-made island terrain](images/my-own-horrible-island.png)
 
 in order to check out texturing and stuff from first principles... ish. Which meant I again grabbed a cliff texture from the island pack then downsampled it to 512x512 then back up to 2048x2048. So now the diffuse adn normal maps are both under 100KB for that one texture which is seeming more reasonable for a web download. They look gritty as hell, but I think in a way that's hopefully acceptable down the line?
 
-![](images/gritty-texture.png)
+![Downsampled cliff texture](images/gritty-texture.png)
 
 So a kind of mid-res thing going on. My next step I think is to regrab the island and either retexture it with my downsampled textures (I hope this is doable as it would be the easier option) or export the height map and retexture is manually (I hope I don't have to do this).
 
@@ -63,3 +63,64 @@ I'm roughly at a point here where I can think about moving forward with building
 So there's a ton to think about, but it's pleasing to be getting closer to building this out to try to understand what I'm thinking about here.
 
 Probably a good step would be to literally taxonomize what possible rooms/installations I should have. So let's do that tomorrow.
+
+## Taxonomizing shadow and light; the island as a place; structures -- Thursday, 24 August 2023
+
+Alright, it's tomorrow.
+
+So, I wanted to do something thinking about what is actually going to be on this island, what it means to make an island "in praise of shadows" in the context of Unity, so I'm going to think about that now.
+
+Just a quick MDM aside: thinking about the differences between journals/todos and actual design documentation. As of right now the method doesn't really include a formal spot to characterize the design of a project because... well it's just the way I work. But I note that with *v r $4.99* I had those "curation" documents to separate out a specific kind of work. For more complex games (maybe especially more game-y games) does it make sense to have the way the game works specified out in a text, in a ... design document? Never really thought about it, but it's worth parsing through.
+
+Anyway for now let's do some thinking about shadows+unity+island+the book/essay.
+
+### Nature of shadows in Unity
+
+- Lights cause shadows
+- Lights can cast Soft Shadows or Hard Shadows or No Shadows
+- There are four kinds of lights:
+  - Directional (sun)
+  - Spotlight
+  - Point light (bulb)
+  - Area (shape, I think only in baked)
+- Shadows are created by meshes/objects occluding lights
+  - Objects don't have to be visible but can still cast a shadow
+- Shadows are cast on surfaces (which are terrains, objects, meshes, etc.)
+  - Can invisible objects "receive shadows"?
+- The shape/nature of a shadow is influenced by
+  - The casting light (intensity, color?, position, angle, type)
+  - The ambient light
+  - Other active lights (consider interior vs. exterior)
+  - The shape of the casting object (mesh, primitive, terrain, assemblies)
+    - This would include settings around the smallest possible hole that light can cast through?
+  - The shape of the receiving surface (mesh, primitive, terrain, assemblies)
+  - The texture of the receiving surface? (I know less about this but am assuming a shadow "looks different" cast onto surfaces that are metallic versus not etc. -- this ties into the *gold* theme)
+- There are temporal elements
+  - Lights can move over time (rotate, translate, combinations)
+  - Lights can change over properties over time (colour, intensity, shadow properties (I assume these can change??))
+  - Lights can turn on and off (and can strobe, though probably avoid)
+  - These "animation" oriented ideas could be looped or could be triggered
+  - Should the "sun" be moving? Should it be on computer clock time? (Leaning yes to clock time as interesting, possible with additional interactions to cycle time of day, maybe even a button the user can just hold to move time along?? Or otherwise it's situated in the world at the highest peak or something)
+- There are probably countless contextual elements
+  - A shadow "feels different" based on what you're doing, the kind of place you're in, the scale of the space, how you entered the space, and on and on
+
+So, these are a large number of possible effects. And of course they can easily be combinatorial - soft shadows from a direct light on a large cube that moves in a circle versus hard shadows from a direct light on a large cube that moves in a circle versus.... And I don't think the island setting is the right place for rigorous combinatorics as in *v r 3*, rather I want it to be an *experience* of shadows, and I suppose it needs to be *curated*, but I'd like it, too, to be an experience of the different kinds of shadows so that there's a chance to think about it.
+
+### Curation, the island
+
+So the island is "in praise of shadows" which means it needs to "show off" Unity's shadows. I want it to both provide an opportunity to enjoy shadows as they are (and as the book kind of talks about them - though in the book it's more about dimness a lot of the time?) as well as to reflect on the technical marvel of implementing shadows in an engine, as well as probably some of the comedy involved.
+
+**Should there be plaques?** Or not? I lean not. A series of unexplained examples of things casting shadows. But it's a legitimate idea and in keeping with most of the v r games -- you say what these shadows are in order to provoke reflection especially about their technical nature. If my taxonomy were extreme enough I suppose you could just use single words to indicate the key elements being demonstrated? Or again you could have an accompanying PDF for your visit?
+
+### Structures
+
+One of the key ways to demonstrate shadows in specific "lights" (ahaha) is that you control the lighting environment around them. As such I can imagine wanting quite a large number of interior spaces where there is no (or very little) light involved and so can be lit specifically with particular kinds of shadows in mind.
+
+One thought (and here I'm thinking a little bit of *The Beginner's Guide*) is to have a single room type (corresponding to that game's single door type). And there are instances of that room all over the island that all equally cut out entirely or mostly the exterior directional light so that you can focus on what is inside. Designing that space would be a very important aspect of getting started.
+
+Along with the rooms you would have exterior installations that deal in casting light perhaps exclusively in terms of the "sun".
+
+So next steps:
+
+- try making a couple of structures just to check it out
+- try making a base room that "does the trick" - wondering about a simple folded entryway to create potential darkness
