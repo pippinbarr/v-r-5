@@ -15,8 +15,8 @@
 ## Documentation
 
 * Read the [Process documentation](../process/)
-* Read the [Commit History](https://github.com/pippinbarr/v-r-4-99/commits/master)
-* Look at the [Code Repository](https://github.com/pippinbarr/v-r-4-99)
+* Read the [Commit History](https://github.com/pippinbarr/v-r-5/commits/main)
+* Look at the [Code Repository](https://github.com/pippinbarr/v-r-5)
 
 ## Press
 
