@@ -154,3 +154,41 @@ A next task is just figuring out how to texture (and detail?) it well enough tha
 Anyway I have some hopes for the island at this point and getting a build that maybe ultimately is under 20MB or something? Is that realistic? I really don't know, probably not but still we've made some serious progress at this point.
 
 So: more texturing is next, followed by returning to trying to probuild some buildings sensibly.
+
+## Textureman, textureman, doing the things that a texturecan; also Discard Changes -- Tuesday, 5 September 2023
+
+I don't *seem* to be able to convince Unity to "just" use the original Island in a low-size way. Wait I'll try something quickly...
+
+I am trying to use the new point-filter thing to convince the "cool island" version of things to be smaller - let's see if that works to drop down the texture siiii... nope.
+
+So the situation is that I'm starting my island "from scratch" by
+
+- Starting a new scene
+- Creating a new terrain
+- Importing the RAW exported heightmap of the Island terrain
+- Lowering its resolution
+- Making it smaller
+- Downsampling all the textures from the Island pack to 128x128 files
+- Using the point filter so that they don't blur when scaled up
+- Texturing the island ON MY DAMN OWN to try to make it look convincing enough (this is hard)
+- Eventually putting detail objects on there as well for more visual interest/complexity
+
+I even made these two images (one is the original island one is mine) to try to figure out areas where my texturing deviates (always assuming the people who made the original Island are texturing geniuses etc.)
+
+![](./images/original-island-texturing.png)
+
+![](./images/my-island-in-progress-texturing.png)
+
+Also noticed that of course you can get very visible "mixels" in this new environment, e.g.:
+
+![](./images/concrete-landscape-mixels.png)
+
+Here the concrete texture has more pixels per whatever, a higher resolution or a lower tiling rate or WHATEVER THE LINGO IS.
+
+Should everything match in terms of that? Or is the mixelling telling us something worthwhile? Unsure and I will try to look at both at some point.
+
+### Discard Changes
+
+Also a quick MDM note: I've been noticing that a frequent flow at this stage of the project is to try out some tech solution (e.g. all my to-ing and fro-ing about how to get smaller builders, interestingly crunchy textures, etc.) find that it doesn't work at all, and then Discarding Changes in VS Code to get rid of the evidence. *Should* I be including every step in the repo? It doesn't strike me as an interesting part of the process, just trying to settle very fundamental tech issues, and I *am* reflecting on the process in fairly fine-grained detail here in the journal, so I think the "thinking" part is still there. The bit that's not there is mostly just dissatisfying results in the unity build that don't necessarily communicate much and might just "take up space" in the repo.
+
+But I dunno - should I be a pack rat and KEEP IT ALL?
