@@ -175,13 +175,13 @@ So the situation is that I'm starting my island "from scratch" by
 
 I even made these two images (one is the original island one is mine) to try to figure out areas where my texturing deviates (always assuming the people who made the original Island are texturing geniuses etc.)
 
-![](./images/original-island-texturing.png)
+![Bird's eye view of the original Island's texturing](./images/original-island-texturing.png)
 
-![](./images/my-island-in-progress-texturing.png)
+![Bird's eye view of my progress on texturing my own height map of the island](./images/my-island-in-progress-texturing.png)
 
 Also noticed that of course you can get very visible "mixels" in this new environment, e.g.:
 
-![](./images/concrete-landscape-mixels.png)
+![View of the different sized pixels in the terrain versus the concrete](./images/concrete-landscape-mixels.png)
 
 Here the concrete texture has more pixels per whatever, a higher resolution or a lower tiling rate or WHATEVER THE LINGO IS.
 
@@ -203,9 +203,9 @@ Then ran into the draw distance for the details meaning that the grass is consta
 
 Then ran into the fact that because the grass colour is a bit different to the terrain palette the grass really stands out too much so I spent time working with the underlying image files as well as the tints Unity applies to get something more naturalistic. Compare this before and after, which I'm somewhat proud of (and which also includes the draw distance setting being ramped up now that I look at it):
 
-![](./images/grass-details-pre-color-tweaks.png)
+![Image of the landscape with bright green grass](./images/grass-details-pre-color-tweaks.png)
 
-![](./images/grass-details-post-color-tweaks.png)
+![Image of the landscape with more matching grass](./images/grass-details-post-color-tweaks.png)
 
 So there's still a little bit of work remaining here, but the island is *starting* to look kind of how I want, which would mean I could start construction, haha, but yeah construction. Helpfully, but making it to this step I could probably feel comfortable doing some exterior shadow stuff that's designed just to work with the sun, casting shadows on the ground, which is somehow less intimidating that the interiors for now.
 
@@ -227,7 +227,7 @@ Actually while I was lying in bed I was thinking of the sun in the sky and thoug
 
 Going on from those sketches of floorplans, as I said, I finally used ProBuilder to make a sample room, which ended up like this:
 
-![](./images/the-first-dark-room.png)
+![Image of the player capsule, a point light, and a cube in a dark room](./images/the-first-dark-room.png)
 
 Which is to say I did manage to get a room that's a reasonable first draft of a setting to observe a shadow in a more or less controlled environment. A few things on that process:
 
