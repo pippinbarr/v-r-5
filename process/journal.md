@@ -4,7 +4,7 @@
 
 (This is a retroactive commit of the (iPad) notebook sketching I did in starting to think about the game.)
 
-[Early sketching and thinking on 15 August 2023](./pdfs/2023-08-15.pdf)
+[Early sketching and thinking on 15 August 2023](./pdfs/2023-08-15-v-r-5.pdf)
 
 ## Started a Unity project -- Thursday, 17 August 2023
 
@@ -208,3 +208,36 @@ Then ran into the fact that because the grass colour is a bit different to the t
 ![](./images/grass-details-post-color-tweaks.png)
 
 So there's still a little bit of work remaining here, but the island is *starting* to look kind of how I want, which would mean I could start construction, haha, but yeah construction. Helpfully, but making it to this step I could probably feel comfortable doing some exterior shadow stuff that's designed just to work with the sun, casting shadows on the ground, which is somehow less intimidating that the interiors for now.
+
+## The first dark room -- Monday, 11 September 2023
+
+Dear diary, I finally made a dark room. The island itself seems to be in sufficiently good condition that it felt time to move over to shadows.
+
+Actually, in the weekend I was showing it to Felix as well and we made a really tall square pole kind of object and I was then stunned by how long its shadow was going downhill - hills and shadows eh, who knew.
+
+But today I finally overcame some of my ProBuilder fears by realizing I could make the floorplan for the room shapes I've been thinking of just using extrusion techniques. And that word "floorplan" makes me think of the fact I did a bunch of drawings last Friday on that subject, so let me get them in here too...
+
+[Sketches from Friday, 8 September 2023](./pdfs/2023-09-08-v-r-5.pdf)
+
+Those sketches mostly are about consider audience flow through interior spaces (one door or two doors?), the whole thing of framing a view when you exit, questions around how the buildings and the terrain interact (terraforming versus stairs versus careful positioning) and the general point of having a place you can stand that moves the sun in the sky.
+
+Actually while I was lying in bed I was thinking of the sun in the sky and thought it could be nice if it moves fast when you stand on the thing, but then stays where you set it, so it's a kind of somewhat laborious ability to change the time of day? I quite like that.
+
+(I should start my to-do list now or I'm going to get confused. There.)
+
+Going on from those sketches of floorplans, as I said, I finally used ProBuilder to make a sample room, which ended up like this:
+
+![](./images/the-first-dark-room.png)
+
+Which is to say I did manage to get a room that's a reasonable first draft of a setting to observe a shadow in a more or less controlled environment. A few things on that process:
+
+- Turned out I had the concrete material set up to me super metallic and I guess shiny so it wouldn't let the room be dark (I guess simulating the idea it would just bounce around the light from the outside?) - turning that down was the big difference maker to make a dark room
+- Started wondering what relationship the shadows have to bump maps
+- Re-remembered that when you make a point light it doesn't automatically cast shadows; and of course worried about performance implications with lots of lights (and then thought about - in the commit message - the idea of lights that only turn on as you enter, which has a pleasingly physical relationship to shadows?)
+- I'll need to remake the room because it has some gross seams that - yes that's right - cast weird little shadows and make it totally clear how shonky my work is on that front -- I'm more confident I'll be able to get this working though
+- Really love the contrast between inside and outside at this point, very neat, and that transitional moment (oh and now I'm like... what about that weird light effect you get passing from dark to light? Probably could figure it out but maybe not)
+- And of course is this about shadows or light?
+- Oh and the need to make a gold material to play with
+- Shadows on grass
+- Shadows down hills
+- This is going to work
