@@ -266,3 +266,31 @@ I know there's a "make holes" in the new terrain stuff I haven't seen before whi
 So I suppose I want to say here that it has been very generative spending some time with the terrain even though my initial thought had been "grab an island as is and chuck stuff on". I've enjoyed learning the tool, it's been very satisfying building something "of my own" (with inherited components from the Unity Store Asset), and there's a lot of "shadow stuff" involved that I might not have realized so easily otherwise.
 
 In short, project continues to go well in these dribs and drabs of time I have. Next up it probably returning to probuilder and trying to make a non-seamful room.
+
+## Shadow acne, 5 o'clock shadows, shadows everywhere -- Thursday, 14 September 2023
+
+Just wanted to drop in after the last commit to reflect a touch on the whole shadow acne issue. Specifically, was reminded (by seeing it) of shadow acne and how it happens and how you can attempt to control it most of all with the bias settings on your shadows.
+
+But everything has knock-on effects, and everything is extra meta because at base the game is about shadows and... well *whatever* the shadows are doing is still very much a reflection of shadow technology. It's just that in making a nice looking island and working on clean-looking brutalist rooms for things I've inevitably become attached to the shadows looking "nice" rather than... whatever, just "the way they are".
+
+Because if your bias is low, then you get shadow acne and thus the walls and surfaces look really pretty weird and gross. That remains a *consequence* of shadow acne, but still.
+
+**BUT** that does make me think: well, you could literally demonstrate shadow acne in one or more rooms right?
+
+**AND** in the same way you could demonstrate the bias value in another room, the way casting shadows can be radically changed. Bias and normal bias too.
+
+**BUT** that starts to get very inside baseball, very parameterized (v r 3-ish) and I begin to wonder how to *explain* that? Informational plaques that try to give you a sense of the point without being too detailed? I suppose so.
+
+**AND** as above, too much bias leads to "peter panning" where objects appear to float because their shadow detaches from them (that's what the bias does), while too much normal bias leads shadows to be ridiculously small and weird.
+
+And **NONE** of that looks naturalistic. And I think one of the problems I have with that is I'd like the exterior environment to look kind of "normal" and to keep the freakshow experiments inside the rooms in more controlled environments?
+
+So I also experiments with *hard shadows* outdoors which seems to reduce the artifacting stuff a lot without compromising (much?) on bias?
+
+And also while I was reading about these problems on infinite forum threads I was reminded that of course there's also the whole universe of *baking* the lighting which means baking the shadows too, which might be a way to save a lot of heartache if (a) I could ever fucking figure out baking this stuff and (b) it doesn't blow the size of the game to hell for web.
+
+Which **ALSO** is a thing because the behaviour of all this in WebGL is *another* issue that appears separate. For instance when I "solve" the acne with hard shadows and a high resolution shadow map for the real time shadows, the WebGL version still exhibits what looks like a tiny line of texture fighting at the seams of the building. Maybe I can beat that with vertex welding? So many shitty little things to think about.
+
+And again I stress that this is also funny and maybe an *opportunity* because it's **NOT MY FAULT** that all these things happen: **THIS IS THE TECHNOLOGY AT WORK** and to some extent **THIS IS WHAT I AM EXHIBITING**. I thought it would all be beautiful and "aesthetic" but maybe I will also be demonstrating how shit things kind of can be?
+
+So a frustrating, sort of funny if you squint, situation.
