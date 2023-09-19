@@ -294,3 +294,25 @@ Which **ALSO** is a thing because the behaviour of all this in WebGL is *another
 And again I stress that this is also funny and maybe an *opportunity* because it's **NOT MY FAULT** that all these things happen: **THIS IS THE TECHNOLOGY AT WORK** and to some extent **THIS IS WHAT I AM EXHIBITING**. I thought it would all be beautiful and "aesthetic" but maybe I will also be demonstrating how shit things kind of can be?
 
 So a frustrating, sort of funny if you squint, situation.
+
+## The fight continues, now with Blender! -- Tuesday, 19 September 2023
+
+Well I am still trying to figure out a way to make the room work in WebGL because the discovery over the last couple of days of fiddling has been that it might render perfectly well in the editor (and maybe in an application version? will have to check) but in WebGL there are other troubles.
+
+The most troubling trouble for right now is that when I put a (separate cubes) roof and floor onto the walls of the room the seams are visible in WebGL - though not in the editor (and maybe not in the app). I cannot for the life of me understand why. Is it a texture thing? Is it an "edge-fighting" thing between the meshes? Do I microposition them separate? Do I then run into some other bullshit? Is "edge-fighting" a thing...?
+
+Well no apparently, but I've read plenty of stuff maybe suggesting that my geometry sucks, which hardly surprises me. It would be nice I suppose to understand how to combine the whole thing so that the vertices etc. are all rational or whatever.
+
+I also can't understand (well enough) how to do the UV unwrap so that texture sit on these things correctly, but I suppose that's for another day.
+
+And on top of all that shadow acne is back in WebGL probably because of some other setting I added perhaps to do with the hard shadows or other stuff I was doing to try to solve ... shadow acne. Fuck me.
+
+Here's an image:tThe left building is blender, the right is probuilder, shadow acne on both at a certain distance. Whee!
+
+![The left building is blender, the right is probuilder, shadow acne on both at a certain distance](./images/blender-vs-probuilder-acne.png)
+
+In amongst all this and as I think I've remarked but haven't yet dived all the way into reflection-wise, is the ways in which all of this (well maybe not the UV unwrap and the seaming) *is* a part of how Unity renders shadows - what shadows "are" in the context of this engine. Shadow acne *is* shadows. That is, it's a reflection of how the engine tries to render shadows - yes it's "wrong" in the sense of not being naturalistic, but it's also "right" in the sense that it's the engine's idea of shadows in these circumstances. So...
+
+I mean I think I have to have shadow acne as a part of the project, in a room or illuminating some specific element outside. And because it's quite a weird technical problem there needs to be an explanation. And that means I either need in-world texts (avoid?) or a PDF (easier, funny) to explain some of this stuff to the viewer.
+
+And it also means that I need to let go (somewhat) of the idea that the island and its shadow will be by default *beautiful* as in the essay that inspired the work (In praise of shadows) and maybe I need to remove that from the title for that reason. It's more about "in reflection on shadows" or something along those lines right because we're trying to see the shadows as the engine understands them, not in some "artificial" (ahahaha, this is so weird) way where it's only about naturalistic effects. It's all about engines and realism and shit.
