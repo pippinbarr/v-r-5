@@ -316,3 +316,23 @@ In amongst all this and as I think I've remarked but haven't yet dived all the w
 I mean I think I have to have shadow acne as a part of the project, in a room or illuminating some specific element outside. And because it's quite a weird technical problem there needs to be an explanation. And that means I either need in-world texts (avoid?) or a PDF (easier, funny) to explain some of this stuff to the viewer.
 
 And it also means that I need to let go (somewhat) of the idea that the island and its shadow will be by default *beautiful* as in the essay that inspired the work (In praise of shadows) and maybe I need to remove that from the title for that reason. It's more about "in reflection on shadows" or something along those lines right because we're trying to see the shadows as the engine understands them, not in some "artificial" (ahahaha, this is so weird) way where it's only about naturalistic effects. It's all about engines and realism and shit.
+
+## Oh, WebGL, why are you stuck in your teenage years? -- Wednesday, 20 September 2023
+
+Well I'm making progress, per the commits, but it's been a long road to some kind of sense of being able to "begin construction" in terms of placing stuff on the island and thinking about the room-scale installation pieces.
+
+Importantly, in switching to Blender for a while and reading stuff about 3D geometry I was able to understand that my problem was emerging out of having mismatced vertices/edges in the earlier models that led to the weird seam effect. I still *do not know why* but I know *that*. Thus I started rebuilding the room thinking with "edge loops" that essentially helped me to make sure I had matching vertices where needed. It looks like this:
+
+![The edge-loop version of the prototype room in Blender](./images/blender-edge-loop-construction.png)
+
+In principle I think this could allow me to return to a modular structure, but for now I just have the room as a single unit. Interestingly (?) this does make for an experience where I have to install/experience the curation of the interior light works from inside the room - no lifting off the ceiling and floating on high. On the one hand this is going to be cramped and inconvenient, on the other hand I kind of like the reference it gives to really doing this in person and the kinds of perspective you're forces to have -- a classic tension in making games versus playing them in terms of how you're situated relative to the world, god or person.
+
+Having done that I was able to translate the Blender stuff back into ProBuilder (edgeloops are there too) so that I can again make the room in ProBuilder, which I feel more comfortable in. And hey presto I do have a room that doesn't show those cross seams.
+
+BUT the new fun shitty thing is that the room (and all meshes) have heinous shadow acne in the WebGL builds, like this:
+
+![Shadow acne in the latest WebGL build](./images/webgl-acne.png)
+
+Edge-loops can't save me now apparently. Note that this acne does *not* show up in the editor. Haven't exported an app version but I'm willing to guess it won't hit there either. To which extent there might be a quality setting I can try to force in WebGL that might ditch it? Alternatively I imagine it could just be back to the drawing board with bias and hard shadows stuff with the idea that I can find settings that work in the WebGL build (I suppose I could even just have totally different build settings on that front).
+
+And of course it's a continuing reminder that the shadow acne looks kind of cool and Moire-ish. And that I'll want to do that on purpose. But I ultimately want the exteriors to have as little non-naturalistic lighting and shadows as possible as a default. I like the unnatural stuff to be at least somewhat under my control. Control control control.
