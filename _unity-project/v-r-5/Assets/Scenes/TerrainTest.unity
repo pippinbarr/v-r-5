@@ -215,7 +215,7 @@ MonoBehaviour:
     lookDamping: 0
     minimumX: -90
     maximumX: 90
-    enableZooming: 0
+    enableZooming: 1
     targetZoom: 30
     zoomInTime: 0.2
     zoomInCurve:
@@ -271,8 +271,8 @@ MonoBehaviour:
     fieldOfViewKick:
       enableFOVKick: 1
       unscaledTime: 0
-      kickWhen: 1
-      kickAmount: 15
+      kickWhen: 0
+      kickAmount: 0
       lerpTimeTo: 0.25
       lerpToCurve:
         serializedVersion: 2
@@ -439,7 +439,7 @@ MonoBehaviour:
     input_Crouch: Crouch
   headBob:
     bobClass:
-      enableBob: 1
+      enableBob: 0
       unscaledTime: 0
       bobFrequency: 1.5
       bobHeight: 0.3
@@ -6550,7 +6550,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 500
   field of view: 80
   orthographic: 0
   orthographic size: 5
@@ -6562,7 +6562,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -6607,9 +6607,9 @@ Light:
     m_Type: 1
     m_Resolution: 3
     m_CustomResolution: -1
-    m_Strength: 0.895
-    m_Bias: 0.025
-    m_NormalBias: 0.05
+    m_Strength: 0.805
+    m_Bias: 0.25
+    m_NormalBias: 1
     m_NearPlane: 0.2
     m_CullingMatrixOverride:
       e00: 1
@@ -6632,7 +6632,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
