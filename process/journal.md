@@ -336,3 +336,43 @@ BUT the new fun shitty thing is that the room (and all meshes) have heinous shad
 Edge-loops can't save me now apparently. Note that this acne does *not* show up in the editor. Haven't exported an app version but I'm willing to guess it won't hit there either. To which extent there might be a quality setting I can try to force in WebGL that might ditch it? Alternatively I imagine it could just be back to the drawing board with bias and hard shadows stuff with the idea that I can find settings that work in the WebGL build (I suppose I could even just have totally different build settings on that front).
 
 And of course it's a continuing reminder that the shadow acne looks kind of cool and Moire-ish. And that I'll want to do that on purpose. But I ultimately want the exteriors to have as little non-naturalistic lighting and shadows as possible as a default. I like the unnatural stuff to be at least somewhat under my control. Control control control.
+
+## Fuck you webgl / Settings mania -- Thursday, 21 September 2023
+
+I just want to jump in very briefly to say that it has been really hard trying to understand WebGL in particular relative to shadow behaviour (and probably other stuff but I'm fixated on the shadows for obvious reasons). I spent a bunch of time today, but also just over the weeks(?) I've been doing this trying to figure this out. I of course thought initially when I got it looking alright in the editor all was well, but also of course no - webgl is a different animal and that's the limping impala I need to care for in my game engine animal nursery.
+
+Anyway just wanting to remind myself of and give a sense of the sheer amount of research and failing one does in these situations. Things I have looked into at some level as a potential help when trying to understand how to make webgl look alright (haven't tried all of these, it's ongoing)...
+
+- **The camera's far clip plane** - somebody somewhere said that might help, but I don't really see why. Obviously you wouldn't end up rendering shadows in the places where the world doesn't exist, but it doesn't make sense to me this helps anything shadow-wise...
+- **The shadow distance** - more likely in the sense that it's about how far away shadows render, and I've seen some oddities if it's super far where the terrain gets really inappropriately shadowed in flashes so I guess there's something going on with this one. If you set it small enough you don't get the flickering simply because you just don't see any shadows, but I really do want shadows visible at some distance because... well I guess *seeing shadows at some distance away* is part of seeing shadows.
+- **Shadow cascades** - actually nobody suggests this is an issue but I also have no idea of what they are. What are they? Let me find out right now... okay it's about using different shadow resolutions based on proximity to the camera, which makes some sense. The default seems to be four cascades (four different sets of resolutions).
+- **Camera-relative culling of shadows** - Unity's manual claims this reduces shadow flickering but I haven't the faintest idea if that's true. I turned it on and didn't see much of a difference.
+- **Bias** - Yes good old bias is a major one for reducing acne but I don't think it seems to be helping with flickering or distance-acne? There's bias and there's normal bias. And of course if you set them high the shadows look ultra-fucked in a different way (detached and totally unrealistic) so it's not an amazing solution. But avoiding up-close acne is important it's true.
+- **Shadow map resolution** - I assume this is about shadow crispness? Would this be about flicker - hard to understand. I set it as high as possible assuming that would be best, but of course setting things high isn't necessarily good since it can impact performance in non-performant platforms like... webgl.
+- **Render pipeline** - I started using the default rendering pipeline but read at least a couple of people saying that the URDP which is, what... Ukrainian Revolutionary Democratic Party... no... it's URP which is Universal Render Pipeline... which I think is just... newer? Some people have said it didn't work in webgl, some people have said it did. Can you change rendering pipeline midstream? Perhaps I will find out.
+- **Hard versus soft shadows?** - I assume hard shadows perform better but seem like that might be more vulnerable to artifact stuff? I don't know. I had thought hard solved some big problem I had, oh maybe it led to not needing high bias, but then that wasn't true on webgl? I forget.
+- **Shadow reflections** - I don't even know what the fuck that is, but it's a setting. Maybe it isn't? I feel like I have seen it somewhere.
+- **Quality settings in general** - There's a whole thing of whether to try to force webgl into a single set of quality settings to control what's up, versus that just breaking on various platforms. It's totally possible plenty of settings not obviously named after shadows or camera or light-specific stuff still have an impact (anti-aliasing??)
+- **Colour space** - I think somebody mention going from linear colour space to gamma or something and it helped but introduced other problems
+- **Distance from world centre** - The idea that shadows and stuff are centred on 0,0,0 I guess? Is my terrain/island centred there, could that help? I should try that. Unity also helpfully suggests just shrinking your world to make it easier on the engine but what does that do to other stuff I wonder? If everything is half as big what kinds of knock on effects are there?
+- **Temporal antialiasing** - Don't even ask me what that is. Somebody mentioned it and I think it's some sort of addon.
+
+So there's a lot and of course these things all potentially *interact* so it can be *very* hard to know if one thing is making a significant difference.
+
+And there are plenty of other things I fiddle with I'm sure but I'm just trying to give an honest profile of how much scrambling is often involved in this kind of work - compromises, failures, realizations, re-realizations, crushing realizations.
+
+Here are a bunch of links to webpages I read while thinking about this and trying stuff:
+
+In the end I have *something* going on? Like it's not painfully shit?
+
+- <https://community.gamedev.tv/t/info-common-webgl-issues-and-how-to-fix-them/58841>
+- <https://www.reddit.com/r/Unity3D/comments/griwnj/urp_and_webgl_shadow_is_blocky/>
+- <https://forum.unity.com/threads/which-renderpipelines-work-with-webgl.1207846>
+- <https://forum.unity.com/threads/webgl-lighting-tips.1092832/>
+- <https://www.reddit.com/r/Unity3D/comments/p5nhs8/does_anyone_know_why_my_shadows_keep/>
+- <https://forum.unity.com/threads/directional-light-shadows-flickering-issue.672094/>
+- <https://docs.unity3d.com/Manual/shadow-distance.html>
+- <https://docs.unity3d.com/Manual/LightMode-Mixed-Shadowmask.html>
+- <https://docs.unity3d.com/Manual/UnderstandingFrustum.html>
+
+You know? Now you know. Anyway I'm just being honest here, this is what this work looks like sometimes and it can be hard to capture in documentation because it's just such a frenzied screaming rush of infinite websites and parameter tweaks you're obviously not going to repeatedly commit.
