@@ -376,3 +376,21 @@ In the end I have *something* going on? Like it's not painfully shit?
 - <https://docs.unity3d.com/Manual/UnderstandingFrustum.html>
 
 You know? Now you know. Anyway I'm just being honest here, this is what this work looks like sometimes and it can be hard to capture in documentation because it's just such a frenzied screaming rush of infinite websites and parameter tweaks you're obviously not going to repeatedly commit.
+
+## Real Gaps and Real Lights -- Monday, 25 September 2023
+
+Spent time today biting the bullet and trying to "start". After a brief dalliance with and then backing away from the URP I tried to make a couple of ultra-simple exhibits. That is, first of all
+
+A series of poles with a decreasing distance between each one (half as much each time) until you no longer see light passing through them. In retrospect I wasn't quite as scientific as I'd like with their positioning relative to the sun (they really need to be precisely perpendicular to prove the point). But generally speaking the idea being that there's a moment where light stops passing through gaps in Unity and therefore what's on the other side becomes shadowed despite there being optically a gap for light to pass through.
+
+![A series of poles with decreasing distance to check when light stops passing through](./images/mind-the-gaps.png)
+
+And second of all a room with a cube in the centre (well, by eye and this is of course making me think about how I'm *not* easily hable to measure to the centre and perhaps I should figure that out? A little marker?). And a pointlight on one side that casts a shadow into the corner of the space which create a sort of shadowcube based on the way it falls on the corner's structure. It's not something I was actually looking for but just came up when I placed the light and moved it around, so I'm happy about that. It felt like a mini-Turrell moment?
+
+![A cube in a room illuminated by a point light and casting a shadow into the corner](./images/cube-lighting.png)
+
+In doing it, as I mention in the commit, I decided it would make sense to give the light a presence in the space by creating an emissive sphere to show where it's casting from - it just makes things more legible and is quite satisfying visually.
+
+Having made a sort of start like this I'm immediately conscious of the potential need (or no need?) of a sort of taxonomized approach to all this versus just going with more impressionistic interactions with the shadow system. Like there are things I do want in there, but do I need to really measure it out closely? But if I do that I don't know how possible it is to maintain... like the directionality of a shadow makes a difference - the corner versus a wall versus "just" the floor and on and on... to such an extent I don't know that it's going to make sense?
+
+Alternatively though will I simply run out of ideas? Pretty clearly I should take a beat to start mapping out what the installations and rooms I might "need" relative to the properties and nature of shadows in Unity? Yeah probably that's what's next. Plus there will of course be discoveries along the way (like my Turrell cube or the Very Long Shadow down a hill).
