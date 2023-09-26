@@ -4,6 +4,10 @@
 
 - Build a list of hypothesized rooms and sculptures/installations (maybe in a separate file to track which ones I make/don't make, etc.)
 
+## Bugs and dislikes
+
+- Why did the lighting on the grass suddenly start looking absolutely terrible after the doubling back from URP?
+
 ## Structures
 
 - ~~Make a new shadow room that doesn't have insanely bad-looking seams (somehow)~~
