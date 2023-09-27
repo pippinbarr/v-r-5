@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurnOnTheLights : MonoBehaviour
 {
-    public Light[] Lights;
+    public GameObject[] Lights;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class TurnOnTheLights : MonoBehaviour
     {
         for (int i = 0; i < Lights.Length; i++)
         {
-            Lights[i].GetComponent<Light>().enabled = true;
+            Lights[i].SetActive(true);
         }
     }
 }
