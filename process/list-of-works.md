@@ -85,7 +85,7 @@ More generally I like the idea that we're only casting the shadow... so the visi
 
 ### Accumulations
 
-**Exterior**
+(**Exterior**)
 
 i.e. the idea of just having one or more installations outside that involve multiple shadows combinining in fun ways? Archways? Lattices? More organic shapes? A chance to mess around a bit and not care too much about formality, just to try out shapes.
 
@@ -112,7 +112,7 @@ i.e. the idea of a light source (or object?) turning on and off, so there are sh
 
 ### Quality
 
-**Interior**
+(**Interior**)
 
 i.e. the ... wait can you do this per light? Yes. So lights with the different levels of shadow quality in a single room.
 
@@ -142,13 +142,13 @@ This is a relatively major one. Is it better to see change over time or change o
 
 ### Outdoor Lights
 
-**Exterior**
+(**Exterior**)
 
 Some variety of maybe toggling lights outside - a huge spot that illuminates the world, a point light in the context of the outside, etc. More diases.
 
 ### The sun
 
-**Exterior**
+(**Exterior**)
 
 Some ways of seeing the impact of the sun on the world. Most obviously its rotation through a day/night cycle, but also other thoughts like colour, brightness, etc. that should be changeable (again have to think about permanent changes versus "while you're on the dias" changes) On/off.
 
