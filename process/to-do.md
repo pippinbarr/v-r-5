@@ -8,6 +8,8 @@
 
 - **It was because I somehow duplicated the terrain** ~~Why did the lighting on the grass suddenly start looking absolutely terrible after the doubling back from URP?~~
 
+- The water is totally fucked in the webgl build
+
 ## Structures
 
 - ~~Make a new shadow room that doesn't have insanely bad-looking seams (somehow)~~

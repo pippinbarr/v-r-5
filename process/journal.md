@@ -394,3 +394,25 @@ In doing it, as I mention in the commit, I decided it would make sense to give t
 Having made a sort of start like this I'm immediately conscious of the potential need (or no need?) of a sort of taxonomized approach to all this versus just going with more impressionistic interactions with the shadow system. Like there are things I do want in there, but do I need to really measure it out closely? But if I do that I don't know how possible it is to maintain... like the directionality of a shadow makes a difference - the corner versus a wall versus "just" the floor and on and on... to such an extent I don't know that it's going to make sense?
 
 Alternatively though will I simply run out of ideas? Pretty clearly I should take a beat to start mapping out what the installations and rooms I might "need" relative to the properties and nature of shadows in Unity? Yeah probably that's what's next. Plus there will of course be discoveries along the way (like my Turrell cube or the Very Long Shadow down a hill).
+
+## Building buildings -- Friday, 29 September 2023
+
+This week I've managed to actually start a pretty comprehensive [list of works](./list-of-works.md) and work on some of the simpler ideas around interactivity in the world (diases you stand on to affect the sun). Overall this has made the project seem pretty doable.
+
+My current concern/annoyance is around the (non)modularity of the room, which I think I should try rebuilding in multiple pieces (notably at least ceiling an floor?) in order to be able to manipulate the dimensions a bit more easily. Just now I was trying to see whether I might be able to simple select one end wall and the pull it to make the room longer, but it hasn't felt very achieveable and I suspect I'll want flexibility both for the purposes of different display types and to just avoid a kind of monotony with the forms on the island?
+
+It's not *quite* easy enough to "whip up a room" every time I need one I think? On top of this stuff though I'm a bit unclear on whether just having better-matching geometry might have solved all my prior seam issues... in which case is there some cute modular way to make those rooms out of pieces and not ever worry about building them by hand?
+
+How much should I let this bother me? I quite like the idea I wrote somewhere of also just changing the architecture a bit as I fancy, having sloped roofs or high ceilings or whatever... like it would be nice to be architecting a bit?
+
+And are there better ways to contruct something like this? Like it's better to subdivide and make holes and stuff?
+
+Also just aware of a tendency to maybe try to find imperfections and problems to avoid construction. But also aware that if you jump into construction you can find out quite late in the game that it would have been way better to do things another way instead of the shitty way you did them.
+
+I guess the big questions are
+
+- Bespoke buildings (could be fun and I suppose I'd get better, but it's conceivably this adds weight/size/meggage to the project?)
+- Kitset buildings (if I could figure that out? It would require all the matching vertices stuff which is non-trivial?)
+- Just one building, or maybe like three or four kinds of buildings and I could conceivably tweak them just a little bit as needed? Like an L building, a square, a longer one, that kind of idea?
+
+I suppose having just written it I lean toward the idea of a small set of repeated buildings. Totally bespoke may just lead me down the path of trying to become an architect which I am not.
