@@ -21,6 +21,6 @@ public class PlayerShadowToCube : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        mesh.mesh = meshes[1];
+        mesh.mesh = meshes[0];
     }
 }
