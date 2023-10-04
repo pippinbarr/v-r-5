@@ -416,3 +416,21 @@ I guess the big questions are
 - Just one building, or maybe like three or four kinds of buildings and I could conceivably tweak them just a little bit as needed? Like an L building, a square, a longer one, that kind of idea?
 
 I suppose having just written it I lean toward the idea of a small set of repeated buildings. Totally bespoke may just lead me down the path of trying to become an architect which I am not.
+
+## WebGL water, shadowplay, kitset? -- Wednesday, 4 October 2023
+
+Yesterday I managed to poke away at the game during my programming course's studio time. Actually I also showed the class some of the (very simple!) programming in the game as it stands to try to give them a sense of the parallels between something like JavaScript with something like C#. But I did find out why the water looked like this in the WebGL build initially:
+
+![Water behaving badly in WebGL build - looks choppy and pixellated](./images/bad-water.png)
+
+It was because of some material assignment stuff. I played with a good number of other things first, but the the thing that fixed it was noticing that the water's plane had two materials assigned to it, leading to some kind of texture fighting I suppose? Anyway, when I deleted the second material I got back to this:
+
+![Water looking nice in WebGL build](./images/good-water.png)
+
+Weird the problem didn't exist in editor or application, but maybe it's just smarter about that situation for some reason. Anyway, now the water is actually established and I don't need to fret about that aspect of my fancy naturalistic environment.
+
+I also switched to Unity's default skybox because it bugged me that the sky didn't darken when the sun when to nighttime. It's now as nicely pixelly now but it does respond. If I have the energy I can look into making a reactive skybox that has my beloved pixels. But realistically I dunno because as soon as you have a cloud or something (that shows off the pixels) you're going to expect the clouds to move if the sun moves and then you screwed. I suppose I could have meshes for clouds, but that's... well actually the shadows of clouds moving across the terrain would be kind of rad? Uh oh. Well I'll think about that.
+
+The other thing I did was play around with the spotlight idea, having a dias that turns on a strong spot. Spent quite a while feeling it didn't work (didn't seem to cast a shadow of my building) before realizing the shadow was getting washed away by the sun light source. So there's that aspect of shadows too... a shadow for one light can be cancelled out by another light. Which is kind of interesting really and probably worth demonstrating? The vulnerability/dynamics of shadows?
+
+I'm feeling a bit of inertia in the project right now and it's almost entirely because of the dragginess of building rooms. I'm wondering again about going modular and what that might take. I could even look at that BBlock kit I used v r $4.99? Like could I make a little "easy to use" set of walls, floor blocks, door blocks, window blocks, and just clip togeth a room? What happens to the texturing in that situation? Will it matter? Maybe I will try this out today.

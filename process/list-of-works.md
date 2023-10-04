@@ -83,6 +83,12 @@ i.e. The shadow cast by the player, some opportunity to switch it somewhere? Ano
 
 More generally I like the idea that we're only casting the shadow... so the visibility of the mesh/primitive itself isn't there, just the shape. That would allow for more diverse shapes that wouldn't occlude the camera or other things.
 
+### The light within
+
+(**Exterior**)
+
+A dias where you can cast a light? Or I suppose just the general idea of having a torch or something along those lines? I.e. casting shadows by pointing a light at them. F for flashlight?
+
 ### Accumulations
 
 (**Exterior**)
@@ -169,3 +175,7 @@ Do shadows look different case onto different materials? Like how do they respon
 ### Objects
 
 Demonstrate the shadow of the primitives and of a mesh or two. But also what happens when a shadow is cast *onto* these different shapes. (This could be **exterior**)
+
+### O, Cloudy Day
+
+What if there were clouds moving slowly up in the sky?
