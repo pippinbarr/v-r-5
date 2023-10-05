@@ -434,3 +434,20 @@ I also switched to Unity's default skybox because it bugged me that the sky didn
 The other thing I did was play around with the spotlight idea, having a dias that turns on a strong spot. Spent quite a while feeling it didn't work (didn't seem to cast a shadow of my building) before realizing the shadow was getting washed away by the sun light source. So there's that aspect of shadows too... a shadow for one light can be cancelled out by another light. Which is kind of interesting really and probably worth demonstrating? The vulnerability/dynamics of shadows?
 
 I'm feeling a bit of inertia in the project right now and it's almost entirely because of the dragginess of building rooms. I'm wondering again about going modular and what that might take. I could even look at that BBlock kit I used v r $4.99? Like could I make a little "easy to use" set of walls, floor blocks, door blocks, window blocks, and just clip togeth a room? What happens to the texturing in that situation? Will it matter? Maybe I will try this out today.
+
+## Death to kit sets -- Thursday, 5 October 2023
+
+Spent most of my allotted time today desperately trying to be clever about creating reusable pieces for constructing rooms, even to the level of giving them edgeloops and stuff that was meant to make it easier to align vertices. But noooooo, it was not easy and it did not work. I was quietly confident but there were weird texturing issues, texture fighting, seamy stuff, and so on. So... fail.
+
+It's probably possible to do it that way, and I did read some stuff about this process online, but I was never able to truly understand it.
+
+To which end it looks like I need to do something like:
+
+- make one or more original buildings (e.g. a square, a long one, an L one)
+- Use them repeatedly to create some level of variety
+- Edit individual instances of those buildings to give a little bit of visual change-up like slanted roofs, or bevelled doorways, or whatever else might be fairly easy to do
+- Explore embedding a building into the terrain as well, seems a cool trick and I'd be keen to see it
+
+So time to brush up my probuilding obviously, but I think even from the last time I probuilt a room it wasn't all that arduous once I was on the trail of edgeloops and stuff to avoid the seam stuff, and by keeping it all in probuilder out of a single shape (extruding etc) I'm then able to keep the texturing consistent. Could also be trying to do all this in blender but I don't see the need.
+
+So this project has definitely been a ton about hitting my head against 3D geometry, but that does make sense since that's the stuff that... casts shadows.

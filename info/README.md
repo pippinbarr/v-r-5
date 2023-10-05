@@ -2,9 +2,9 @@
 
 ![Banner](images/v-r-5-banner.png)
 
-# [Play *v r 5* in your browser](https://pippinbarr.com/v-r-5/webgl) (WebGL, desktop only)
+## [Play *v r 5* in your browser](https://pippinbarr.com/v-r-5/webgl) (WebGL, desktop only)
 
-# (Coming eventually) Download *v r 5*
+## (Coming eventually) Download *v r 5*
 
 ## Description
 
