@@ -1,14 +1,14 @@
-# *v r 5 (In praise of shadows)*
+# *v r 5*
 
 ![Banner](images/v-r-5-banner.png)
 
-# (Coming eventually) Play *v r 5 (In praise of shadows)* in your browser (WebGL, desktop only)
+# [Play *v r 5* in your browser](https://pippinbarr.com/v-r-5/webgl) (WebGL, desktop only)
 
-# (Coming eventually) Download *v r 5 (In praise of shadows)*
+# (Coming eventually) Download *v r 5*
 
 ## Description
 
-*...*
+*The shadow knows!*
 
 *v r 5* was created in [Unity](https://unity.com/). **MORE TO COME** The character controller in the game is [Gold Player](https://github.com/Hertzole/gold-player) by hertzole.
 
