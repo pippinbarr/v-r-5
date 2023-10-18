@@ -451,3 +451,18 @@ To which end it looks like I need to do something like:
 So time to brush up my probuilding obviously, but I think even from the last time I probuilt a room it wasn't all that arduous once I was on the trail of edgeloops and stuff to avoid the seam stuff, and by keeping it all in probuilder out of a single shape (extruding etc) I'm then able to keep the texturing consistent. Could also be trying to do all this in blender but I don't see the need.
 
 So this project has definitely been a ton about hitting my head against 3D geometry, but that does make sense since that's the stuff that... casts shadows.
+
+## Molasses -- Wednesday, 18 October 2023
+
+Definitely a bit molasses-y with the game for the last bit... kind of shocked/depressed to see my last journal entry being two weeks ago, though in terms of commits etc. it's been more regular than that.
+
+In essence I've continued to get caught up in the building game. But with the upshot that I *think* I've made a few decisions that will be helpful long term. Specifically:
+
+- I'll be damned if I can figure out how to make a nice L-shaped structure, but also: fuck that structure. I was only going to do it for variability of shapes and I think I can do that in different ways...
+- ... like instead modifying some of the exterior details of the basic rectangular building which I've found out I can manage mostly without instane artifacts (light leaks especially) by duplicating faces and then building extrusions etc. from there, leading to what I hope will be nicely varied structures.
+- I have become good *enough* with ProBuilder to at least easily alter the dimensions of my rectangular space, which might well be good enough. Tall ones, flat ones, long ones, square ones, and then with external "flair" it should be good enough.
+- That approach also means I can essentially just install everything in totally vanilla rooms and just modify them later as needed, or as I realize the building dimensions need to change to meet the requirements of the install in terms of stretching or shrinking
+
+Anyway, I'm claiming in this moment that I will simply stop trying to be fancy and will instead focus in on just using the building I have.
+
+ALTHOUGH, one big proviso: fucked if I can figure out how to make a window? Oh well.
