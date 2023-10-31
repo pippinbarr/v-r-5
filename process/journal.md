@@ -466,3 +466,19 @@ In essence I've continued to get caught up in the building game. But with the up
 Anyway, I'm claiming in this moment that I will simply stop trying to be fancy and will instead focus in on just using the building I have.
 
 ALTHOUGH, one big proviso: fucked if I can figure out how to make a window? Oh well.
+
+## Let's get this party started sometime -- Tuesday, 31 October 2023
+
+Wow I've let a lot of time go between journal entries, which I guess partly tells you that I've somewhat been spinning in place. Or perhaps at least spiralling outward in place? I do think I've managed to do and learn a lot in the interim (see commit messages) but it's also true I haven't really advanced anything visually.
+
+Consider that I took a couple of screenshots today to show the current state of progress:
+
+![Looking out the doorway of a room](./images/2023-10-31-looking-out-the-door.png)
+
+![Looking at a lit cube casting a shadow](./images/2023-10-31-looking-at-the-cube.png)
+
+Which... well it's progress in terms of the ways in which behind the scenes the room was made in Blender and appears to sustain 0 bias nicely, or how it's prefabbed with entry and exit triggers tied to the lights, or how I tested probuilderizing it and extruding some of the surfaces successfully.
+
+But it's also just hilarious that these are pretty much the same two screenshots I posted in late September. So a month of battle with 3D modelling, UV unwrapping, the lighting system in Unity, prefabbing, and more. But... I kind of feel like I have, finally, come out on top?
+
+To which end there's no reason at all not to start the install. Fingers crossed that is true, because it's starting to feel like I'm satirizing someone who just can't quite get started on their project.
