@@ -21,7 +21,7 @@ i.e. the idea of light passing through a defined gap/window to illuminate what i
 2. A Windowed Room **Interior**
     - A room with one or more windows
 3. A perforated wall **Exterior**
-    - A wall with different sides holes in it...
+    - A wall with different sized holes in it...
 
 ### Basic Shadowplay by light type
 
