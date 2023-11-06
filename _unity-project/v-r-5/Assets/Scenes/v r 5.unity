@@ -1469,7 +1469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &302316070
 Transform:
   m_ObjectHideFlags: 0
@@ -2312,7 +2312,7 @@ GameObject:
   - component: {fileID: 558240965}
   - component: {fileID: 558240964}
   m_Layer: 0
-  m_Name: SpotLightFixture (1)
+  m_Name: SoftSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5108,6 +5108,10 @@ PrefabInstance:
       value: Hard and Soft and None
       objectReference: {fileID: 0}
     - target: {fileID: 2265754830885895636, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: m_Name
+      value: HardSpot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265754830885895636, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -5157,7 +5161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4146467494481471421, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4785769082284558368, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
       propertyPath: m_Intensity
@@ -5179,6 +5183,34 @@ PrefabInstance:
       propertyPath: m_BounceIntensity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4921575911161849099, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921575911161849099, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1103086250}
+    - target: {fileID: 4921575911161849099, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.data[1]
+      value: 
+      objectReference: {fileID: 302316069}
+    - target: {fileID: 4921575911161849099, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.data[2]
+      value: 
+      objectReference: {fileID: 1103086251}
+    - target: {fileID: 8015236658499642952, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015236658499642952, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.data[0]
+      value: 
+      objectReference: {fileID: 1103086250}
+    - target: {fileID: 8015236658499642952, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+      propertyPath: Lights.Array.data[1]
+      value: 
+      objectReference: {fileID: 302316069}
     - target: {fileID: 8032171701660876149, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
       propertyPath: m_ReceiveShadows
       value: 0
@@ -5196,7 +5228,8 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 306161035041783951, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 802817814440316758, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
       insertIndex: 1
@@ -5209,6 +5242,16 @@ PrefabInstance:
 --- !u!4 &1103086249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 802817814440316758, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+  m_PrefabInstance: {fileID: 1103086248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1103086250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4146467494481471421, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
+  m_PrefabInstance: {fileID: 1103086248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1103086251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2265754830885895636, guid: 1cd70ec7403e14bc3912b28bd274925e, type: 3}
   m_PrefabInstance: {fileID: 1103086248}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1170540935
