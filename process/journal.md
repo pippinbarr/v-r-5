@@ -482,3 +482,31 @@ Which... well it's progress in terms of the ways in which behind the scenes the 
 But it's also just hilarious that these are pretty much the same two screenshots I posted in late September. So a month of battle with 3D modelling, UV unwrapping, the lighting system in Unity, prefabbing, and more. But... I kind of feel like I have, finally, come out on top?
 
 To which end there's no reason at all not to start the install. Fingers crossed that is true, because it's starting to feel like I'm satirizing someone who just can't quite get started on their project.
+
+## Production Mode === Question Mode -- Monday, 6 November 2023
+
+Okay well I *did* start the install process as you will see from the commit subsequent to that previous journal entry. And as you might imagine when the rubber meets the road and when the hands get amidst the materials of creation and the shadows mingle... it got complicated almost instantly.
+
+The windowed room was not so complex:
+
+![Sun coming through a window](./images/2023-11-02-sun-through-a-window.png)
+
+But it turns out that spotlit cubes led me down a path of understanding pixel lighting:
+
+![Two cubes illuminated by spotlights](./images/2023-11-02-spotlights.png)
+
+To quote the commit message:
+
+> Anyway it just feels like there's some stuff opening out and I need to keep my eye on the prize of making it an interesting place to *be* rather than mostly focused on my own internal noodlings with the engine. So I still want exhibits that show what's what, but I don't want to get into the weeds on invisible things, or unperformant things, or etc. Okay? Okay brah?
+
+In essence there are a lot of things about the engine itself and how it works that are interesting from one way of looking it (like a maximum number of pixel lights per surface/mesh) but are probably just *not that interesting* to a person visiting this island.
+
+So what do they want? Well nothing much specifically but mostly to look at things that are... interesting, surprising, beautiful, poignant? And that in combination with my almost educational-orientation yields the game. Do I want to "teach" them that you can only have two pixel lights per mesh? I think probably not right? That doesn't sound very interesting even if it probably *can* be in some way...
+
+So I think probably a little revamp of the work list in this light, trying to think of cohesive displays that show something but are also just aesthetically worth seeing in in order in this situation.
+
+And for the moment: no more than two lights on in a room, basically. And it's probable I can achieve most of the stuff I'm interested in either by literally only having two lights in a room, or by setting up such that only at most two are *on* at any given time, though there could be more.
+
+And the ongoing question: will I fill the island? Will I *over*fill the island? No fucking idea. Also what happens to the fil size when I have a lot of different buildings? Also... don't know.
+
+But for now a revisiting of the work list given new technical info and perhaps a mind more ready to do further installation having tried some stuff.
