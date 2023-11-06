@@ -10,6 +10,78 @@ I want to sort of half-taxonomize and half-just-do-whatever-I-want to come up wi
 
 - In listing things I'm finding it's a lot of rooms and not so many exterior places? At a certain point that might start to feel a bit weird. It would be nice to see ways to balance it, but it's also true that "controlled environment" usually means a room, esp. because we can block out the directional light (mostly?).
 
+## List started 6 November 2023
+
+(Note there is another list below this one for reference.)
+
+I'm going to be a bit more ruthless on this one having done a good amount of work in the previous list, so it'll just be an enumerated list in this case, informed by my "learnings" around Blender, pixel lights, and other elements.
+
+### Words to live by
+
+- If you can't see it, don't include it
+
+### Questions
+
+- Does light color change shadow color?
+- Grouping of rooms or not (**leaning not**)
+- Signage or not (**leaning not, but way less sure**)
+- Baking a single room space for area light? Can you do that with mixed lighting? There's just a single baked light?
+- Pixel lights to 3 or rely on temporal layouts?
+
+### Abilities
+
+- Press F to turn on a flashlight
+
+### Exhibits
+
+1. Gaps and holes
+    - One or more outdoor structures that show light passing between gaps and holds to create shadow patterns. Probably just the existing *diminishing gaps* and also a surface I will subdivide repeatedly to create smaller and smaller holes
+2. Windows
+    - One or more rooms with windows in them, the windows letting in light, the light probably falling on a cube in the room.
+    - Possibly the idea of changing the directional light when the user enters to create different light qualities inside the room (dawn, dusk, moonlight, red light, ...)
+3. Light types
+    - Point light on a cube
+    - Spot light on a cube
+    - Directional light on a cube (see Windows above) **This raises the question of how to categorise (or not) different sets of rooms, and of course gets back to the whole questions of signage (or not)**
+    - Area light on a cube (**do I want to look at baking this thing? I mean I should at least try it out, though I bet it ups the size of the project significantly?**)
+4. Hard/Soft/None
+    - The three shadow types. It would be nice to figure out a light style and mesh style that actually distinguishes hard and soft
+    - Not that with three types you can't have all three active (unless I up the maximum pixel lights in quality settings? Which I could) **Should I increase the maximum pixel lights to 3? Would that magically be "enough"?**
+    - Could introduce the idea of a light that cycles through different effects - a script that could do this, it turns on and off and each time it goes back on it's a different light with different parameters, a bit like the Martin Creed but meta **I do quite like this and I should try it out. Slow enough not to count as a strobe/visual problem.**
+5. Multiple lights
+    - Just have two lights on one objects (a cube?)
+6. Casting and not
+    - Have an object that does cast shadows and one that doesn't, illuminated by the same light
+7. Receiving and not
+    - Have an object that does receive and another that doesn't, with a third object that casts a shadow onto both of them (or would)
+8. Acne
+    - A room that has a light that causes acne (either just on the walls of the room or on a shape in the room as well...)
+9. High Bias
+    - A room that has a light with very high shadow bias
+    - OR possibly that lerps through a range to show the bias move?
+10. Shadow only
+    - Objects that are only visible by their shadows.
+    - Probably nice as an outside thing, but would also look kind of cool and weird inside. Probably keep the colliders so there's the sense of something solid and shadow casting that you simply cannot see.
+11. Me and my shadow
+    - Diases that change the player's shadow to a specific mesh
+    - Most obviously just the default meshes, but maybe also one complex mesh?
+    - Could put an example of the mesh next to the dias to indicate what it will switch your shadow too
+    - Maybe you start the game with *no* shadow and only get one later?
+    - Should there be a dias that removes your shadow?
+12. Motion
+    - A room where a light orbits a shape or similar ideas of the light in motion
+13. Quality
+    - Maybe one of those sequence affairs where the quality goes up and wraps
+14. Cookie
+    - Have a shadow cookie, maybe an opportunity to have the shadow of something kind of complex?
+15. Strength
+    - Maybe an on off light that randomly chooses a shadow strength? Or climbs and falls like the other ones... so that you see the shadow weak and then stronger and stronger... **Starting to build a picture of maybe being able to illustrate some of the ideas rather than needing to say something about them. And in all honesty if I can't make something VISIBLE it's not worth exhibiting...**
+16. Dias lights
+    - Diases that turn on a specific light **Note that this will depend on the time of day, so we may want to think about either setting the time of day with the dias itself, OR having the idea that it's different times of day in different locations on the island?? That sounds amazing, though insta-fucks baking? ALTHOUGH could I bake a single room?**
+17. Gold
+    - The dim glow of gold in an alcove
+    - Lest we forget
+
 ## List started 26 September 2023
 
 ### Gaps / Passing through
