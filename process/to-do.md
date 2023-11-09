@@ -24,7 +24,7 @@
 
 ## Terrain
 
-- Experiment with holes (caves? inset buildings?)
+- Experiment with holes (inset buildings?)
 
 ## Interactions
 

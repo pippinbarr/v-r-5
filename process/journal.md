@@ -510,3 +510,13 @@ And for the moment: no more than two lights on in a room, basically. And it's pr
 And the ongoing question: will I fill the island? Will I *over*fill the island? No fucking idea. Also what happens to the fil size when I have a lot of different buildings? Also... don't know.
 
 But for now a revisiting of the work list given new technical info and perhaps a mind more ready to do further installation having tried some stuff.
+
+## Failed tunnel -- Thursday, 9 November 2023
+
+A quick entry to document some invisible work. I spent some time this morning building a tunnel through the "mountain" in the centre of the island since you can delete individual terrain tiles and therefore make a structure that passes from one side to the other.
+
+I actually made it pretty much all the way through but then ran into sizing issues around seeing the terrain gaps and also height differences at the ends in terms of whether the exit was above or below ground. These are things I can fix by simply starting again so I did a discard changes (I don't want those holes in the terrain and I'm not totally sure how to get the terrain back in those spots).
+
+So the result is that there's no commit because there's nothing there even though I did all that work - it just doesn't make sense to commit the thing that will run but won't work long term.
+
+Tomorrow/today I'll redo it with a better process. Importantly it feels like a *good idea*.
