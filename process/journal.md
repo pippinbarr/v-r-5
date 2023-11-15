@@ -520,3 +520,17 @@ I actually made it pretty much all the way through but then ran into sizing issu
 So the result is that there's no commit because there's nothing there even though I did all that work - it just doesn't make sense to commit the thing that will run but won't work long term.
 
 Tomorrow/today I'll redo it with a better process. Importantly it feels like a *good idea*.
+
+## Successful tunnel -- Wednesday, 15 November 2023
+
+A note that I successfully built a new tunnel with the features I kind of wanted. As I noted in the commit one of the big re-re-re-re-realizations I managed to have was being at peace with how the engine renders shadows versus the question of realism.
+
+I mean I think that's a major generative tension both in the making and hopefully the viewing for this project. **Realism versus Engine**. Because it's very much wrapped up in what Unity essentially *projects* as the objective ("this is realistic") versus what is achievable without ridiculous trickery and hyper-specific modelling, lighting, baking, positioning, and more. So I'm happy with continuing along those lines.
+
+I did grab a couple of screenshots of the bad tunnel just for the record:
+
+![The failed tunnel](./images/2023-11-15-09-08-29-tunnel.png)
+
+![Also the failed tunnel](./images/2023-11-15-09-08-37-tunnel.png)
+
+The new tunnel looks much the same, it's mostly just shorter and finally worked out. "I'm quite happy with it" now because it just does its job and doesn't try to be more than that. I quite like the potential connection with that idea of the monk's passage (or something? the thing from Christopher Alexander... with the windor in a transtional space) where the idea is for a transition to encourage reflection.
