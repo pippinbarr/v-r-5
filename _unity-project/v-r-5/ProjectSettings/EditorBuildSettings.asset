@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Island.unity
     guid: 6c95befe79586436199ed6b09ebd05e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/v r 5.unity
     guid: 1cc1e007a65a14c82ba28973be7a0434
   - enabled: 0
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Empty.unity
     guid: 917be5c90fe6e4a55bc0dba492d45fb2
+  - enabled: 1
+    path: Assets/Scenes/zium.unity
+    guid: 42d50bbc0315f4570b57ee93096a2419
   m_configObjects: {}

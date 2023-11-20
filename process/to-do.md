@@ -18,13 +18,14 @@
 - ~~Make a new shadow room that doesn't have insanely bad-looking seams (somehow)~~
 - ~~Try out making a building kit that might allow me (without shitty seams) to build out somewhat different room shapes? Like larger blocks all on a single scale that can be clipped into place. But do check out the texturing impact.~~
 - ~~Build a few outdoor structures without thinking too hard about it just to populate the landscape a bit in a concentrated area (this can now be more directed by the [list of works](./list-of-works.md)).~~
+- ~~Make a tunnel~~
+- **Essentially achieved this with the tunnel - I have a much stronger understanding of holes and so on. Not clear that I desperatly need to inset any buildings, but I certainly could if I wanted too. Would it be interesting to have a doorway off the tunnel??** ~~Practice embedding a building into the landscape a little more so it's easy to enter (beware of this a bit though because it will involve terraforming and then I'll have to rebumpify the landscape?)~~
 
-- Practice embedding a building into the landscape a little more so it's easy to enter (beware of this a bit though because it will involve terraforming and then I'll have to rebumpify the landscape?)
 - Build 2-4 or so buildings that I can reuse and tweak in small ways to give them different "visual identities".
 
 ## Terrain
 
-- Experiment with holes (inset buildings?)
+- ~~Experiment with holes (inset buildings?)~~
 
 ## Interactions
 

@@ -81,6 +81,7 @@ I'm going to be a bit more ruthless on this one having done a good amount of wor
 17. Gold
     - The dim glow of gold in an alcove
     - Lest we forget
+18. ~~Tunnel~~
 
 ## List started 26 September 2023
 
