@@ -534,3 +534,25 @@ I did grab a couple of screenshots of the bad tunnel just for the record:
 ![Also the failed tunnel](./images/2023-11-15-09-08-37-tunnel.png)
 
 The new tunnel looks much the same, it's mostly just shorter and finally worked out. "I'm quite happy with it" now because it just does its job and doesn't try to be more than that. I quite like the potential connection with that idea of the monk's passage (or something? the thing from Christopher Alexander... with the windor in a transtional space) where the idea is for a transition to encourage reflection.
+
+## The Zium Museum Prototype -- Wednesday, 22 November 2023
+
+I've spent the last couple of my (too rare) sessions in Unity working on a prototype for my contribution to the next [Zium](https://thezium.art/). In short I'm planning on placing one of the standard buildings from *v r 5* in a room in the museum and including an array of lights illuminating some number of cubes. The lights will turn on and off in a sequence to demonstrate some kind of combinatorics of shadow effects in Unity. That's the dream.
+
+Right now there's a pretty decent WebGL prototype in the /zium folder of the project that has multiple lights and so on. The scene itself looks like this:
+
+![A room with many point lights and spotlights active simultaneously](./images/2023-11-22-early-zium-museum-prototype.png)
+
+And the room in play something like this:
+
+![At early version of the Zium room](./images/2023-11-22-zium-room.png)
+
+It's useful relative to *v r 5* in the sense that I've wanted to explore that core idea of temporal sequencing of shadows (suddenly recognizing I need moving lights) anyway. So this gives me a chance to look at it.
+
+I have to say that, having a working thing kind of put together I felt (as I noted in the associated commit) kind of sadly underwhelmed. I think some of that may simply be to do with general work vibes right now - I'm tired. Some of it may also be to do with the sort of ramshackle layout I've done of the lights and cubes, so that it doesn't look very "professional" or whatever, something I can fix. But yeah is any of it ultimately like... well that's not that great.
+
+I don't have an answer to this - I guess I have to magically be less tired, and fix the layout. I wonder, too, whether the lack of apreciable texture on the walls (something I've been struggling with frankly) is part of the problem. God forbid I have to take a look at that though. Texturing. I shudder. Maybe even just a bit more geometry on the walls? Some indents, some larger sense of concrete place?
+
+Maybe the space simply feels a bit dead, not real. It's not meant to be all that real, but it's meant to be somewhere. These are things to think about.
+
+I think that the fact of the Zium, the idea of an audience, the need to do a sort of vertical prototype in essense, is all helpful in addressing some of the questions that are maybe otherwise easy to not deal with during this sort of extended exploratory phase? The *So what?* becomes more apparent.
