@@ -556,3 +556,23 @@ I don't have an answer to this - I guess I have to magically be less tired, and 
 Maybe the space simply feels a bit dead, not real. It's not meant to be all that real, but it's meant to be somewhere. These are things to think about.
 
 I think that the fact of the Zium, the idea of an audience, the need to do a sort of vertical prototype in essense, is all helpful in addressing some of the questions that are maybe otherwise easy to not deal with during this sort of extended exploratory phase? The *So what?* becomes more apparent.
+
+## Back in the saddle? Or about to be bucked? (Monday, 18 December 2023)
+
+Guess what? The Common Front and FAE unions in Québec have been on strike since 21 November which has meant Felix has not had school since then. What day did that land, you ask? Essentially right on my last journal entry and last work day on this project, because it's been pretty well impossible to get anything done since then. With Felix at home there's just not quite the same level of quiet that I feel like I need for this work.
+
+That said, here I am, with Felix at home, trying to prove to myself I can do at least a little thinking and work every day to climb back into this thing.
+
+In the interim I've been playing a lot of *The Talos Principle 2* with Rilla and Felix and that has a really powerful sense of place. In a way it's maybe making me feel *worse* about *v r 5*, but in another way it's probably a useful inspiration while also being a... well I can't do *that* so maybe I shouldn't worry so much about things? Again the point is to *see the shadows at all* and then to *see the engine's relationship to shadows* within that. My existing plan is fine for that.
+
+I think that doing the ZIUM stuff has at the very least helped to demonstrate that sequenced lights (and their shadows) works fine for my purposes here and could potentially reduce the number of room structures around. But also that point about creating a bit more texture in the spaces is important as well - I think maybe having a more interesting approach to the walls would be good in general, perhaps just having the default space be a little more unusual looking, even if it's repeated over and over, or even if there are just 3 or 4 styles of exactly the same layout?
+
+Also we're getting to a point where it's also like... fucking hell let's just finish it up and move on with our lives, this is not my life's work. A bit early to have that feeling, but it's possible this is one of those projects that kind of gets over conceptualized until it feels very dry and inactive. Probably that when I get back into really making it there will be more opportunities for surprise.
+
+Definitely want to try out the whole "where you are on the island changes the sun" thing as I think that's a much more interesting relationship to it and can situate different places in different ways. Also nice to think of seeing something in the distance which won't look that way when you get there because of the light.
+
+Also should try to just "have a bit of fun" with exterior structures? No reason that they can't ALSO have dedicated lights with triggers around them to pull off different effects.
+
+Anyway if I throw an hour at this tomorrow I'll feel more in the saddle. The cosy cosy saddle. Of Unity.
+
+I can do this. Right? Riiiight? Right.
