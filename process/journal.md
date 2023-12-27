@@ -576,3 +576,15 @@ Also should try to just "have a bit of fun" with exterior structures? No reason 
 Anyway if I throw an hour at this tomorrow I'll feel more in the saddle. The cosy cosy saddle. Of Unity.
 
 I can do this. Right? Riiiight? Right.
+
+## Sun control -- Wednesday, 27 December 2023
+
+Well, it took more like a week to get "back in the saddle" but I did spend some time on this project today. The details are in the commit but I wanted to just stop in to keep myself on track thinking about how to finish this off because there are some deadlines involved (Now Play This, Zium).
+
+The key-est thing is probably a combination of a really tight and definitive pass through the building curation where I just decide some of these issues around time-switching versus multi-object versus multi-room handling of different ideas. In my mind I would rather things stay pretty austere and contemplative. One observation I think I have from the early zium prototype ([in progress here](https://pippinbarr.com/v-r-5/zium/)) is that cycle a ton of lights through with all kinds of effects kind of sucks the value out. In a sense you could say it loses touch with the motivating essay which is about a contemplative mood. Flashing lights are not that.
+
+To that end, if I'm time cycling it should either be quite slow or it should be under the user's control with buttons, room triggers, or something along those lines.
+
+I remain a bit torn on UI/announcements/explanations of what people are looking at. I think without the technical language existing *somewhere* it could be a problem to understand any of the significant. The Zium prototype and Talos II but do quite a nice thing where they have a clear didact but it doesn't have the writing on it, rather you focus the camera on it and it brings up a simple UI with the text. That would probably require me to include a reticule and I dunno about that or not. Probably fine but dunno.
+
+So yeah. Next step is eyeballing the full list with some of these austerity ideas.
