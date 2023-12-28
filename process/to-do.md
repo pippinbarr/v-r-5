@@ -11,7 +11,8 @@
 
 ## Lighting tech
 
-- Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works
+- **This worked out surprisingly well.** ~~Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works~~
+- Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)
 
 ## Island
 
@@ -27,6 +28,7 @@
 
 - Build a window-ed room
 - Work on how to give rooms less of a flat affect (may need to happen in blender?)
+  - Consider thicker walls (0.5?) with indenting of some kind, maybe at 0.1?
 - Experiment with getting my texture back on the room
 
 ## Terrain
