@@ -10,6 +10,82 @@ I want to sort of half-taxonomize and half-just-do-whatever-I-want to come up wi
 
 - In listing things I'm finding it's a lot of rooms and not so many exterior places? At a certain point that might start to feel a bit weird. It would be nice to see ways to balance it, but it's also true that "controlled environment" usually means a room, esp. because we can block out the directional light (mostly?).
 
+## List started 28 December 2023
+
+Even more ruthless? Yes. Please.
+
+### UI
+
+- Flashlight
+- Didacts as UI element
+- Voice synthesis as UI?
+- Recorded voice as UI?
+
+### Rooms
+
+(Unless specifically needed, every room is the same room with a single cube and a single light source.)
+
+1. Window (custom room)
+    - A room with a view and a shadow cast thrugh the window on a cube.
+    - aka. A directional light on a cube
+2. Point light
+    - The "iconic" room with a standard issue point light cast on a cube
+3. Spot light
+    - A room with a spot-light cast on a cube
+4. Mesh
+    - The shadow of a more complex mesh
+5. Two lights
+    - Probably two point lights
+6. Casting
+    - Two cubes, one casts and the other doesn't
+7. Cookie
+    - Spot light with a cookie (window frame is a classic?)
+8. Receiving
+    - Cube that does and cube that doesn't
+9. Acne
+    - Set the bias to fuck things up
+10. Bias
+    - Make it ridiculous (floating)
+11. Normal bias
+    - Make it ridiculous
+12. Shadow only
+    - An invisible cube casting a shadow
+13. Movement
+    - A point light orbiting a cube
+14. Gold
+    - Glimmer in an alcove, the tribute
+15. (Quality?)
+16. (Hard soft none?)
+17. (Area light)
+    - Can I bake?
+
+Things to figure out:
+Can you dynamically change quality? Can you have different quality shadows?
+Hard, soft, none
+What would be a fun "standard" mesh I could use. Something simple from v r 4.99 that I could reuse? No texture.
+
+### Sculptures
+
+Do I actually want the sculptural stuff to illustrate specific things or not?
+
+- Gaps
+- Holes
+- Shadows cast over objects
+- Long shadows
+- No shadows
+- ...
+
+Dynamic light trigger areas...
+
+### Diases
+
+- Shadow change
+- Day/night cycle
+- Directional color
+- Directional off
+- Exterior spotlight (could also just be trigger zone on sculpture)
+- ...
+
 ## List started 6 November 2023
 
 (Note there is another list below this one for reference.)
@@ -35,7 +111,7 @@ I'm going to be a bit more ruthless on this one having done a good amount of wor
 ### Exhibits
 
 1. Gaps and holes
-    - One or more outdoor structures that show light passing between gaps and holds to create shadow patterns. Probably just the existing *diminishing gaps* and also a surface I will subdivide repeatedly to create smaller and smaller holes
+    - One or more outdoor structures that show light passing between gaps and holes to create shadow patterns. Probably just the existing *diminishing gaps* and also a surface I will subdivide repeatedly to create smaller and smaller holes
 2. Windows
     - One or more rooms with windows in them, the windows letting in light, the light probably falling on a cube in the room.
     - Possibly the idea of changing the directional light when the user enters to create different light qualities inside the room (dawn, dusk, moonlight, red light, ...)

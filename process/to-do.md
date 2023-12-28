@@ -9,6 +9,10 @@
 - **It was because I somehow duplicated the terrain** ~~Why did the lighting on the grass suddenly start looking absolutely terrible after the doubling back from URP?~~
 - **This was because it had two materials assigned** ~~The water is totally fucked in the webgl build~~
 
+## Lighting tech
+
+- Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works
+
 ## Island
 
 - ~~Scale down the island until around 20 rooms feel like they fit with a nice density versus spacing~~
@@ -21,7 +25,9 @@
 - ~~Make a tunnel~~
 - **Essentially achieved this with the tunnel - I have a much stronger understanding of holes and so on. Not clear that I desperatly need to inset any buildings, but I certainly could if I wanted too. Would it be interesting to have a doorway off the tunnel??** ~~Practice embedding a building into the landscape a little more so it's easy to enter (beware of this a bit though because it will involve terraforming and then I'll have to rebumpify the landscape?)~~
 
-- Build 2-4 or so buildings that I can reuse and tweak in small ways to give them different "visual identities".
+- Build a window-ed room
+- Work on how to give rooms less of a flat affect (may need to happen in blender?)
+- Experiment with getting my texture back on the room
 
 ## Terrain
 
