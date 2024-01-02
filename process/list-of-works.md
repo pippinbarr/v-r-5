@@ -41,7 +41,7 @@ Even more ruthless? Yes. Please.
 7. Cookie
     - Spot light with a cookie (window frame is a classic?)
 8. Receiving
-    - Cube that does and cube that doesn't
+    - Cube that does and cube that doesn't (and a cube that casts... hmm, could be more of an outdoors thing where more complex arrangements make more sense?)
 9. Acne
     - Set the bias to fuck things up
 10. Bias
@@ -57,7 +57,7 @@ Even more ruthless? Yes. Please.
 15. (Quality?)
 16. (Hard soft none?)
 17. (Area light)
-    - Can I bake?
+    - Can I bake? (looks like it)
 
 Things to figure out:
 Can you dynamically change quality? Can you have different quality shadows?
