@@ -54,9 +54,11 @@ Even more ruthless? Yes. Please.
     - A point light orbiting a cube
 14. Gold
     - Glimmer in an alcove, the tribute
-15. (Quality?)
-16. (Hard soft none?)
-17. (Area light)
+15. On and off
+    - A light going on and off
+16. (Quality?)
+17. (Hard soft none?)
+18. (Area light)
     - Can I bake? (looks like it)
 
 Things to figure out:
