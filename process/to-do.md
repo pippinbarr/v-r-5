@@ -13,10 +13,21 @@
 
 - **This worked out surprisingly well.** ~~Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works~~
 - Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)
+- Fix up my lightswitch to switch materials as well
 
 ## Island
 
 - ~~Scale down the island until around 20 rooms feel like they fit with a nice density versus spacing~~
+
+## Interior install prototyping
+
+- Go through and try all the setups to actually see this fucking thing:
+  - ~~Point light~~
+  - ~~Acne~~
+  - ~~Spot light~~
+  - ~~Two point lights~~
+  - ~~Casting/non-casting~~
+  - ...
 
 ## Structures
 

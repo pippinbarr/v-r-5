@@ -40,7 +40,7 @@ Even more ruthless? Yes. Please.
     - Two cubes, one casts and the other doesn't
 7. Cookie
     - Spot light with a cookie (window frame is a classic?)
-8. Receiving
+8. (Receiving)
     - Cube that does and cube that doesn't (and a cube that casts... hmm, could be more of an outdoors thing where more complex arrangements make more sense?)
 9. Acne
     - Set the bias to fuck things up
