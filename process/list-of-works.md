@@ -28,37 +28,40 @@ Even more ruthless? Yes. Please.
 1. Window (custom room)
     - A room with a view and a shadow cast thrugh the window on a cube.
     - aka. A directional light on a cube
-2. Point light
+2. . Point light
     - The "iconic" room with a standard issue point light cast on a cube
-3. Spot light
+3. . Spot light
     - A room with a spot-light cast on a cube
-4. Mesh
+4. . Mesh
     - The shadow of a more complex mesh
-5. Two lights
+5. . Two lights
     - Probably two point lights
-6. Casting
+6. . Casting
     - Two cubes, one casts and the other doesn't
-7. Cookie
+7. . Cookie
     - Spot light with a cookie (window frame is a classic?)
 8. (Receiving)
     - Cube that does and cube that doesn't (and a cube that casts... hmm, could be more of an outdoors thing where more complex arrangements make more sense?)
-9. Acne
+9. . Acne
     - Set the bias to fuck things up
-10. Bias
+10. . Bias
     - Make it ridiculous (floating)
 11. Normal bias
-    - Make it ridiculous
-12. Shadow only
+    - Make it ridiculous (struggling to do so)
+12. . Shadow only
     - An invisible cube casting a shadow
 13. Movement
     - A point light orbiting a cube
-14. Gold
-    - Glimmer in an alcove, the tribute
+14. . Gold
+    - Glimmer in an alcove, the tribute (this is a specific setup of the vase)
 15. On and off
     - A light going on and off
-16. (Quality?)
-17. (Hard soft none?)
-18. (Area light)
+16. . Near Plane
+    - Decrease it so that the shadow gets chopped in a weird way
+16. Quality
+17. Hard
+18. None
+19. . Area light
     - Can I bake? (looks like it)
 
 Things to figure out:
