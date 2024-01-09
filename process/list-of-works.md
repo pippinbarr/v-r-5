@@ -25,7 +25,7 @@ Even more ruthless? Yes. Please.
 
 (Unless specifically needed, every room is the same room with a single cube and a single light source.)
 
-1. Window (custom room)
+1. . Window (custom room)
     - A room with a view and a shadow cast thrugh the window on a cube.
     - aka. A directional light on a cube
 2. . Point light
@@ -50,7 +50,7 @@ Even more ruthless? Yes. Please.
     - Make it ridiculous (struggling to do so)
 12. . Shadow only
     - An invisible cube casting a shadow
-13. Movement
+13. . Movement
     - A point light orbiting a cube
 14. . Gold
     - Glimmer in an alcove, the tribute (this is a specific setup of the vase)
@@ -58,9 +58,9 @@ Even more ruthless? Yes. Please.
     - A light going on and off
 16. . Near Plane
     - Decrease it so that the shadow gets chopped in a weird way
-16. Quality
-17. Hard
-18. None
+16. . Low Quality
+17. . Hard
+18. . None
 19. . Area light
     - Can I bake? (looks like it)
 

@@ -12,6 +12,7 @@
 ## Lighting tech
 
 - **This worked out surprisingly well.** ~~Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works~~
+
 - Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)
 - Fix up my lightswitch to switch materials as well
 
@@ -28,6 +29,7 @@
   - ~~Two point lights~~
   - ~~Casting/non-casting~~
   - ...
+  - All but on/off done because I need to work on the correct lightswitch (as I did for the Zium)
 
 ## Structures
 
@@ -36,11 +38,11 @@
 - ~~Build a few outdoor structures without thinking too hard about it just to populate the landscape a bit in a concentrated area (this can now be more directed by the [list of works](./list-of-works.md)).~~
 - ~~Make a tunnel~~
 - **Essentially achieved this with the tunnel - I have a much stronger understanding of holes and so on. Not clear that I desperatly need to inset any buildings, but I certainly could if I wanted too. Would it be interesting to have a doorway off the tunnel??** ~~Practice embedding a building into the landscape a little more so it's easy to enter (beware of this a bit though because it will involve terraforming and then I'll have to rebumpify the landscape?)~~
+- ~~Build a window-ed room~~
+- ~~Experiment with getting my texture back on the room~~
 
-- Build a window-ed room
 - Work on how to give rooms less of a flat affect (may need to happen in blender?)
   - Consider thicker walls (0.5?) with indenting of some kind, maybe at 0.1?
-- Experiment with getting my texture back on the room
 
 ## Terrain
 
