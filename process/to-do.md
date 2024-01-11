@@ -12,9 +12,14 @@
 ## Lighting tech
 
 - **This worked out surprisingly well.** ~~Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works~~
+- **I don't think this is actually useful because the sun moves, so baking stuff will just... well there's nothing to bake, right?** ~~Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)~~
+- ~~Fix up my lightswitch to switch materials as well~~
 
-- Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)
-- Fix up my lightswitch to switch materials as well
+- Why is the floor well lit when there are no lights on and the walls are dark?
+
+## Other scripty tech
+
+- **I have a LightBehaviour parent that can be extended to start behaviours when a light is turned on and... it works. So fuck all of you doubters who are me.** ~~Think through the basic concept of crossing a threshold and starting the "machine" that is the exhibit -- e.g. playing a sound, turning on a light, starting another movement script, etc...~~
 
 ## Island
 
@@ -29,7 +34,7 @@
   - ~~Two point lights~~
   - ~~Casting/non-casting~~
   - ...
-  - All but on/off done because I need to work on the correct lightswitch (as I did for the Zium)
+  - **This took some work but I think I have a good structure in place** ~~All but on/off done because I need to work on the correct lightswitch (as I did for the Zium)~~
 
 ## Structures
 
@@ -43,6 +48,7 @@
 
 - Work on how to give rooms less of a flat affect (may need to happen in blender?)
   - Consider thicker walls (0.5?) with indenting of some kind, maybe at 0.1?
+  - Some of this is perhaps being resolved by the vase oddly
 
 ## Terrain
 

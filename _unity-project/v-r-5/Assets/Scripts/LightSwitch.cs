@@ -4,35 +4,28 @@ using UnityEngine;
 
 public class LightSwitch : MonoBehaviour
 {
-    public GameObject[] Lights;
+    public Material onMaterial;
+    public Material offMaterial;
 
-    // Start is called before the first frame update
     void Start()
     {
 
     }
-
-    // Update is called once per frame
     void Update()
     {
 
     }
 
-    // Lights go on on enter
-    void OnTriggerEnter()
+    public void SwitchOn()
     {
-        for (int i = 0; i < Lights.Length; i++)
-        {
-            Lights[i].SetActive(true);
-        }
+        gameObject.GetComponent<Renderer>().material = onMaterial;
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
     }
 
-    // Lights go off on exit
-    void OnTriggerExit()
+    public void SwitchOff()
     {
-        for (int i = 0; i < Lights.Length; i++)
-        {
-            Lights[i].SetActive(false);
-        }
+        gameObject.GetComponent<Renderer>().material = offMaterial;
+        gameObject.transform.GetChild(0).gameObject.SetActive(false);
     }
+
 }
