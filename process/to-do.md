@@ -1,5 +1,41 @@
 # To-do
 
+## As of 2024-01-12
+
+### Technical issues
+
+- I'm still not totally satisfied with the quality of interior light
+- Got to be on the lookout for ugly surfaces and acne
+- Remove colliders for light fixtured
+
+### Code to write
+
+- Translation behaviour
+  - ~~Basic setup~~
+  - Question of easing?
+
+### Interior exhibits to build
+
+- Point Light
+
+### Exterior exhibits to build
+
+### Diases to build
+
+### UI to build
+
+- Flashlight
+- Room descriptions/indicators
+  - View activated didacts?
+  - Real didacts?
+  - **This already looks really strong so it might be fine as it.** Writing on the wall?
+    - Could consider flashing or colour-change or other indication of seen/not seen... maybe proximity based if flash/pulse
+  - Talos 2 style display as you go in
+
+---
+
+## Pre-2024-01-12
+
 ## Meta
 
 - **This is what [list of works](./list-of-works.md) does.** ~~Build a list of hypothesized rooms and sculptures/installations (maybe in a separate file to track which ones I make/don't make, etc.)~~
@@ -14,8 +50,7 @@
 - **This worked out surprisingly well.** ~~Try out a baked area light (as the only baked light in the game), make sure to check build size even if it works~~
 - **I don't think this is actually useful because the sun moves, so baking stuff will just... well there's nothing to bake, right?** ~~Try out the entire world being static with mixed lighting and baked global (check build size and appealingness)~~
 - ~~Fix up my lightswitch to switch materials as well~~
-
-- Why is the floor well lit when there are no lights on and the walls are dark?
+- **I have made progress on this (notably the associated color of the albedo for the concrete texture, but it's still not perfect. Wondering about some guiding lighting lighting in the hallway to help people in and out if I choose to make it ultra drak** ~~Why is the floor well lit when there are no lights on and the walls are dark?~~
 
 ## Other scripty tech
 
@@ -27,7 +62,7 @@
 
 ## Interior install prototyping
 
-- Go through and try all the setups to actually see this fucking thing:
+- ~~Go through and try all the setups to actually see this fucking thing:~~
   - ~~Point light~~
   - ~~Acne~~
   - ~~Spot light~~
@@ -46,9 +81,9 @@
 - ~~Build a window-ed room~~
 - ~~Experiment with getting my texture back on the room~~
 
-- Work on how to give rooms less of a flat affect (may need to happen in blender?)
-  - Consider thicker walls (0.5?) with indenting of some kind, maybe at 0.1?
-  - Some of this is perhaps being resolved by the vase oddly
+- **I think the vase and the scale of the room may and the idea of more dynamic displays may have fixed this for us** ~~Work on how to give rooms less of a flat affect (may need to happen in blender?)~~
+  - **Don't think this is necessary** ~~Consider thicker walls (0.5?) with indenting of some kind, maybe at 0.1?~~
+  - ~~Some of this is perhaps being resolved by the vase oddly~~
 
 ## Terrain
 
