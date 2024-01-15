@@ -8,7 +8,6 @@ public class OnAndOffBehaviour : LightBehaviour
     public int onTime = 2;
     public int offTime = 2;
     private Coroutine stepRoutine;
-    private bool coroutineStopped = false;
 
     void Start()
     {
@@ -18,12 +17,10 @@ public class OnAndOffBehaviour : LightBehaviour
     public override void StartBehaviour()
     {
         stepRoutine = StartCoroutine(Step());
-        Debug.Log("Starting coroutine");
     }
 
     public override void StopBehaviour()
     {
-        Debug.Log("Stopping coroutine.");
         StopCoroutine(stepRoutine);
     }
 

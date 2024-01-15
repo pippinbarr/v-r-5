@@ -54,7 +54,7 @@ Even more ruthless? Yes. Please.
     - A point light orbiting a cube
 14. . Gold
     - Glimmer in an alcove, the tribute (this is a specific setup of the vase)
-15. On and off
+15. . On and off
     - A light going on and off
 16. . Near Plane
     - Decrease it so that the shadow gets chopped in a weird way
@@ -63,6 +63,11 @@ Even more ruthless? Yes. Please.
 18. . None
 19. . Area light
     - Can I bake? (looks like it)
+20. . In and out
+21. . Shadow strength (animate)
+22. x? Translation (of the object)
+23. . Rotation (of the object)
+24. . Up and down
 
 Things to figure out:
 Can you dynamically change quality? Can you have different quality shadows?

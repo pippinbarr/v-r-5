@@ -5,8 +5,8 @@
 ### Technical issues
 
 - I'm still not totally satisfied with the quality of interior light
-- Got to be on the lookout for ugly surfaces and acne
-- Remove colliders for light fixtured
+- Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)
+- Remove colliders for light fixtures
 
 ### Code to write
 
@@ -22,8 +22,13 @@
 
 ### Diases to build
 
+### Architecture to build
+
+- **Leaning no.** ~~Should I got for an L-shaped room? (Should I stop over-thinking this?)~~
+
 ### UI to build
 
+- Lighting strips or similar for the room
 - Flashlight
 - Room descriptions/indicators
   - View activated didacts?

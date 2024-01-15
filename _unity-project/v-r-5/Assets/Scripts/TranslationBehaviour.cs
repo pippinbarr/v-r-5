@@ -10,17 +10,24 @@ public class TranslationBehaviour : LightBehaviour
     public Transform positionB;
     public float speed = 0.1f; // In units per second
     private Transform target;
+    private float distance;
+    private Vector3 halfway;
 
     // Start is called before the first frame update
     void Start()
     {
         target = positionA;
+        halfway = Vector3.Lerp(positionA.position, positionB.position, 0.5f);
+        distance = Vector3.Distance(positionA.position, positionB.position);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed);
+        float distanceToHalfway = Vector3.Distance(transform.position, halfway);
+        float ratioToHalfway = distanceToHalfway / (distance / 2);
+        float easedSpeed = Mathf.Lerp(speed, speed / 5, ratioToHalfway);
+        transform.position = Vector3.MoveTowards(transform.position, target.position, easedSpeed);
         if (Vector3.Equals(transform.position, target.position))
         {
             if (target == positionA)
