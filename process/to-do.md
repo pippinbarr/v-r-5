@@ -6,19 +6,23 @@
 
 - I'm still not totally satisfied with the quality of interior light
 - Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)
-- Remove colliders for light fixtures
+- Remove colliders for light fixtures (when prefabbing?)
 
 ### Code to write
 
-- Translation behaviour
+- ~~Translation behaviour~~
   - ~~Basic setup~~
-  - Question of easing?
+  - ~~Question of easing?~~
 
 ### Interior exhibits to build
 
 - Point Light
+- And on we go
 
 ### Exterior exhibits to build
+
+- At some point I should explicitly play with this
+- Should they have their own display somewhere that notifies you of what's going on, or at least give a title?
 
 ### Diases to build
 

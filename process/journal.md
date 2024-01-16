@@ -643,3 +643,47 @@ The orbiting light. It's a smallish GIF so the artifacting of bands of light on 
 In remaking the window one it's just so much better with the vase. Also because the angle of the sun needs to be really low to get through the window and cast a long enough shadow you get this neat dusk feeling. This will play well with the dynamics of the sun changing as you move around I guess. Actually this one feels like a small vision or preview of the In Praise of Shadows effect - the idea of a dimly lit but still lit room and the intimacy, cosiness, mystery of that.
 
 But yeah. That's my report. This might be the longest journal I've ever written at 2000+ words. A major unclenching.
+
+## The static and the dynamic -- Tuesday, 16 January 2024
+
+From commit [1f76970](https://github.com/pippinbarr/v-r-5/commit/1f7697039520d087693615a20ee8b3999f16a55f), yesterday:
+
+> - Need to make a decision on whether anything should be totally static (e.g. point light? or could we vary the light intensity or something in that case just to have something moving? Or should we have nothing moving? But what is the different between a point light that moves and one that doesn't? And how to distinguish movement types like in/out, up/down, side-to-side from the fact of the light itself? Those behaviours yield quite distinct shadow behaviours, as do light rotations
+> - An orbiting light casts sort of the same shadows as a rotating object... but also *not*... there are weird subtleties. And how should I label things? It's actually weird-feeling semantically.
+
+This has been an interesting moment - there's all the excitement of "discovering" the vase and the dynamic movement as a kind of default or much more common factor in the rooms; *but* to go with that is a sort of destablizing of the meaning of the rooms.
+
+Previously it had been something along the lines of:
+
+*Here is a room with a plinth and vase and a light that cast some specific kind of shadow.* (Where that could be a shadow strength, shadow acne, invisible object, clip plane, light type, and so on. E.g. a setting or a specific entity. Static.)
+
+In that case it was fairly easy to separate out movement in particular as a *specific* form of setting or maybe a metasetting: here is a room where the light moves side to side, here is a room where the light moves up and down, in and out, wider and smaller spot angle, etc.
+
+But now with the idea that it's generally a good thing if (almost) *every* room includes at least some for of dynamic movement, it becomes hard to separate out *here is a point light* from *here is a point light moving in a specific way*?
+
+There seem to be a few possibilities? Like one where there *is* a completely static point light...
+
+- Totally static point light
+- Side to side moving point light
+- Up and down point light
+- etc.
+
+Or one where there isn't that and the various kinds of point lights are just moving and we don't foreground the movement
+
+- Point light but it *happens* to be moving side to side
+- Point light with low shadow strength but it *happens* to be rotating around the plinth
+- Point light with no shadow casting but it *happens* to be moving in and out
+
+But that doesn't feel right because I think I do want to draw attention to the idea of light source movement as being a "setting" of a shadow - it completely changes how a shadow looks and feels.
+
+But then do I fall into some "dangerous" combinatorics? Where I have to produce those forms of movement for both spot and point? (That's leading to close to eight rooms just showing point and spot lights with different movements.) And where I have to have all of those with the default settings *and* the other lights with new settings but which also move in perhaps a gentler and more drifting way just to create some visual interest?
+
+It feels like a lot of this is coming down to: should there be exhibits that forground movement (translation, rotation) as the "setting", the raison d'être of the exhibit, the name of the exhibit... or should those different forms of movement be applied on top of a setting and the audience "just sees" the impact of movement as a secondary element, but isn't explicitly instructed (by a title, by a devoted space) to think about the important/impact of light source movement on shadows?
+
+Could imagine something more gimmicky where a light source goes through a full range of movements? Like it goes side to side, then up and down, then in and out, then orbits. Or you could imagine thinking that rotation + in/out + up/down in some combination could do the whole thing at once? And that the other (non-movement) exhibits just have gentle movement for visual interest? Just some drift...
+
+But if I'm saying that gimmicky then... doesn't quite sound right.
+
+Just worked through another iteration of the [list of works](./list-of-works.md) and maybe it's not so bad? 22 total, including devoted movement rooms. And where the other rooms would have subtle/low-key movement. Or even a default like a very slow orbit perhaps - that might be quite nice.
+
+Okay maybe I proceed with 22 rooms and we see. Maybe I should even do the "paste in 22 rooms and see what that looks like from bird's eye. Can't forget all the exterior stuff, though maybe there doesn't have to be a metric fuck ton? Will see.

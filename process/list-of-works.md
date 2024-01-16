@@ -10,6 +10,38 @@ I want to sort of half-taxonomize and half-just-do-whatever-I-want to come up wi
 
 - In listing things I'm finding it's a lot of rooms and not so many exterior places? At a certain point that might start to feel a bit weird. It would be nice to see ways to balance it, but it's also true that "controlled environment" usually means a room, esp. because we can block out the directional light (mostly?).
 
+## List started 16 January 2024
+
+### Interiors
+
+- Point Light
+- Spot Light
+- Directional Light (window, totally static)
+- Area Light (baked, totally static)
+- Two Lights (combined shadows)
+- Shadow Casting
+- Cookie (Totally static)
+- Acne
+- (Bias, if visible)
+- (Normal Bias, if visible)
+- Shadow Only
+- Glimmer of Gold (low light, very static)
+- On and Off
+- Near Plane
+- Low Quality
+- Hard
+- No Shadows
+- Shadow Strength
+
+And then there are movement forms (separately?)
+
+- Translation side to side
+- Translation up and down
+- Translation in and out
+- Rotation/orbit
+
+If we treated all these as separate rooms, we would have 22 rooms. It's possible that that is simply not so bad.
+
 ## List started 28 December 2023
 
 Even more ruthless? Yes. Please.
