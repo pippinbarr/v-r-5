@@ -8,16 +8,62 @@
 - Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)
 - Remove colliders for light fixtures (when prefabbing?)
 
+### Feel tests
+
+- **Seems pretty good actually.** ~~Try out 22 rooms on the island just to get a sense of distribution and relative visibility, the feeling of places to go~~
+
 ### Code to write
 
 - ~~Translation behaviour~~
   - ~~Basic setup~~
   - ~~Question of easing?~~
 
+### Prefabbing
+
+- **Nope** ~~Does prefabbing remove a level I want to work at?~~
+- ~~Showroom~~
+  - ~~Includes Switch Trigger~~
+  - ~~Includes vase-on-plinth (removed sometimes I guess)~~
+  - ~~Includes emission path lighting?~~
+- ~~Point Light Fixture~~
+  - ~~Include points A and B~~
+- ~~Spotlight Fixture~~
+
+- Windowed Showroom
+  - As above
+
 ### Interior exhibits to build
 
-- Point Light
-- And on we go
+#### Lights
+
+- Light: Point Light (drifting)
+- Light: Spot Light (drifting)
+- Light: Directional Light (window, totally static)
+- Light: Area Light (baked, totally static)
+- Two Lights (combined shadows, drifting)
+
+#### Settings
+
+- Setting: Relative Shadow Casting/Receiving (drifting)
+- Setting: Cookie (Totally static)
+- Setting: Acne
+- (Bias, if visible, tweening)
+- (Normal Bias, if visible, tweening)
+- Setting: Shadow Only
+- Glimmer of Gold (low light, very static)
+- Setting: Near Plane (tweening)
+- Setting: Low Quality (on and off?)
+- Setting: Hard (on and off?)
+- Setting: No Shadows (on and off?)
+- Setting: Shadow Strength (tweening)
+
+#### Movements
+
+- Dynamics: Translation side to side, lateral (dolly)
+- Dynamics: Translation up and down, vertical
+- Dynamics: Translation in and out, dolly?
+- Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthous
+- Dynamics: On and Off
 
 ### Exterior exhibits to build
 

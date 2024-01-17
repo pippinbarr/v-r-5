@@ -14,31 +14,31 @@ I want to sort of half-taxonomize and half-just-do-whatever-I-want to come up wi
 
 ### Interiors
 
-- Point Light
-- Spot Light
-- Directional Light (window, totally static)
-- Area Light (baked, totally static)
-- Two Lights (combined shadows)
-- Shadow Casting
-- Cookie (Totally static)
-- Acne
-- (Bias, if visible)
-- (Normal Bias, if visible)
-- Shadow Only
+- Light: Point Light (drifting)
+- Light: Spot Light (drifting)
+- Light: Directional Light (window, totally static)
+- Light: Area Light (baked, totally static)
+- Two Lights (combined shadows, drifting)
+- Setting: Relative Shadow Casting/Receiving (drifting)
+- Setting: Cookie (Totally static)
+- Setting: Acne
+- (Bias, if visible, tweening)
+- (Normal Bias, if visible, tweening)
+- Setting: Shadow Only
 - Glimmer of Gold (low light, very static)
-- On and Off
-- Near Plane
-- Low Quality
-- Hard
-- No Shadows
-- Shadow Strength
+- Dynamics: On and Off
+- Setting: Near Plane (tweening)
+- Setting: Low Quality (on and off?)
+- Setting: Hard (on and off?)
+- Setting: No Shadows (on and off?)
+- Setting: Shadow Strength (tweening)
 
 And then there are movement forms (separately?)
 
-- Translation side to side
-- Translation up and down
-- Translation in and out
-- Rotation/orbit
+- Dynamics: Translation side to side, lateral (dolly)
+- Dynamics: Translation up and down, vertical
+- Dynamics: Translation in and out, dolly?
+- Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthouse?)
 
 If we treated all these as separate rooms, we would have 22 rooms. It's possible that that is simply not so bad.
 
