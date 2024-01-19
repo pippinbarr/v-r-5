@@ -687,3 +687,35 @@ But if I'm saying that gimmicky then... doesn't quite sound right.
 Just worked through another iteration of the [list of works](./list-of-works.md) and maybe it's not so bad? 22 total, including devoted movement rooms. And where the other rooms would have subtle/low-key movement. Or even a default like a very slow orbit perhaps - that might be quite nice.
 
 Okay maybe I proceed with 22 rooms and we see. Maybe I should even do the "paste in 22 rooms and see what that looks like from bird's eye. Can't forget all the exterior stuff, though maybe there doesn't have to be a metric fuck ton? Will see.
+
+## HmmmmmmmmDM -- Friday, 19 January 2024
+
+Just taking a moment to reflect on the project as it stands... actually just a grab bag of stuff I maybe should spend more time either thinking about or doing (because I don't have time right now, gotta run baby!):
+
+### Memoing
+
+I'm very drawn to this idea but I haven't *done* it. That idea of separately fleshing out an idea that has come up a bunch or just very strongly? A separate process folder and system for tracking those things. It just seems incredibly valuable as an along-the-way distillation of what's going on as you... learn what's going on. But how to include it in a rhythm of development and documentation?
+
+### Whys
+
+I've noticed that I haven't done one in a bit. What triggers a why? When do you ask it? Are there obvious moments to do so. Should they be scheduled? They're a pretty mega concept but such a good way to track the drift and adjustments of what the project is really doing instead of what I thought it was going to do.
+
+### Exhibitionism
+
+Well not that actually but I've found myself thinking, perhaps especially because a couple of exhibition opportunities (A MAZE, unidentified online exhibition, Now Play This) are looming, about how you present the documentation - maybe especially when it's even *still in progress*. I feel like there's an opportunity and a danger associated with deploying commits and builds *with an eye toward them being seen as a kind process art*. Like, there's extra work involved and it could be a distraction... but should I think about my documentation and process as *part of the artwork* and not "just" a separate (and valuable) documentation repository? My instinct is always that documenting should be easy and should feel like there's no audience outside myself but... that might not be true. How performative and *usable* should my documentation be not just for a committed scholar (hi scholar, I'm sure you totally exist) but for more casually interested folks?
+
+### Screenshots
+
+I've tried to be better at this but I can still feel how unsystematic I'm being. Should I have a rule that *every* commit comes with a screenshot? Would that be a way to think about displaying these things down the line? A sort of pictorial timeline if one wanted (which I could construct manually or you could imagine scripting). There could be a dedicated line in the commit message that references the screenshot like a caption. Or the commit message could just be the caption to the image in an alternate display form. Busywork? Good work?
+
+### Emotion
+
+What is the role/value/non-value of including your emotional state in development documentation. It's obviously "humanising" but is it genuinely relevant or just cathartic (nothing wrong with tht either). Sometimes I write these kinds of things, including just life events, sometimes I don't. I feel like I usually deploy them as an excuse for a lack of work over a period of time, but do those events and feelings get expressed in what I actually make? Am I over or undersharing?
+
+### Re-realization: Tired or Wired?
+
+In this project and in **so fucking many projects** I have this realization way too late that I'm bored because something about the project is boring and I need to fix it. In this case the "undisclosed exhibition online" (which I'm now realizing is totally disclosed in this repo and that's... well probably it's fine, I'm not shouting it from the rooftops) really rammed home to me how bored I was by my own exhibits. But the formalist in me kept going "fuck you, it's a formal exhibition it's meant to be boring". I have this endless tension between formal rigour of my idea and the idea of someone actually experiencing it, how much of a "concession" to make. I'm kind of bored of realizing I'm bored. This feels like a major design thinking idea and moment, I should look into it. There's probably like 10 books about it.
+
+--
+
+I should stop there and get moving. Thanks for listening, me.
