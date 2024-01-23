@@ -26,9 +26,9 @@ public class TranslationBehaviour : LightBehaviour
     {
         float distanceToHalfway = Vector3.Distance(transform.position, halfway);
         float ratioToHalfway = distanceToHalfway / (distance / 2);
-        float easedSpeed = Mathf.Lerp(speed, speed / 5, ratioToHalfway);
+        float easedSpeed = Mathf.Lerp(speed, speed / 10, ratioToHalfway);
         transform.position = Vector3.MoveTowards(transform.position, target.position, easedSpeed);
-        if (Vector3.Equals(transform.position, target.position))
+        if (Vector3.Distance(transform.position, target.position) < 0.05f)
         {
             if (target == positionA)
             {

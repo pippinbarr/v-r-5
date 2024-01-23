@@ -36,7 +36,7 @@
 
 #### Lights
 
-- Light: Point Light (drifting)
+- √ Light: Point Light (drifting)
 - Light: Spot Light (drifting)
 - Light: Directional Light (window, totally static)
 - Light: Area Light (baked, totally static)
@@ -46,11 +46,11 @@
 
 - Setting: Relative Shadow Casting/Receiving (drifting)
 - Setting: Cookie (Totally static)
-- Setting: Acne
+- √ Setting: Acne
 - (Bias, if visible, tweening)
 - (Normal Bias, if visible, tweening)
-- Setting: Shadow Only
-- Glimmer of Gold (low light, very static)
+- √ Setting: Shadow Only
+- In Praise of Shadows / Glimmer of Gold (low light, very static)
 - Setting: Near Plane (tweening)
 - Setting: Low Quality (on and off?)
 - Setting: Hard (on and off?)
