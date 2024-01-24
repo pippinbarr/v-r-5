@@ -40,5 +40,15 @@ public class TranslationBehaviour : LightBehaviour
             }
         }
     }
+
+    public override void StartBehaviour()
+    {
+
+    }
+
+    public override void StopBehaviour()
+    {
+
+    }
 }
 

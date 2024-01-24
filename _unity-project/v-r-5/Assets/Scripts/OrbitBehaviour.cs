@@ -5,6 +5,7 @@ using UnityEngine;
 public class OrbitBehaviour : LightBehaviour
 {
     public GameObject rotationParent;
+    public Vector3 rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,7 @@ public class OrbitBehaviour : LightBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotationParent.transform.Rotate(0.0f, 0.0f, 0.25f);
+        rotationParent.transform.Rotate(rotationSpeed.x, rotationSpeed.y, rotationSpeed.z);
     }
 }
 

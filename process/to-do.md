@@ -36,7 +36,7 @@
 
 #### Lights
 
-- √ Light: Point Light (drifting)
+- √ *Point light* Light: Point Light (drifting)
 - Light: Spot Light (drifting)
 - Light: Directional Light (window, totally static)
 - Light: Area Light (baked, totally static)
@@ -46,10 +46,10 @@
 
 - Setting: Relative Shadow Casting/Receiving (drifting)
 - Setting: Cookie (Totally static)
-- √ Setting: Acne
+- √ *Shadow acne* Setting: Acne
 - (Bias, if visible, tweening)
 - (Normal Bias, if visible, tweening)
-- √ Setting: Shadow Only
+- √ *Shadows only* Setting: Shadow Only
 - In Praise of Shadows / Glimmer of Gold (low light, very static)
 - Setting: Near Plane (tweening)
 - Setting: Low Quality (on and off?)
@@ -59,11 +59,12 @@
 
 #### Movements
 
-- Dynamics: Translation side to side, lateral (dolly)
-- Dynamics: Translation up and down, vertical
-- Dynamics: Translation in and out, dolly?
-- Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthous
-- Dynamics: On and Off
+- √ *X translation* Dynamics: Translation side to side, lateral (dolly)
+- √ *Y translation* Dynamics: Translation up and down, vertical
+- √ *Z translation* Dynamics: Translation in and out, dolly?
+- √ *Y orbit* Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthouse?)
+- √ *On and off* Dynamics: On and Off
+- Do I now want the three axes of rotation?? One of them won't do anything?
 
 ### Exterior exhibits to build
 

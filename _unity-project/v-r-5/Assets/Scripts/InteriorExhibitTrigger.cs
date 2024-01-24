@@ -25,6 +25,7 @@ public class InteriorExhibitTrigger : MonoBehaviour
         for (int i = 0; i < lightFixtures.Length; i++)
         {
             lightFixtures[i].GetComponent<LightSwitch>().SwitchOn();
+            lightFixtures[i].GetComponent<LightBehaviour>().enabled = true;
             lightFixtures[i].GetComponent<LightBehaviour>().StartBehaviour();
         }
     }
@@ -36,6 +37,7 @@ public class InteriorExhibitTrigger : MonoBehaviour
         {
             lightFixtures[i].GetComponent<LightSwitch>().SwitchOff();
             lightFixtures[i].GetComponent<LightBehaviour>().StopBehaviour();
+            lightFixtures[i].GetComponent<LightBehaviour>().enabled = false;
         }
     }
 }
