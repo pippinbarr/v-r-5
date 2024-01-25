@@ -37,7 +37,7 @@
 #### Lights
 
 - √ *Point light* Light: Point Light (drifting)
-- Light: Spot Light (drifting)
+- **Having some trouble with the animation and eulerAngles etc.** Light: Spot Light (drifting)
 - Light: Directional Light (window, totally static)
 - Light: Area Light (baked, totally static)
 - Two Lights (combined shadows, drifting)
@@ -57,14 +57,16 @@
 - Setting: No Shadows (on and off?)
 - Setting: Shadow Strength (tweening)
 
-#### Movements
+#### √ Movements
 
 - √ *X translation* Dynamics: Translation side to side, lateral (dolly)
 - √ *Y translation* Dynamics: Translation up and down, vertical
 - √ *Z translation* Dynamics: Translation in and out, dolly?
 - √ *Y orbit* Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthouse?)
+- √ *X orbit*
+- √ *Z orbit*
 - √ *On and off* Dynamics: On and Off
-- Do I now want the three axes of rotation?? One of them won't do anything?
+- **Trying it out for now** ~~Do I now want the three axes of rotation?? One of them won't do anything?~~
 
 ### Exterior exhibits to build
 
