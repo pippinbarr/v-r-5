@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class InteriorExhibitTrigger : MonoBehaviour
 {
-    public GameObject[] lightFixtures;
+    public GameObject[] fixtureParents;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        for (int i = 0; i < fixtureParents.Length; i++)
+        {
+            fixtureParents[i].GetComponent<Animator>().speed = 0f;
+        }
     }
 
     // Update is called once per frame
@@ -22,22 +25,26 @@ public class InteriorExhibitTrigger : MonoBehaviour
     // Lights go on on enter
     void OnTriggerEnter()
     {
-        for (int i = 0; i < lightFixtures.Length; i++)
+        for (int i = 0; i < fixtureParents.Length; i++)
         {
-            lightFixtures[i].GetComponent<LightSwitch>().SwitchOn();
-            lightFixtures[i].GetComponent<LightBehaviour>().enabled = true;
-            lightFixtures[i].GetComponent<LightBehaviour>().StartBehaviour();
+            fixtureParents[i].GetComponent<LightSwitch>().SwitchOn();
+            fixtureParents[i].GetComponent<Animator>().speed = 1f;
+            // fixtureParents[i].GetComponent<LightBehaviour>().enabled = true;
+            // fixtureParents[i].GetComponent<LightBehaviour>().StartBehaviour();
         }
     }
 
     // Lights go off on exit
     void OnTriggerExit()
     {
-        for (int i = 0; i < lightFixtures.Length; i++)
+        for (int i = 0; i < fixtureParents.Length; i++)
         {
-            lightFixtures[i].GetComponent<LightSwitch>().SwitchOff();
-            lightFixtures[i].GetComponent<LightBehaviour>().StopBehaviour();
-            lightFixtures[i].GetComponent<LightBehaviour>().enabled = false;
+            fixtureParents[i].GetComponent<LightSwitch>().SwitchOn();
+            fixtureParents[i].GetComponent<Animator>().speed = 0f;
+
+            // fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
+            // fixtureParents[i].GetComponent<LightBehaviour>().StopBehaviour();
+            // fixtureParents[i].GetComponent<LightBehaviour>().enabled = false;
         }
     }
 }

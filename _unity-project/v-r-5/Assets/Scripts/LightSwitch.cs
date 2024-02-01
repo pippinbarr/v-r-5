@@ -6,6 +6,7 @@ public class LightSwitch : MonoBehaviour
 {
     public Material onMaterial;
     public Material offMaterial;
+    public GameObject fixture;
 
     void Start()
     {
@@ -18,16 +19,14 @@ public class LightSwitch : MonoBehaviour
 
     public void SwitchOn()
     {
-        Debug.Log("Switching on. Including setting on material.");
-        gameObject.GetComponent<Renderer>().material = onMaterial;
-        gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        fixture.GetComponent<Renderer>().material = onMaterial;
+        fixture.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void SwitchOff()
     {
-        Debug.Log("Switching off. Including setting off material.");
-        gameObject.GetComponent<Renderer>().material = offMaterial;
-        gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        fixture.GetComponent<Renderer>().material = offMaterial;
+        fixture.transform.GetChild(0).gameObject.SetActive(false);
     }
 
 }

@@ -4,9 +4,10 @@
 
 ### Technical issues
 
+- ~~Remove colliders for light fixtures (when prefabbing?)~~
+
 - I'm still not totally satisfied with the quality of interior light
 - Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)
-- Remove colliders for light fixtures (when prefabbing?)
 
 ### Feel tests
 
@@ -17,6 +18,11 @@
 - ~~Translation behaviour~~
   - ~~Basic setup~~
   - ~~Question of easing?~~
+
+### Other technical stuff
+
+- ~~Get the animation system working instead of hand-writing animation code??~~
+- Shift all the existing exhibits to animation system
 
 ### Prefabbing
 
