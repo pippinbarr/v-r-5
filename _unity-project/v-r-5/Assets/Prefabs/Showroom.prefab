@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65e37ef69e8b244ed8549da9d7f7dc63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightFixtures: []
+  fixtureParents: []
 --- !u!1 &5794507034848281292
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,23 +726,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6293857
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6293857
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32229438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32229432
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -750,7 +750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -54.232
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b1c7801b994493aa34372a5a2993a1, type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -39,7 +39,7 @@ public class InteriorExhibitTrigger : MonoBehaviour
     {
         for (int i = 0; i < fixtureParents.Length; i++)
         {
-            fixtureParents[i].GetComponent<LightSwitch>().SwitchOn();
+            fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
             fixtureParents[i].GetComponent<Animator>().speed = 0f;
 
             // fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
