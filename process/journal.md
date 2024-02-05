@@ -719,3 +719,13 @@ In this project and in **so fucking many projects** I have this realization way 
 --
 
 I should stop there and get moving. Thanks for listening, me.
+
+## Monday, 5 February 2024
+
+Commit messages are the most consistent part of MDM.
+
+To the extent the point is to be reflective about technical practice and the project in a larger sense in this message (and for me it is the point), they come at a perfect moment: you’ve just been literally engaged in the technical practice, you have seen yourself and felt yourself putting in the work, writing lines of code, adding elements to a scene, etc. There is really no point at which you have the project’s nature better loaded into your brain than right then, and it’s a good time to switch to an evaluative and reflective mode.
+
+The tradition of efficiency in software engineering practice fights you though. When you write commit message in VS Code, say, it offers you very little space, usually a single line, or maybe it expands to 10. You *can* write more, but there’s a strong sense that the software and the software engineering world in general doesn’t want you to. That's mirrored, too, in how github.com displays the commits: by default a single line, but expandable if you want.
+
+Maybe that's the point - we *can* think and write briefly, but it's expandable if we want. Hey presto, reflection!
