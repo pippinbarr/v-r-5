@@ -6,14 +6,10 @@ public class InteriorExhibitTrigger : MonoBehaviour
 {
     public GameObject[] fixtureParents;
 
-
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < fixtureParents.Length; i++)
-        {
-            fixtureParents[i].GetComponent<Animator>().speed = 0f;
-        }
+
     }
 
     // Update is called once per frame
@@ -25,12 +21,12 @@ public class InteriorExhibitTrigger : MonoBehaviour
     // Lights go on on enter
     void OnTriggerEnter()
     {
-        for (int i = 0; i < fixtureParents.Length; i++)
+        foreach (GameObject fixtureParent in fixtureParents)
         {
-            fixtureParents[i].GetComponent<LightSwitch>().SwitchOn();
-            fixtureParents[i].GetComponent<Animator>().speed = 1f;
-            // fixtureParents[i].GetComponent<LightBehaviour>().enabled = true;
-            // fixtureParents[i].GetComponent<LightBehaviour>().StartBehaviour();
+            fixtureParent.GetComponent<LightSwitch>().SwitchOn();
+            fixtureParent.GetComponent<LightBehaviour>().enabled = true;
+            fixtureParent.GetComponent<LightBehaviour>().StartBehaviour();
+
         }
     }
 
@@ -40,11 +36,8 @@ public class InteriorExhibitTrigger : MonoBehaviour
         for (int i = 0; i < fixtureParents.Length; i++)
         {
             fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
-            fixtureParents[i].GetComponent<Animator>().speed = 0f;
-
-            // fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
-            // fixtureParents[i].GetComponent<LightBehaviour>().StopBehaviour();
-            // fixtureParents[i].GetComponent<LightBehaviour>().enabled = false;
+            fixtureParents[i].GetComponent<LightBehaviour>().StopBehaviour();
+            fixtureParents[i].GetComponent<LightBehaviour>().enabled = false;
         }
     }
 }
