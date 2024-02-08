@@ -729,3 +729,29 @@ To the extent the point is to be reflective about technical practice and the pro
 The tradition of efficiency in software engineering practice fights you though. When you write commit message in VS Code, say, it offers you very little space, usually a single line, or maybe it expands to 10. You *can* write more, but there’s a strong sense that the software and the software engineering world in general doesn’t want you to. That's mirrored, too, in how github.com displays the commits: by default a single line, but expandable if you want.
 
 Maybe that's the point - we *can* think and write briefly, but it's expandable if we want. Hey presto, reflection!
+
+## Under construction, seam hell -- Wednesday, 7 February 2024
+
+Hi there, just dropping by with some updates. Again in terms of MDM I've been finding that the commit messages are doing a *lot* of the work that I've maybe more traditionally used the journal for? Or perhaps what's happening is that in this specific game, because the core design concept (exhibit shadows) is sufficiently simple, there's just not as much deeper conceptual wrangling I need to do in a pause and a breath in a journal? So again most of the beat-by-beat design/technical thinking is very much in the commits - and this is in some ways the first time I've ended up thinking of the commits as the main story, with the journal being much more jagged and start-stop.
+
+Nonetheless, I've advanced things a lot and now have a plane (as in geometry) floating in the sky on which I'm positioning individual exhibition rooms one by one as I add them. That caused me to go through a couple of technical iterations on how things work, most notably bringing in the idea of the Unity animation system (Animation Controllers, timelines) where it seems appropriate, giving me stuff like a GUI for determining keyframes and getting easing going and stuff. I wrote some kind of nice-ish modular inheritance-based stuff that allows me to attach different behaviours to lights that syncs up with the room trigger blah blah blah, it seems like it holds together.
+
+I'm much happy with how individual rooms actually *look* now, but that too has had major changes. Most notably the idea of an active/dynamic light every time, even if movement isn't the "idea" - so the basic pointlight drifts a little just to make the room feel like it's alive. Also I've started positioning the lights in front of the plinth so that they (by and large) cast a shadow to the back wall, which has introduced other considerations (how lights should move, how far the plinth should be from the back wall, how the vase should be oriented) which has... broken my prefabs quite a lot - the whole thing is a bit of a mess in some ways at this point. BUT that's maybe okay because there's ANOTHER mess anyway which is
+
+For some reason and as some point, the shadows/illumination levels on the building itself (built in Blender) has become utterly fucked! Like big square patchs on the roof as an example (but it's interior too):
+
+![Big square patches of mismanaged lighting on the roof of a building](./images/2024-02-07-seam-hell-1.png)
+
+I asked Jonathan for help and he took a look at the model and was like "yeah that's a mess", which is very is, maybe in part because of my enthusiasm for decimating it? But maybe more than that, notably probably my UV unwrapping (horrible in the sense that I simply don't reaaaally get it). He made one very specific suggestion around a smoothing based shader approach, but:
+
+![The same lighting issue but now with smooth shading](./images/2024-02-07-seam-hell-2.png)
+
+Yeah, it wasn't that. And then while discussing with him (on Discord) I randomly just stuck Unity cubes together in the shape of some of a room and:
+
+![](./images/2024-02-07-seam-hell-3.png)
+
+No problem at all. So I was like... oh okay, I guess I just build the room out of Unity cubes??? But I did notes some texture stretching later on which is bad. But just the fact that the seams weren't visible massively surprised me? I feel like I went down this road already long ago and ran away from it? But somehow... but will...
+
+Anyway today I'm going to try to go down this road again to see what happens!
+
+And then I'll essentially have to rebuild every room *but* if it works I do have the established pipeline for animating, adding scripts, etc. so it shouldn't be too awful.
