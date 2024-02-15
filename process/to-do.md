@@ -44,14 +44,15 @@
 
 - √ *Point light* Light: Point Light (drifting)
 - √ *Spotlight* Light: Spot Light (drifting)
-- Light: Directional Light (window, totally static)
+- √ Light: Directional Light (window, totally static)
+  - **Still need to script the sun to the right place.**
 - √ Light: Area Light (baked, totally static)
-- Two Lights (combined shadows, drifting)
+- √ Two Lights (combined shadows, drifting)
 
 #### Settings
 
-- √ Setting: Relative Shadow Casting (drifting **AND TOGGLE?**)
-- √ Setting: Relative Shadow Receiving (drifting **AND TOGGLE?**)
+- √ Setting: Relative Shadow Casting (drifting and toggle)
+- √ Setting: Relative Shadow Receiving (drifting and toggle)
 - √ Setting: Cookie (Totally static)
 - √ *Shadow acne* Setting: Acne
 - √ (Bias, if visible, tweening)
@@ -59,9 +60,9 @@
 - √ *Shadows only* Setting: Shadow Only
 - In Praise of Shadows / Glimmer of Gold (low light, very static)
 - √ *Near plane* Setting: Near Plane (tweening)
-- (Cannot animate with system) Setting: Low Quality (on and off? **SHUFFLE?**)
+- √ **JUST LOW RESOLUTION** (Cannot animate with system) Setting: Low Quality
 - √ (Cannot animate with system) Setting: Hard (on and off?)
-- √ (Cannot animate with system) Setting: No Shadows (**AND TOGGLE?**)
+- √ ~~(Cannot animate with system) Setting: No Shadows (**AND TOGGLE?**)~~
 - √ **Confirming that it is that easy to animate properties like this and save myself some coding heartache. Also noticeable that movement AND another property moving felt like overkill so me in that moment** *Shadow strength* Setting: Shadow Strength (tweening)
 
 #### √ Movements

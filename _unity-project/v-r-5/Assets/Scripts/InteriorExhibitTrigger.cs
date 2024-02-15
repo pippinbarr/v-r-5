@@ -23,7 +23,10 @@ public class InteriorExhibitTrigger : MonoBehaviour
     {
         foreach (GameObject fixtureParent in fixtureParents)
         {
-            fixtureParent.GetComponent<LightSwitch>().SwitchOn();
+            if (fixtureParent.GetComponent<LightSwitch>())
+            {
+                fixtureParent.GetComponent<LightSwitch>().SwitchOn();
+            }
             fixtureParent.GetComponent<LightBehaviour>().enabled = true;
             fixtureParent.GetComponent<LightBehaviour>().StartBehaviour();
 
@@ -35,7 +38,10 @@ public class InteriorExhibitTrigger : MonoBehaviour
     {
         for (int i = 0; i < fixtureParents.Length; i++)
         {
-            fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
+            if (fixtureParents[i].GetComponent<LightSwitch>())
+            {
+                fixtureParents[i].GetComponent<LightSwitch>().SwitchOff();
+            }
             fixtureParents[i].GetComponent<LightBehaviour>().StopBehaviour();
             fixtureParents[i].GetComponent<LightBehaviour>().enabled = false;
         }
