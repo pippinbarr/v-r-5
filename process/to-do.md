@@ -45,33 +45,34 @@
 - √ *Point light* Light: Point Light (drifting)
 - √ *Spotlight* Light: Spot Light (drifting)
 - Light: Directional Light (window, totally static)
-- Light: Area Light (baked, totally static)
+- √ Light: Area Light (baked, totally static)
 - Two Lights (combined shadows, drifting)
 
 #### Settings
 
-- Setting: Relative Shadow Casting/Receiving (drifting)
-- Setting: Cookie (Totally static)
+- √ Setting: Relative Shadow Casting (drifting **AND TOGGLE?**)
+- √ Setting: Relative Shadow Receiving (drifting **AND TOGGLE?**)
+- √ Setting: Cookie (Totally static)
 - √ *Shadow acne* Setting: Acne
-- (Bias, if visible, tweening)
-- (Normal Bias, if visible, tweening)
-- *Shadows only* Setting: Shadow Only
+- √ (Bias, if visible, tweening)
+- x (Normal Bias, if visible, tweening)
+- √ *Shadows only* Setting: Shadow Only
 - In Praise of Shadows / Glimmer of Gold (low light, very static)
 - √ *Near plane* Setting: Near Plane (tweening)
-- (Cannot animate with system) Setting: Low Quality (on and off?)
-- (Cannot animate with system) Setting: Hard (on and off?)
-- (Cannot animate with system) Setting: No Shadows (on and off?)
+- (Cannot animate with system) Setting: Low Quality (on and off? **SHUFFLE?**)
+- √ (Cannot animate with system) Setting: Hard (on and off?)
+- √ (Cannot animate with system) Setting: No Shadows (**AND TOGGLE?**)
 - √ **Confirming that it is that easy to animate properties like this and save myself some coding heartache. Also noticeable that movement AND another property moving felt like overkill so me in that moment** *Shadow strength* Setting: Shadow Strength (tweening)
 
 #### √ Movements
 
-- *X translation* Dynamics: Translation side to side, lateral (dolly)
+- √ *X translation* Dynamics: Translation side to side, lateral (dolly)
 - √ *Y translation* Dynamics: Translation up and down, vertical
-- *Z translation* Dynamics: Translation in and out, dolly?
-- *Y orbit* Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthouse?)
-- *X orbit*
-- *Z orbit*
-- *On and off* Dynamics: On and Off
+- √ *Z translation* Dynamics: Translation in and out, dolly?
+- √ *Y orbit* Dynamics: Rotation/orbit (separate out? a rotating spot light like a lighthouse?)
+- √ *X orbit*
+- √ *Z orbit*
+- √ *On and off* Dynamics: On and Off
 - **Trying it out for now** ~~Do I now want the three axes of rotation?? One of them won't do anything?~~
 
 ### Exterior exhibits to build
