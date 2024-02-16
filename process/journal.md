@@ -755,3 +755,15 @@ No problem at all. So I was like... oh okay, I guess I just build the room out o
 Anyway today I'm going to try to go down this road again to see what happens!
 
 And then I'll essentially have to rebuild every room *but* if it works I do have the established pipeline for animating, adding scripts, etc. so it shouldn't be too awful.
+
+## Time to forge ahead -- Friday, 16 February 2024
+
+Well then, 9 days later, I've replaced everything with the new construction and made every single room I've been planning to make?
+
+Which is good timing because Now Play This got in touch yesterday (or the day before?) to say "okay, ready for the build!" and we had to negotiate a (not-too-big) extension. So I've got roughly two weeks to pull the whole thing into shape.
+
+But thanks to the last few days, that's looking pretty possible. Next step is, I think, positioning all these rooms in the landscape and making them accessible.
+
+Once they're in, I rethink the sun movement (I think no movement except on the appropriate dias), change the directional light room to snap the sun to a specific position (maybe use that trick in more than one place actually? Maybe that's the fun way to do the exterior places... the sun snaps or animates to specifically where you want it, or even moves around there...! Nice one.)
+
+So... yeah I suppose I Just forge ahead really, not much more to it than that.
