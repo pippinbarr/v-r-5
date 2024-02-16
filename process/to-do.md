@@ -5,9 +5,10 @@
 ### Technical issues
 
 - ~~Remove colliders for light fixtures (when prefabbing?)~~
+- ~~Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)~~
 
-- I'm still not totally satisfied with the quality of interior light
-- Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)
+- I'm still not totally satisfied with the quality of interior light **Is this still true?**
+- The Area Light building with its baked lightmap looks pretty fucked
 
 ### Feel tests
 
