@@ -6,8 +6,10 @@
 
 - ~~Remove colliders for light fixtures (when prefabbing?)~~
 - ~~Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)~~
+- ~~I'm still not totally satisfied with the quality of interior light~~ **Is this still true?**
+- **Fixed with fog color** ~~The edge of the "ocean" is highly visible against the color of the horizon area, looks terrible~~
 
-- I'm still not totally satisfied with the quality of interior light **Is this still true?**
+- TMP seems to flicker in WebGL but not in editor
 - The Area Light building with its baked lightmap looks pretty fucked
 
 ### Feel tests
@@ -19,11 +21,12 @@
 - ~~Translation behaviour~~
   - ~~Basic setup~~
   - ~~Question of easing?~~
+- ~~Screenshotter~~
 
 ### Other technical stuff
 
 - ~~Get the animation system working instead of hand-writing animation code??~~
-- Shift all the existing exhibits to animation system
+- ~~Shift all the existing exhibits to animation system~~
 
 ### Prefabbing
 
@@ -35,11 +38,13 @@
 - ~~Point Light Fixture~~
   - ~~Include points A and B~~
 - ~~Spotlight Fixture~~
-
-- Windowed Showroom
-  - As above
+- ~~Windowed Showroom~~
+  - ~~As above~~
 
 ### Interior exhibits to build
+
+- Flickering light? Other more dynamic stuff?
+- In Praise of Shadows(!!??)
 
 #### Lights
 
@@ -84,20 +89,26 @@
 
 ### Diases to build
 
+- Day night cycle
+- Outdoor spotlight to the distance
+- Sun on/off
+- Change user shadow ?
+
 ### Architecture to build
 
 - **Leaning no.** ~~Should I got for an L-shaped room? (Should I stop over-thinking this?)~~
 
 ### UI to build
 
-- Lighting strips or similar for the room
-- Flashlight
-- Room descriptions/indicators
-  - View activated didacts?
-  - Real didacts?
-  - **This already looks really strong so it might be fine as it.** Writing on the wall?
-    - Could consider flashing or colour-change or other indication of seen/not seen... maybe proximity based if flash/pulse
-  - Talos 2 style display as you go in
+- ~~Lighting strips or similar for the room~~
+- ~~Room descriptions/indicators~~
+  - ~~View activated didacts?~~
+  - ~~Real didacts?~~
+  - **This already looks really strong so it might be fine as it.** ~~Writing on the wall?~~
+  - ~~Talos 2 style display as you go in~~
+
+- Flashlight (?)
+- Could consider flashing or colour-change or other indication of seen/not seen... maybe proximity based if flash/pulse
 
 ---
 
