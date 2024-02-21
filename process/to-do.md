@@ -1,5 +1,34 @@
 # To-do
 
+## As of 2024-02-21
+
+### Technical
+
+- The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
+- Flashlight
+
+### Interiors
+
+- ~~In Praise of Shadows(!!??) -- Could be the first room you stand in front of? Which has the title of the game as its name?~~
+- ~~Rearranging some rooms to even it out over the island, but maybe don't get too too fussy~~
+
+- Flickering light? Other more dynamic stuff?
+- Need to move the sun when in the Directional light room
+- Mowing the grass
+
+### Sculptures
+
+- Making them
+- Day night cycle
+- Outdoor spotlight to the distance
+- Sun on/off
+- Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)
+  - Could do it so you only have that shadow ON the dias? That might be kind of nice?
+
+### Diases
+
+- Could potentially combo this with trigger areas for sculptures? So more like the effect happens in proximity to a set of sculptures? Would I mark the area? I kind of like this combination
+
 ## As of 2024-01-12
 
 ### Technical issues
@@ -8,9 +37,9 @@
 - ~~Got to be on the lookout for ugly surfaces and acne (like the roof of the current showroom, which has three distinct areas on it. Sadness ensues.)~~
 - ~~I'm still not totally satisfied with the quality of interior light~~ **Is this still true?**
 - **Fixed with fog color** ~~The edge of the "ocean" is highly visible against the color of the horizon area, looks terrible~~
+- ~~TMP seems to flicker in WebGL but not in editor~~
 
-- TMP seems to flicker in WebGL but not in editor
-- The Area Light building with its baked lightmap looks pretty fucked
+- The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
 
 ### Feel tests
 
@@ -44,7 +73,9 @@
 ### Interior exhibits to build
 
 - Flickering light? Other more dynamic stuff?
-- In Praise of Shadows(!!??)
+- In Praise of Shadows(!!??) -- Could be the first room you stand in front of?
+  - v r 5
+  - In Praise of Shadows
 
 #### Lights
 
@@ -92,7 +123,8 @@
 - Day night cycle
 - Outdoor spotlight to the distance
 - Sun on/off
-- Change user shadow ?
+- Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)
+  - Could do it so you only have that shadow ON the dias? That might be kind of nice?
 
 ### Architecture to build
 
