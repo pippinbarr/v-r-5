@@ -767,3 +767,34 @@ But thanks to the last few days, that's looking pretty possible. Next step is, I
 Once they're in, I rethink the sun movement (I think no movement except on the appropriate dias), change the directional light room to snap the sun to a specific position (maybe use that trick in more than one place actually? Maybe that's the fun way to do the exterior places... the sun snaps or animates to specifically where you want it, or even moves around there...! Nice one.)
 
 So... yeah I suppose I Just forge ahead really, not much more to it than that.
+
+## Wayfinding, Sculpting -- Thursday, 22 February 2024
+
+### Wayfinding
+
+The rooms are positioned well enough not to worry about unless I have time to cycle back to it. That said, just to record it, the main thing I wonder about is whether there's pathfinding stuff I should care about? Notably I was wondering if there was a good way to frame the "next room" via the doorway of the previous one. Essentially rotate rooms so that (most of the time?) you can see a new room frames out the doorway. Seems unlikely this is always possible?
+
+Could also contemplate literal paths as a texture on the terrain? Sounds kind of gross and like I might overreach to such an extent I create something ugly. But generally the question: how much guidance do the visitors need? How much do I care? How much can I care? How much can I bend what skills I have to this task?
+
+### Sculptures
+
+I had a first wee go at making a "sculpture", ripped off that bandaid, at least a bit. As is typical with a prototype (I am listening to the Behaviour event at 4th space right now about prototyping) it helped to frame things up. Though I guess a bit contra prototyping best practice I do feel like... it made sense to just make "something" to try to find out what I'm looking or. I made (as per the commit) a kind of upside down multileg table, I positioned it as if dropped from the sky, I added a point light to cast shadows outward. It looked kind of cool. But also it looked like I didn't know what it was for and I promised to reflect and here I ammmmmm.
+
+SO? Well I think maybe to some large extent it's better to think of the sculptures as visual interest in the landscape? Just things that have shadows? Maybe that's a nice counterpoint to the formalities of the rooms?
+
+ALTHOUGH they could have some other explorable property that only works outdoors (maybe even only with the sun at specific angles). Long shadows. Overlapping shadows. Non-shadows (e.g. diminishing gaps). Shadows falling across irregular surfaces. Stuff like that? Yeah I find this pretty plausible. Perhaps we don't work with any lights other than the sun even, just move it to specific locations.
+
+Seeing the one thing I had put in, there's no question they can be a really nice addition to the world, a way to have something to look at between rooms, to reduce the feeling of slogging room to room. No names necessary, more just observable phenomena. So what kinds of things?
+
+- Irregular surfaces (stair shapes, divots, ...)
+- Shadows across surfaces, between two offset planes,
+- Long shadows, downhill shadows, up-hill shadows, landscape shadows
+- Suspended/floating object shadows, standing in shadow, umbrella, awning
+- Bus stop, a inside/outside place
+- That classic "oh the shadow looks like something else" thing, but maybe fuck that for being way too hard
+- Rotating the sun is cool though, maybe that could happen for every shadow, just the default is that each one triggers a day/night cycle at all times? Kind of nice maybe? Or best avoided? Think about it.
+- Primitives and their shadows, the monkey head from Blender?
+- The vase but huge somewhere?
+- ...
+
+So... I mean I think it a way it should be more of a way for me to just make some shapes I want to see, drop them on the landscape, don't overthink it, let them be a counterpoint to the overthinking-it of the rooms. Yeah? I will try that out.
