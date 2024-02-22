@@ -4,17 +4,23 @@
 
 ### Technical
 
+- **World's most basic torch is operating now and it's nice.** ~~Flashlight~~
+
 - The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
-- Flashlight
+
+### Sound
+
+- Clicks for lights?
+- General white/brown noise ambience? Based on something?
 
 ### Interiors
 
 - ~~In Praise of Shadows(!!??) -- Could be the first room you stand in front of? Which has the title of the game as its name?~~
 - ~~Rearranging some rooms to even it out over the island, but maybe don't get too too fussy~~
+- **Could consider a lerp, but suspect it's too much effort for not enough reward. Could also think about relocating the trigger on this one, but likely not needed.** ~~Need to move the sun when in the Directional light room x 175 y 395~~
+- ~~Mowing the grass~~
 
 - Flickering light? Other more dynamic stuff?
-- Need to move the sun when in the Directional light room
-- Mowing the grass
 
 ### Sculptures
 
