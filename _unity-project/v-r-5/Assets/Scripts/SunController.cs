@@ -13,6 +13,7 @@ public class SunController : MonoBehaviour
     void Start()
     {
         origin = sun.transform.eulerAngles;
+        target = origin;
     }
 
     void Update()
