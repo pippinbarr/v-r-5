@@ -920,6 +920,37 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &22089844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22089845}
+  m_Layer: 0
+  m_Name: StartingTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22089845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22089844}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.67110765, z: -0, w: -0.74136}
+  m_LocalPosition: {x: 42.18, y: 29.32, z: 120.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 995221915}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23915222 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 6025515960686819376, guid: f0b18b2c53a3446fbbfa38d02de67f3d, type: 3}
@@ -3152,14 +3183,13 @@ GameObject:
   m_Component:
   - component: {fileID: 199901354}
   - component: {fileID: 199901355}
-  - component: {fileID: 199901356}
   m_Layer: 1
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &199901354
 Transform:
   m_ObjectHideFlags: 0
@@ -3182,7 +3212,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199901353}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -3237,19 +3267,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &199901356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199901353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf459ced5fb6f42d091ad636006a14a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torch: {fileID: 199901355}
 --- !u!1 &214089486
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,6 +3643,7 @@ GameObject:
   - component: {fileID: 227092321}
   - component: {fileID: 227092320}
   - component: {fileID: 227092324}
+  - component: {fileID: 227092325}
   m_Layer: 1
   m_Name: Player
   m_TagString: Player
@@ -3708,7 +3726,7 @@ MonoBehaviour:
     maximumX: 90
     enableZooming: 1
     targetZoom: 30
-    zoomInTime: 0.2
+    zoomInTime: 0.5
     zoomInCurve:
       serializedVersion: 2
       m_Curve:
@@ -3733,7 +3751,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    zoomOutTime: 0.2
+    zoomOutTime: 0.5
     zoomOutCurve:
       serializedVersion: 2
       m_Curve:
@@ -4046,8 +4064,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227092319}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000004117259, y: 0.93688774, z: -0.00000017722039, w: -0.34963045}
-  m_LocalPosition: {x: -111.23, y: 40.73, z: 28.84}
+  m_LocalRotation: {x: -0, y: 0.67110765, z: -0, w: -0.74136}
+  m_LocalPosition: {x: 42.18, y: 29.32, z: 120.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4055,7 +4073,7 @@ Transform:
   - {fileID: 1701795186}
   - {fileID: 988120406}
   m_Father: {fileID: 995221915}
-  m_LocalEulerAnglesHint: {x: 0, y: 220.929, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 275.695, z: 0}
 --- !u!114 &227092324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4068,6 +4086,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818d9aa4a8ef843e799c2d1311af6e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &227092325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227092319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf459ced5fb6f42d091ad636006a14a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torch: {fileID: 199901355}
 --- !u!43 &236497752
 Mesh:
   m_ObjectHideFlags: 0
@@ -45099,6 +45130,7 @@ Transform:
   m_Children:
   - {fileID: 753707444}
   - {fileID: 227092323}
+  - {fileID: 22089845}
   - {fileID: 1616383984}
   - {fileID: 46102544}
   - {fileID: 214089487}
