@@ -15,10 +15,10 @@ public class Torch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("f"))
-        {
-            torch.enabled = !torch.enabled;
-        }
+        // if (Input.GetKeyDown("f"))
+        // {
+        //     torch.enabled = !torch.enabled;
+        // }
     }
 
 }

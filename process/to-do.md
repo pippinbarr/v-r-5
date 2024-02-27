@@ -7,6 +7,7 @@
 - **World's most basic torch is operating now and it's nice.** ~~Flashlight~~
 
 - The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
+- Where is the fucking water?
 
 ### Sound
 
@@ -20,20 +21,26 @@
 - **Could consider a lerp, but suspect it's too much effort for not enough reward. Could also think about relocating the trigger on this one, but likely not needed.** ~~Need to move the sun when in the Directional light room x 175 y 395~~
 - ~~Mowing the grass~~
 
-- Flickering light? Other more dynamic stuff?
+- Flickering light?
+- Torch head
+- Water floor
+- Grass floor
 
 ### Sculptures
 
-- Making them
+- **This has begun fairly well** ~~Intuitively making them~~
+
+- Keep just... making them?
+
+### Diases
+
+- **Actually no I don't think so.** ~~Could potentially combo this with trigger areas for sculptures? So more like the effect happens in proximity to a set of sculptures? Would I mark the area? I kind of like this combination~~
+
 - Day night cycle
 - Outdoor spotlight to the distance
 - Sun on/off
 - Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)
   - Could do it so you only have that shadow ON the dias? That might be kind of nice?
-
-### Diases
-
-- Could potentially combo this with trigger areas for sculptures? So more like the effect happens in proximity to a set of sculptures? Would I mark the area? I kind of like this combination
 
 ## As of 2024-01-12
 
