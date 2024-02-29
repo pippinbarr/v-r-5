@@ -7,9 +7,9 @@
 - **World's most basic torch is operating now and it's nice.** ~~Flashlight~~
 
 - The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
-- Where is the fucking water?
+- Where is the fucking water? ? ?
 
-### Sound
+### Sound?
 
 - Clicks for lights?
 - General white/brown noise ambience? Based on something?
@@ -20,17 +20,17 @@
 - ~~Rearranging some rooms to even it out over the island, but maybe don't get too too fussy~~
 - **Could consider a lerp, but suspect it's too much effort for not enough reward. Could also think about relocating the trigger on this one, but likely not needed.** ~~Need to move the sun when in the Directional light room x 175 y 395~~
 - ~~Mowing the grass~~
-
-- Flickering light?
-- Torch head
-- Water floor
-- Grass floor
+- ~~Flickering light?~~
+- ~~Torch head~~
+- ~~Water floor~~
+- ~~Grass floor~~
 
 ### Sculptures
 
 - **This has begun fairly well** ~~Intuitively making them~~
+- **Yeah, it seems like it'll work** ~~Keep just... making them?~~
 
-- Keep just... making them?
+- And go on
 
 ### Diases
 
