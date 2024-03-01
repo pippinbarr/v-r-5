@@ -5,6 +5,7 @@ using UnityEngine;
 public class SunMove : MonoBehaviour
 {
     public GameObject sun;
+    public Vector3 speed = new Vector3(1, 0, 0);
 
     private bool moving = false;
     private Quaternion start;
@@ -20,12 +21,14 @@ public class SunMove : MonoBehaviour
     {
         if (moving)
         {
-            sun.transform.Rotate(0, 1, 0);
+            Debug.Log("Moving...");
+            sun.transform.Rotate(speed.x, speed.y, speed.z, Space.World);
         }
     }
 
     void OnTriggerEnter()
     {
+        Debug.Log("Sun Mover Trigger!");
         moving = true;
     }
 

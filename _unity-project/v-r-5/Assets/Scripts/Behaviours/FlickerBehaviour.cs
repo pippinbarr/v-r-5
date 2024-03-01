@@ -10,6 +10,7 @@ public class FlickerBehaviour : LightBehaviour
     public float max = 2f;
     public float interval = 1;
     private int count = 0;
+    private bool flickering = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,25 +21,29 @@ public class FlickerBehaviour : LightBehaviour
     // Update is called once per frame
     void Update()
     {
-        count++;
-        if (count == interval)
+        if (flickering)
         {
-            float intensity = Random.Range(min, max);
-            flickerer.intensity = intensity;
-            lightOnMaterial.SetColor("_EmissionColor", new Color(intensity, intensity, intensity, 1f));
-            count = 0;
+            count++;
+            if (count == interval)
+            {
+                float intensity = Random.Range(min, max);
+                flickerer.intensity = intensity;
+                lightOnMaterial.SetColor("_EmissionColor", new Color(intensity, intensity, intensity, 1f));
+                count = 0;
+            }
         }
     }
 
     override public void StartBehaviour()
     {
-
+        flickering = true;
     }
 
     override public void StopBehaviour()
     {
 
         lightOnMaterial.SetColor("_EmissionColor", new Color(1f, 1f, 1f, 1f));
+        flickering = false;
     }
 }
 

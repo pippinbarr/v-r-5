@@ -29,18 +29,24 @@
 
 - **This has begun fairly well** ~~Intuitively making them~~
 - **Yeah, it seems like it'll work** ~~Keep just... making them?~~
-
-- And go on
+- ~~And go on~~
 
 ### Diases
 
 - **Actually no I don't think so.** ~~Could potentially combo this with trigger areas for sculptures? So more like the effect happens in proximity to a set of sculptures? Would I mark the area? I kind of like this combination~~
+- ~~Ambient color **I don't know about this one, it feels like it's not about the shadows... at the very least it should be somewhere you can look at shadows (maybe rotate the sun as well?) as it's in a bit of a deadzone now~~
+- ~~Night~~
+- ~~Sun on/off~~
+- ~~Intensity~~
+- ~~Fast Day night cycle (slightly frustrating with the current setup of the sun?) - what is the difference between this and the day/night cycle? Movement.~~
+- ~~General note: instant setting of sun position versus animating (maybe better)~~
 
-- Day night cycle
-- Outdoor spotlight to the distance
-- Sun on/off
+- Convert all the sculptures across to snapping
+- Gigantic sun-cast shadow against a mega-plane that captures the island in profile? Kind of amazing in principle
+
+- Outdoor spotlight to the distance (is this at all interesting?)
 - Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)
-  - Could do it so you only have that shadow ON the dias? That might be kind of nice?
+  - Could do it so you only have that shadow ON the dias? That might be kind of nice? Or... not???
 
 ## As of 2024-01-12
 
