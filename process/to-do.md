@@ -5,11 +5,13 @@
 ### General
 
 - **For now I'll just give up on that room, it's not actually *that* interesting in terms of shadow anyway** ~~Water floor has issues around the stupid reflection stuff~~
+- **Nah, confusing.** ~~Looking down and falling into the scene?~~
+- ~~Smoothing duty (look out for jaggedy shitty terriains)~~
+- ~~Mowing (look out for grass and/or terrain inside every space and on every sculpture )~~
+- ~~"Tripping hazards" (making sure you can get into each room and onto each dias etc.)~~
+  - ~~Consider upping the step height a bit on the player controller?~~
 
-- Looking down and falling into the scene?
 - Click to play for WebGL cursor grab?
-- "Tripping hazards" (making sure you can get into each room and onto each dias etc.)
-  - Consider upping the step height a bit on the player controller?
 
 ### Technical
 
@@ -26,6 +28,7 @@
 - **Brown noise that just dampens when you go indoors is nice** ~~General white/brown noise ambience? Based on something?~~
   - ~~Different sound for indoors, during a sun snap? Sun position determinant? Proximity to the water (that I can't see right now in webgl)?~~
 - **Sounds odd and good** ~~Snap To sound effect (literally the click?)~~
+- ~~Add the click to diases~~
 
 ### Interiors
 
