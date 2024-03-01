@@ -4,23 +4,28 @@
 
 ### General
 
+- **For now I'll just give up on that room, it's not actually *that* interesting in terms of shadow anyway** ~~Water floor has issues around the stupid reflection stuff~~
+
 - Looking down and falling into the scene?
 - Click to play for WebGL cursor grab?
+- "Tripping hazards" (making sure you can get into each room and onto each dias etc.)
+  - Consider upping the step height a bit on the player controller?
 
 ### Technical
 
 - **World's most basic torch is operating now and it's nice.** ~~Flashlight~~
 - **I'm starting not to worry about this** ~~The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)~~
-
-- Where is the fucking water in the WebGL build?!
-  - Threw in a placeholder
-- There is an unpleasant loop moment *sometimes* where you hear a hitch in the brownian noise
+- **Looks like the old Standard Assets water may be my friend for this** ~~Where is the fucking water in the WebGL build?!~~
+  - ~~Threw in a placeholder~~
+- **We might be there with the water now** ~~Play with the water a bit more (just reflective? Do I need refraction? Possibly yes for the floor lights)~~
+- ~~There is an unpleasant loop moment *sometimes* where you hear a hitch in the brownian noise~~
 
 ### Sound?
 
 - **Gosh they sound good!** ~~Clicks for lights?~~
 - **Brown noise that just dampens when you go indoors is nice** ~~General white/brown noise ambience? Based on something?~~
   - ~~Different sound for indoors, during a sun snap? Sun position determinant? Proximity to the water (that I can't see right now in webgl)?~~
+- **Sounds odd and good** ~~Snap To sound effect (literally the click?)~~
 
 ### Interiors
 
