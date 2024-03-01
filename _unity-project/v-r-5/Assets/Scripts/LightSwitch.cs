@@ -7,6 +7,9 @@ public class LightSwitch : MonoBehaviour
     public Material onMaterial;
     public Material offMaterial;
     public GameObject fixture;
+    public AudioClip onSound;
+    public AudioClip offSound;
+    public AudioSource lightClickSource;
 
     void Start()
     {
@@ -21,12 +24,16 @@ public class LightSwitch : MonoBehaviour
     {
         fixture.GetComponent<Renderer>().material = onMaterial;
         fixture.transform.GetChild(0).gameObject.SetActive(true);
+        lightClickSource.clip = onSound;
+        lightClickSource.Play();
     }
 
     public void SwitchOff()
     {
         fixture.GetComponent<Renderer>().material = offMaterial;
         fixture.transform.GetChild(0).gameObject.SetActive(false);
+        lightClickSource.clip = offSound;
+        lightClickSource.Play();
     }
 
 }

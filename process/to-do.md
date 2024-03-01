@@ -2,17 +2,25 @@
 
 ## As of 2024-02-21
 
+### General
+
+- Looking down and falling into the scene?
+- Click to play for WebGL cursor grab?
+
 ### Technical
 
 - **World's most basic torch is operating now and it's nice.** ~~Flashlight~~
+- **I'm starting not to worry about this** ~~The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)~~
 
-- The Area Light building with its baked lightmap looks pretty fucked (only sometimes???)
-- Where is the fucking water? ? ?
+- Where is the fucking water in the WebGL build?!
+  - Threw in a placeholder
+- There is an unpleasant loop moment *sometimes* where you hear a hitch in the brownian noise
 
 ### Sound?
 
-- Clicks for lights?
-- General white/brown noise ambience? Based on something?
+- **Gosh they sound good!** ~~Clicks for lights?~~
+- **Brown noise that just dampens when you go indoors is nice** ~~General white/brown noise ambience? Based on something?~~
+  - ~~Different sound for indoors, during a sun snap? Sun position determinant? Proximity to the water (that I can't see right now in webgl)?~~
 
 ### Interiors
 
@@ -40,13 +48,11 @@
 - ~~Intensity~~
 - ~~Fast Day night cycle (slightly frustrating with the current setup of the sun?) - what is the difference between this and the day/night cycle? Movement.~~
 - ~~General note: instant setting of sun position versus animating (maybe better)~~
-
-- Convert all the sculptures across to snapping
-- Gigantic sun-cast shadow against a mega-plane that captures the island in profile? Kind of amazing in principle
-
-- Outdoor spotlight to the distance (is this at all interesting?)
-- Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)
-  - Could do it so you only have that shadow ON the dias? That might be kind of nice? Or... not???
+- ~~Convert all the sculptures across to snapping~~
+- **But in practice it was less than amazing.** ~~Gigantic sun-cast shadow against a mega-plane that captures the island in profile? Kind of amazing in principle~~
+- **This is a similar idea to the mega shadow... it's just not that compelling** ~~Outdoor spotlight to the distance (is this at all interesting?)~~
+- **In the end I think this is just a bit underwhelming** ~~Change user shadow ? (Kind of feels too gimmicky somehow??? But is it really???)~~
+  - ~~Could do it so you only have that shadow ON the dias? That might be kind of nice? Or... not???~~
 
 ## As of 2024-01-12
 
