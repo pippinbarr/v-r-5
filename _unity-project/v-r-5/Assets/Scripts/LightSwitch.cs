@@ -30,10 +30,13 @@ public class LightSwitch : MonoBehaviour
 
     public void SwitchOff()
     {
+        if (fixture.transform.GetChild(0).gameObject.activeSelf)
+        {
+            lightClickSource.clip = offSound;
+            lightClickSource.Play();
+        }
         fixture.GetComponent<Renderer>().material = offMaterial;
         fixture.transform.GetChild(0).gameObject.SetActive(false);
-        lightClickSource.clip = offSound;
-        lightClickSource.Play();
     }
 
 }

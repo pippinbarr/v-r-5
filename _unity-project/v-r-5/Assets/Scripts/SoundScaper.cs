@@ -11,21 +11,22 @@ public class SoundScaper : MonoBehaviour
     public float indoorsVolume = 0.15f;
     public Transform start;
     public Transform end;
-    private float xDistance;
+    private float mixZoneLength;
     private bool mixing = false;
     private GameObject player;
 
     void Start()
     {
-        xDistance = start.position.x - end.position.x;
+        mixZoneLength = Vector3.Distance(start.position, end.position);
     }
 
     void Update()
     {
         if (mixing && brown)
         {
-            float d = start.position.x - player.transform.position.x;
-            float ratio = d / xDistance;
+            float playerDistance = Vector3.Distance(player.transform.position, start.position);
+            float ratio = playerDistance / mixZoneLength;
+            // Debug.Log(ratio);
             brown.pitch = Mathf.Lerp(outdoorsPitch, indoorsPitch, ratio);
             brown.volume = Mathf.Lerp(outdoorsVolume, indoorsVolume, ratio);
         }
@@ -35,16 +36,32 @@ public class SoundScaper : MonoBehaviour
     {
         mixing = true;
         player = collider.gameObject;
-        Debug.Log(player);
+        // Debug.Log("Pitch: " + brown.pitch + ", Volume: " + brown.volume);
     }
 
     void OnTriggerExit(Collider collider)
     {
         mixing = false;
+        // Debug.Log("Pitch: " + brown.pitch + ", Volume: " + brown.volume);
+
         if (brown)
         {
+            float playerEndDistance = Vector3.Distance(player.transform.position, end.position);
+            float playerStartDistance = Vector3.Distance(player.transform.position, start.position);
             // Can't do this because it will set outdoors when you enter the room :(
-            // brown.pitch = outdoorsPitch;
+            if (playerStartDistance < playerEndDistance)
+            {
+                // Debug.Log("Outdoors.");
+                brown.pitch = outdoorsPitch;
+                brown.volume = outdoorsVolume;
+            }
+            else
+            {
+                // Debug.Log("Indoors.");
+                brown.pitch = indoorsPitch;
+                brown.volume = indoorsVolume;
+
+            }
         }
     }
 }

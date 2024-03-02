@@ -2,6 +2,33 @@
 
 ## As of 2024-02-21
 
+### After playing on a big screen
+
+- ~~The on/off light clicks "off" even when you leave while it's already off~~
+- **Thanks for saying that** ~~Mostly I like it~~
+- **First draft is in place** ~~Intro wall text?~~
+- **Appears to work on incredibly cursory examination** ~~Need to build an app version and see what that's like~~
+- **No I think reflection is cleaner and simpler** ~~Refraction back for the water? Yes? No? (And there shadows on it? **No there are not**)~~
+- **At this moment it looks pretty liveable** ~~The horizon area is still a bit awkward~~
+- **Fuck off** ~~Is there any issue with not knowing when you're "done"? Will people feel uncomfortable about that? And do I give any fucks? (Should you be able to "leave"?)~~
+- **I think I don't want to go down this wormhole** ~~Bias is pretty fucking bad (but that may not actually matter however I go... some acne or I high bias are  both just part of it)~~
+- **I think I don't have the mental space for it** ~~The ambient is too high~~ **This is tricky because that was on the TV whereas on my laptop it's quite nice. The classic thing of getting people to set their brightness. Boring beyond belief.**
+- ~~At least one experience of the hallway mixer breaking (hearing full volume at the end of the hall)~~
+- ~~Editing the title wall~~
+- **Probably overkill, sort of aggravating.** ~~Explainers per room?~~
+
+- Click to play for WebGL cursor grab?
+- Occurs to me one could do little "info placards" with this stuff there optionally, but I think that's just too much work
+
+### J+M feedback (that I could conceiably do something about)
+
+- ~~Slow down the mouse~~
+- **For now I'll say wall text, but further texts per room is a possibility.** ~~Did not understand the titles (wall text may help?)~~
+- ~~Going under water (avoid this, block going too far out, make it shallow near the shore)~~
+- **Maybe a PDF map** ~~The sense of not have time/organization enough to look at stuff~~
+  - ~~A map?~~
+  - **God knows** ~~Warping to places you've been before? God.~~
+
 ### General
 
 - **For now I'll just give up on that room, it's not actually *that* interesting in terms of shadow anyway** ~~Water floor has issues around the stupid reflection stuff~~
@@ -10,8 +37,6 @@
 - ~~Mowing (look out for grass and/or terrain inside every space and on every sculpture )~~
 - ~~"Tripping hazards" (making sure you can get into each room and onto each dias etc.)~~
   - ~~Consider upping the step height a bit on the player controller?~~
-
-- Click to play for WebGL cursor grab?
 
 ### Technical
 
