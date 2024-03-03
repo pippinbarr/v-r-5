@@ -2,6 +2,12 @@
 
 ## As of 2024-02-21
 
+### Final pushes
+
+- ~~Make a map of the island to distribute with the game~~
+
+- Click to play for WebGL cursor grab?
+
 ### After playing on a big screen
 
 - ~~The on/off light clicks "off" even when you leave while it's already off~~
@@ -16,11 +22,9 @@
 - ~~At least one experience of the hallway mixer breaking (hearing full volume at the end of the hall)~~
 - ~~Editing the title wall~~
 - **Probably overkill, sort of aggravating.** ~~Explainers per room?~~
+- **Nah** ~~Occurs to me one could do little "info placards" with this stuff there optionally, but I think that's just too much work~~
 
-- Click to play for WebGL cursor grab?
-- Occurs to me one could do little "info placards" with this stuff there optionally, but I think that's just too much work
-
-### J+M feedback (that I could conceiably do something about)
+### J+M feedback (that I could conceivably do something about)
 
 - ~~Slow down the mouse~~
 - **For now I'll say wall text, but further texts per room is a possibility.** ~~Did not understand the titles (wall text may help?)~~
