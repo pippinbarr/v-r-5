@@ -4,13 +4,17 @@
 
 ## [Play *v r 5* in your browser](https://pippinbarr.com/v-r-5/webgl) (WebGL, desktop only)
 
-## (Coming eventually) Download *v r 5*
+## Download *v r 5* for [Mac](https://github.com/pippinbarr/v-r-5/releases/download/v1.0/v-r-5-mac.zip) or [Windows](https://github.com/pippinbarr/v-r-5/releases/download/v1.0/v-r-5-windows.zip)
+
+## Don't forget to take the [island map](https://pippinbarr.com/v-r-5/info/map/v-r-5-map.pdf) with you
 
 ## Description
 
-*The shadow knows!*
+*Shadows! Flickering shadows! With hard edges! Or soft! Baked or realtime! Moving with the sun! Growing in intensity! Gold gleaming in their darkness!*
 
-*v r 5* was created in [Unity](https://unity.com/). **MORE TO COME** The character controller in the game is [Gold Player](https://github.com/Hertzole/gold-player) by hertzole.
+*v r 5* is an "art island" where you can explore the Unity game engine's implementation of shadows. In a series of 26 rooms, 11 sculptures, and 3 interactive platforms the island shows you the different ways shadows can appear, from the naturalistic to the janky, from making a gold vase gleam in darkness to disappearing altogether.
+
+*v r 5* was created in [Unity](https://unity.com/) (2022.3.7f1). The island topography and textures are derived from an island in [Free Island Collection](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753). The water is the (discontinued!) ProWater from Unity's old Standard Assets. The character controller in the game is [Gold Player](https://github.com/Hertzole/gold-player) by hertzole.
 
 ## Documentation
 
