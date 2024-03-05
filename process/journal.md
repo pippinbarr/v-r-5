@@ -798,3 +798,124 @@ Seeing the one thing I had put in, there's no question they can be a really nice
 - ...
 
 So... I mean I think it a way it should be more of a way for me to just make some shapes I want to see, drop them on the landscape, don't overthink it, let them be a counterpoint to the overthinking-it of the rooms. Yeah? I will try that out.
+
+## "Done" -- Tuesday, 5 March 2024
+
+Well, I finished v r 5 in some sense last week. At least to the extent that I shipped it out to the Now Play This folks and have been working together all the pieces of the press kit and info page and so on. Theoretically I can/should release it into the wild (aka do basically nothing) tomorrow.
+
+This slightly weirdens the idea of showing the game at A MAZE and having a fifth station where I'm working on it. What could I plausibly be doing? A DLC. I'm only thinking about this because I'm right in the middle of thinking about how that could look. (Alternately could I be working on the ChatGPT game by then sufficiently deep that I would have something to show for it? Maaaaybe? Maybe not... it's two months away and my schedule is not great for getting anything done... would I realistically have 3-4 prototypes by then?)
+
+Anyway my last journal entry was me mostly thinking about sculptural stuff in late February, and then soon after I did my major push to just finish the whole thing over the reading week. In this moment I'm not sure what my "big observations" are about that process outside of me just trying to get it done more than anything, both worrying about and trying not to worry about some of the higher level issues around wayfinding or usability or polish...
+
+And do I feel like it does what I wanted? When I think back to the original sketches and ideas? The weird thing is the absolute earliest expression of the project is a PDF from mid-August, pretty much when I started that is... a pretty good expression of how the game itself turned out. Like the core vision (look at shadows) has been stable, and even the architectural design has been stable, and a lot of the time has been technical fights to bring that vision about (how much time have I spent making the island and fighting in Blender (and elsewhere) to make those rooms a reality?).
+
+Very very late, too late, I remember that there is quite a significant set of notes in my Things item for this project, which is presumably the first moment I committed to an idea. It reads like this:
+
+> Shadows.
+
+> Rooms with shadows in them.
+
+> Windows that make patterns of light that show that there are shadows.
+
+> Rooms of increase darkness on a gradient.
+
+> Rooms with windows casting light to hit an object which casts a shadow.
+
+> Soft and hard shadows.
+
+> A lack of shadows.
+
+> Spotlit versus ambient versus point light shadows.
+
+> Shadows cast by invisible objects.
+
+> Lightmapping I assume?
+
+> Dynamic and non-dynamic shadows.
+
+> ...
+
+> I suppose the point is to capture some of the aesthetic beauty as discussed in the book.
+
+> Reflective materials in gold on something, will they catch the light?
+
+> Things seen in dimness.
+
+> ...
+
+> How is it signposted? I suppose the reference is probably to video-projection rooms in museums? A label outside the door with a description of the setup inside.
+
+> ...
+
+> Double objective of seeing beauty and seeing technical implementation.
+
+> ...
+
+> Colored shadows? Moving shadows? (Objects and lights that move)
+
+> ...
+
+> Shadows cast through different numebrs and widths of bars on a window.
+
+> Modernist architecture.
+
+> ...
+
+> Is this all taking place outside with individual rooms? Inside a large building?
+
+> I fear ProBuilder and I fear everything to do with 3D.
+
+> Tensions when talking about light/shadows in terms of production value. But minimalism makes a lot of sense here, don't distract from the shadows. Possibly the objects that cast shadows should be primitives themselves for this reason? Just cubes?
+
+> Maybe cubes with colors? THe interaction of shadows with a colored surface?
+
+> ...
+
+> The text talks about a scroll in a dim alcove, barely seen. What would go in that alcove in this game? Quotes from the essay about a scroll in a dim alcove, barely visible?
+
+> ...
+
+> Is there any, any way to do this like the Judd installation? It doesn't sound like it.
+
+> How easy is it to quickly make a small building with an inside and an outside in Probuilder? Can't be THAT hard? Especially they're basically just squares?
+
+> <https://www.youtube.com/watch?v=CBa_opm3_GM>
+
+> Do we/can we control the outside light? Do we like the idea that the sun might move and fade and change relative to which room you enter? (But what about the fact you would see the contents of the room from an unintended illumination before the lights swing into place?
+
+> There's a "truth" to the idea of the sun being in one place, and perhaps then that we can position rooms relatively so they get some or no light from it? Exposures.
+
+> ...
+
+> It's about light and it's about shadows, but it needs to be about shadows most of all.
+
+Which... again, I'm taken aback by how much the project has been just this. Did I learn *nothing*?? And if I didn't, isn't that weird? Or... what does that mean? It was sufficiently well-defined that it was "just" an implementation challenge? Is that why the journal has been harder to write for this project? Maybe because there were so many conceptual challenges? Whereas the commit history has been really fruitful and where the action is.
+
+So I suppose I should try to write a closing statement really and think about what happened. I'm realizing too that there are a few images I haven't included here, so here are those:
+
+![A flickering area light](images/2024-03-01-surprise-flicker.gif)
+
+The flickering effect in one room was making the material (applied globally) on every light-emitting surface flicker, so it was throughout the world. Kind of a pleasant surprise.
+
+![](images/2024-03-02-attempted-room-info.png)
+
+![](images/2024-03-02-intro-text-01.png)
+
+![](images/2024-03-02-intro-text-02.png)
+
+![](images/2024-03-02-intro-text-03.png)
+
+Spent quite a lot of time trying to figure out how to give the player-visitor some context without it being overwhelming or cloying or pretentious. This is where I landed.
+
+![](images/2024-03-02-map-image.png)
+
+Did make a map that you can view as a separate document so you can keep track of/gain some understanding of what's there.
+
+Some other things I should reflect on:
+
+- Relationship to MDM
+- Nature as research-creation
+- Value as a research object (for me personally)
+- Desires for its life in the wild (if any)
+- Writing another/final why
+- ... some other stuff?
