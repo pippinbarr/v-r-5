@@ -919,3 +919,98 @@ Some other things I should reflect on:
 - Desires for its life in the wild (if any)
 - Writing another/final why
 - ... some other stuff?
+
+## "Closing time" -- Thursday, 21 March 2024
+
+### Opening emo
+
+Well... shit. I "released" the game yesterday. Where by "released" I mean I
+
+- Pushed webgl and PC builds
+- Tweeted it
+- Instagrammed it
+- Ran out of ideas
+- Put it on Reddit
+- Put it on itch.io
+- Told TAG on Discord
+- Fixed a couple of bugs people on Twitter kindly pointed out
+- The end.
+
+I'm *pretty* used to how underwhelming finishing a game is, especially in the new climate of it being almost impossible to get your work in front of anyone unless you're incredibly well-known or spend a very substantial amount of time and money on marketing. Which... well let's say I'm in a liminal space where those things are pretty much not true for me (any more? ever?).
+
+This game was quite a lot of work (seven months start to finish, did coincide with being chair of my department which was not exactly a speed boost). But there's kind of nowhere for it to go. Well, it will be at Now Play This which is cool! And it lives on fondly in my memory and process documentation! But there's not going to be that sense I *used* to have where a bunch of people would play, offer feedback, press would look at it (I suppose I should send it to press but that is so fucking depressing these days as well). I got to have that experience and it was good and I miss it.
+
+BUT, guess what, I still pretty much make these things because I enjoy making them and I enjoy the brain-feel involved in it. The release and the feedback is vastly less important. Don't ask me whether any of this matters though. Please.
+
+So mostly my brain is doing the classic two-parter of "let's move on to the next project!" along with "let's never do anything ever!"
+
+### Specifics
+
+While I'm thinking about it, I *did* make an in-game map that is pretty decent. Toggled with M. Shows dots where all the "stuff" is and greys them when you go there. Had a fun bug where you could see the map dots (which are in the world for reasons of it being the easiest way I could think of to make a map - literally just looking down on the actual island with a camera and putting giant dots over the buildings) reflected in water. I'd disabled them for the FPS camera but not for the reflection camera of the water:
+
+![Map dot reflected in water](./images/2024-03-20-ui-reflection.png)
+
+So that's fun.
+
+### Taskrabbit
+
+I assigned myself some sensible reflective tasks in the previous journal entry:
+
+- Relationship to MDM
+- Nature as research-creation
+- Value as a research object (for me personally)
+- Desires for its life in the wild (if any)
+- Writing another/final why
+- ... some other stuff?
+
+I suppose I owe it to that guy to try it out.
+
+#### Relationship to MDM
+
+This was a good project for MDM from my perspective because I was coming back from sabbatical and more present (if not totally present) at the meetings we have for Games as Research. That notably meant just hearing a bunch of other use cases and having that trickle into my own thoughts.
+
+The big take-away here for me was that the *commits* because absolutely huge, drowning out the journal or any other documentation form. And I found that very satisfying at least for this one - it felt like exactly the right place to be doing the thinking. And perhaps that's because this game was so much about technical exploration of Unity specifically? Perhaps also I had just established such a tight frame on what it would be (island with rooms with shadows) that there wasn't as much soul searching at a design/journal level to do frequently?
+
+It does mean that I think the documentation feels more moment-to-moment and perhaps has less perspective on what the "point" of the game is. I was just taking it as read that exhibiting a technical feature of a game engine is worth doing because I've done it before, so my focus was on how to do it, and the how is somehow more in the commits?
+
+I guess one thing you could say about that is that commits feel like they're in the foreground when it's "technical practice first", and then the commit is a great place to reflect on that practice. Whereas I think journaling comes to the fore when it's perhaps "design first" which you will then lead into the technical practice after?
+
+Well anyway, the commits here are plentiful and I hope pretty fruitful. As I write this there are 146 of them. In reviewing a few at random... well, they tell the story.
+
+BUT this all for sure makes me think (in part because the research group itself is focusing more on analysis) about the relationship between design writing and the meta-analysis of that design writing and how much of that can/should take place simultaneously. Should I be noticing meta themes about my design process while I design? Where will it all end up.
+
+#### Nature as research-creation
+
+For a beat I read that as "nature" as research-creation, like the great outdoors, the natural nature of shadows. But no, I just meant "how is this research creation"?
+
+Which is a truly exhausting question I do not really want to answer. But let me at least bounce of it as hard as I can manage, maybe I'll break through.
+
+I mean it's partly tiring because a question like this always ends up feeling like I'm being challenged to justify my entire research existence and one instinctual reaction to that is just "fuck you! This is my work!" but another answer is just... well, this is part of a growing body of work where I pretty obsessively look to surface the underlying nature/technologies of games.
+
+Why is that research creation?
+
+Well because in doing so you have to think very specifically about the materials of game design directly, not just taking them forgranted as the stuff you put together. If you're designing to make them heard/seen then you need to know much better what they can sound like and look  like. And indeed in the v r stuff it's often about trying to get some handle on *all* the ways they appear even. (Just paused to make a note on making the game *The Library of Bitsy*.)
+
+*v r 5* surfaces the nature of shadows - though pretty gently? No hyper direct surfacing of parameter values for instance. But just pointing out that shadows do different things and look different ways based on what casts them, the light, the settings. And it occurs to me that of course a bunch of them are also to do with how shadows act in the real world, which I think is nice, and is about the ways in which shadows in unity are and are not naturalistic.
+
+For the player... well I continue to like the idea that the game itself (and this series and many of my things) are a kind of vehicle for research by the player at a more controlled level. You play this game and you are, yourself, investigating the nature of shadows in Unity, encouraged to think about and focus on them. Ha, it used to be about being "in on the joke" for my game and now it's like "co-investigator" which is... I mean it's good but it's also quite depressing.
+
+Note to self: make more jokes. Haha.
+
+Okay. Well. Whatever, that's my thoughts.
+
+#### Desires for its life in the wild (if any)
+
+I think I covered my general low expectations for this up top. It would be great if people were super into it, but I just don't think that, in general, people are super into independent free art games in general so... well so what.
+
+So what does success look like then? An exhibition (done), a release (done), ideally some press/critical coverage (nope), some writing and presentations generated from it (will happen), ... the end. I mean, pretty solid.
+
+Should I, at some point, try to make a successful game. Nah.
+
+#### Writing another/final why
+
+I feel that resentment again. FUCK YOU!
+
+But yeah. I will anyway.
+
+And then there's also the "closing statement" which... god give me fucking strength. But I will try because I am a good boy who wants a dog biscuit.
