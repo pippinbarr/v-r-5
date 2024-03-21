@@ -22,10 +22,22 @@
 ## v3 -- Tuesday, 30 January 2024
 
 - The underlying fact that game environments are *simulated* and *procedural* and *technical* is more or less invisible. And that's generally the objective: we shouldn't notice the shadows except perhaps in the mode of gameplay (I can hide from the guard in these shadows) or aesthetics (this is a dark and moody space).
-- Shadows are a nice way to think about one of the key technical elements of a game engine: it's lighting system. In many ways the shadows are how you see the light in any kind of interesting way. Without shadows the light is (mostly) about just seeing stuff at all. Shadows are the visual interest that the light adds to the scene.
+- Shadows are a nice way to think about one of the key technical elements of a game engine: its lighting system. In many ways the shadows are how you see the light in any kind of interesting way. Without shadows the light is (mostly) about just seeing stuff at all. Shadows are the visual interest that the light adds to the scene.
 - Shadows are really pretty technical even in the simple realtime lighting setup in Unity: there are a number of parameters involved, their movement matters, their type matters.
 - Looking at shadows as a parameterized, dynamic part of a game engine is a way to look at the game engine itself (and its lighting system specifically) and to think about the world as artificial, as didn't-have-to-be-this-way, as malleable, as interestingly technical, as accessible, as designed-with.
 - Shadows are also beautiful and interesting parts of our vision of the world in general, as exemplified in *In Praise of Shadows* where it is shadows rather than light that are the priority and the beauty. The gleam of gold in an alcove in a darkened room is beautiful, soft, restful, tempting. Are other kinds of shadows and light able to give us other kinds of emotional/experiential reads?
 - Art Islands are a place to separate yourself from the usual workings of the world and to focus on the direct experience of what is in front of you (or in your eyes or nose or other senses). It's a chance to contemplate without (at least some of) the distractions of living in the world and having responsibilities, notifications.
 - In a game environment an art island is a chance to contemplate the direct world without the distractions of goals, points, HUDs, requirements, fights, tactics, etc.
 - It's important to formally "break down" the possibilities of shadows and separate them out so that they can be seen as distinct and unique. That's why it's good to see them in different rooms, in different places. It's a statement that they deserve that room and that space and that time.
+
+## v4 -- Thursday, 21 March 2024
+
+I made this place to
+
+1/ Give myself a vehicle to explore how shadows work in Unity and to learn (through bitter and joyful experience) how they don't work as well; to see how they look and can look; to think about what makes one shadow distinct from another; to practice my curation.
+
+2/ Give a visitor the chance to be a co-investigator (after the fact) and to develop opinions and critical thought about how shadows function in a popular and well-known game engine by laying out the possibilities (most of them).
+
+The fact this place exists gives space for shadows to be examined and considered alone, without the pressures of gameplay or the distractions of a world that exists beyond or in spite of them.
+
+What do the shadows themselves think about this? *Only the shadows know.*
