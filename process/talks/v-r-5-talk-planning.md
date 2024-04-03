@@ -158,7 +158,7 @@ General point (per the title) is to trace the process of *v r 5* both for itself
 
 - This architectural thread stuck around for quite a while but died due to effort, a mismatch between me and the tools largely... that idea that things "look like" what you can do
 
-> ## Shadow acne, 5 o’clock shadows, shadows everywhere
+> Shadow acne, 5 o’clock shadows, shadows everywhere
 
 - A post about shadow acne stuff and the ramifications of changing bias
 
@@ -386,8 +386,74 @@ General point (per the title) is to trace the process of *v r 5* both for itself
 
 - That's a pretty funny ending.
 
-## Commits
+### Commits
 
 I worry there's a chance that there's just... too much shit??? Like how am I going to make sense of all of this and cram it into a presentation format? I think I should probably "just read" the commits right now and then return to the question of how to manage the presentation structure.
 
 Hoo boy there's a lot there. It's much more direct and clear than the journal. Hilariously I think way LESS material here that I would consider using? But I do like the clarity and there are beats in there worth remembering?
+
+## Wednesday, 3 April 2024
+
+Okay well now that we've at least read through the basic thing, what would a talk about this project and MDM and design and prototyping and reflective practice and materiality be like?
+
+> In Praise of Shadows: Chasing Reflections, Prototypes, and Other Traces of Design
+
+That's the title. Breaking it down...
+
+- **Reflections** means
+  - The practice: The Reflective Practitioner most fundamentally, which especially (for me) means reflective conversations with the materials, stop and think, contradictions
+  - The documentation: Journaling, Commits, whys, granularity
+- **Prototypes** means
+  - The practice: Making prototypes - trying things out, the idea of a (research-creation/reflective practice) game as a constantly unfolding prototype (unlike architecture where I guess a ton of the reflective practice is in the planning, with digital tools and prototypes we're able to build and think and undo and so on "for real")
+  - The documentation: Git, the prototypes themselves, grand reveal - not "just words" and not "just pictures". How many words is the running prototype worth? What about when there's a time-sliced history of work? The connections between words and action.
+- **And Other Traces of Design** means
+  - The practice: What else is there?
+    - I guess the idea of the Code Itself is important here;
+    - the older versions of blender files;
+    - changes in texts and settings that aren't always visible in the prototype?
+    - Specialist documents (curation lists, todos, ...)
+    - Per-commit screenshots?
+    - The broader idea that DESIGN ITSELF is visible not just in a design document, the *keep everything* concept
+  - The documentation:
+    - Well as above I suppose mostly? But looking at other locations in Git/GitHub, its affordances and emphases
+    - GitHub visualization tools
+    - Enrique visualization tools -> QDA software
+
+I mean, that's basically a fucking talk. It currently does not sound fun or funny.
+
+What is funny?
+
+- Swearing
+- Shadow acne
+- Glitched-out water
+- Unwanted reflections on the sea
+- Bad things happening to me
+
+What is sexy and mysterious?
+
+- The flickering area light
+
+What is magical?
+
+- Making discoveries in engine
+
+How can I control it such that there are examples that are lighter, funnier, heavier, more beautiful, more awkward, more serious, and so on, throughout rather than silo-ed?
+
+Do I want the above to be the literal structure of the talk? Like
+
+- Intro
+  - Who is me
+  - What is v r 5
+  - Little MDM (the team, the core idea, version control)
+- Reflections
+  - The reflective practitioner
+  - Journals and commits
+- Prototypes
+  - Prototyping
+  - History in action
+- and Other Traces of Design
+  - Other practices surface by version control and software engineering, the Overall
+  - diffs, GitHub viz, Enrique viz
+- Endtro
+  - Research-creation and accountability
+  - Making visible and preserving design and (digital) creative process
