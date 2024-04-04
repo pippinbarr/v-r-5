@@ -457,3 +457,104 @@ Do I want the above to be the literal structure of the talk? Like
 - Endtro
   - Research-creation and accountability
   - Making visible and preserving design and (digital) creative process
+
+## Thursday, 3 April 2024
+
+Let us continue. Note that you have...
+
+SEVEN working days before flying to SLC. So I'd suggest we need to be building the slide deck of this thing by Wednesday. And by we I'm looking at me.
+
+In characterizing it to Rilla I found myself thinking in terms of slides that would purely present documentation materials. So it would be a collection of
+
+- Texts (quoting journal, commits, why, todo, )
+- Images (of the interface, of builds, of blender, of GitHub, of VS Code, etc.)
+- Animated GIFs/movies (of actual play)
+
+Probably with headings (either visible or in my head), with the idea being that these concrete examples help me to explain the larger concepts.
+
+### Title
+
+- The basic characterizing of the talk content
+- Materialization, Design, Prototypes, Reflection
+
+### Introduction
+
+- It's me, Pippin Barr. Affiliation. Basic research practice. Classic hits. Documentation Natural.
+- MDM. The project, the funding, the team, the vibe, the version control (images? explanations?).
+- v r 5. The latest project. An illustration point. The basic mission statement. Initial PDF image.
+
+### Structure
+
+- How I'm going to give the talk, back to the title
+- In Praise of Shadows [the materiality and materializing of technology]
+- Reflections [as in design reflection and its documentation]
+- Prototypes [as in a design process and a document]
+- and Other Traces [...]
+- of Design [the central focus here is on understanding and preserving the design activity itself]
+
+(These can show up sequentially as I break down what the fuck is up)
+
+### In Praise of Shadows
+
+- In Praise of Shadows, the book
+- The inspiration point (can quote documentation materials)
+- Materializing and thinking about tech (part of my history)
+
+### Reflections
+
+- The reflective practitioner, the book
+  - Key concepts: conversation with materials, stop and think
+- Being aware of this enough to document it, documenting it to be aware of it
+- The process journal, the why (quotes)
+- Version Control and commits as stop and thinks, provoking reflection
+- Granularities of reflection
+
+(Will this be too text heavy? No, because a journal includes images)
+
+- Materials
+  - Pull-quotes from the docs (or screenshots of the journal online?)
+  - Image of commit history
+  - Image of individual commit(s)
+
+### Prototypes
+
+- Defining a prototype, design as iterative prototyping, "the first example of something"
+- Research-creation in this context as a constantly unfolding prototyping process - the ability to build, think, undo "for real"
+- Version control -> the history of prototypes, a timesliced version of the real thing
+- Associated with the reflective practice
+- How many words is a running prototype worth? (Lots... right?)
+
+- Materials
+  - Video?
+  - Live builds?
+  - Screenshots between prototypes? A time lapse of the player camera over all builds? (Kind of labour intensive)
+
+### and Other Traces
+
+- Files really? Code, blender, specialist documents (todo, curation)
+- The visibility of design everywhere, keep everything
+- Other parts/affordances of GitHub/Git
+  - Branches
+  - Visualizations
+  - Enrique visualization (-> QDA, a whole over kettle of fish)
+
+- Materials
+  - Screens of GitHub UI
+  - Screens of code, comments
+  - Diffs
+  - Screens of Enrique's thing (I should build for v r 5 n'est-ce pas?)
+
+### of Design
+
+- At the end, that this is really about understanding and preserving design
+- A record *of design*
+- A story *of design*
+- A ... etc.?
+
+### Thanks
+
+- Thanks
+
+---
+
+Okay well I guess if I just start building this tomorrow I have a chance of not going mad?
