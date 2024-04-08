@@ -558,3 +558,23 @@ Probably with headings (either visible or in my head), with the idea being that 
 ---
 
 Okay well I guess if I just start building this tomorrow I have a chance of not going mad?
+
+## lundi, 8 avril 2024
+
+Just did some of a pass of getting the above structure into the keynote and I can see that it can for sure work.
+
+*But* at the same time I've found myself wondering if I can and should run this presentation live by engaging with the project itself...
+
+Like starting with the finish project, talking a bit about how monolithic these things feel, the absence of seams to pull them apart and consider how they were made -- and even if you have trained eye and can see some of that, you'll never really know *why*, nor will you know the *what* of all the things left by the wayside...
+
+So few questions can be answered from the finality of things. So much less can be said.
+
+And then I break out of it and into all the contingencies and strangenesses of the process... somehow, *somehow* staying on track enough to show things in a sequence that is moderately helpful?
+
+Like I have my "classic" document-with-links instead of a beautiful pre-made presentation?
+
+It would be truer to the spirit... but also more susceptible to career-ending fuckups... which... well that would be a bummer if, for instance, the internet didn't work that day and I'm just mega-fucked?
+
+But I still want to contemplate it because I think it would make not just for a more dynamic presentation, but a more honest one... enough control to steer the ship, but enugh behind the curtains to show... well, what's there, and the FACT of being able to get there... the REALNESS of it...
+
+So, requires thought and maybe a small consultation with Rilla.
