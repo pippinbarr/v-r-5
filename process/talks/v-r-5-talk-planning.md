@@ -578,3 +578,7 @@ It would be truer to the spirit... but also more susceptible to career-ending fu
 But I still want to contemplate it because I think it would make not just for a more dynamic presentation, but a more honest one... enough control to steer the ship, but enugh behind the curtains to show... well, what's there, and the FACT of being able to get there... the REALNESS of it...
 
 So, requires thought and maybe a small consultation with Rilla.
+
+## mercredi, 10 avril 2024
+
+Meanwhile, in Pippin's brain, yeah, we're thinking about doing this in a more ramshackle, direct way. And the most direct way of all would be to write the talk in a markdown document, which I am trying out... now.
