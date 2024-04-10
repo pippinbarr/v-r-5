@@ -590,3 +590,42 @@ Well I've made a decent start on this now, but I'm being a little slowed by a co
 - Where to put an initial explanation of the totality of MDM or at the very least of the role of *version control* so that it's understandable... maybe in Reflections I suppose, which can go all the way to the commit...
 - How to handle the builds element - maybe in my dreams I open Unity and I load different commits either from the command line or from something like SourceThingie... what's it called? SourceTree. Or actually there's a pretty solid representation here in VS Code so that might be enough... and it's kind of cool how embedded it is...
 - Let me test how rapid or not the Unity switch is
+- Okay well it's pretty reasonable. I learned that it's likely better to switch based on creating a new branch. Whatever you do if you have it open in Unity you end up "changing" files which means discarding changes before switching anything around again... it's a teeny bit cumbersome but not THAT bad...
+- It's perhaps better to do it with the webgl builds... but an issue with that is I didn't *ALWAYS* remember to make those, so you could get conflicts.
+- Should I be pre-creating a set of branches? The problem with that is I think they'll end up associated with the project itself... and then on the other hand there's almost something interesting there... like a way of creating a canonical set of commits for people to check out, with the commit id and perhaps a small text explaining it?
+- How many separate builds/prototypes am I wanting to show?
+- Downloading Enric's tool right now as a key Other Traces example... that idea of the "totality" being important... patterns...
+- Will I want to have Unity open at some point? I suppose the answer is yes, but perhaps not all the time? But for sure some of the time in the Prototypes section...
+
+So I think overall this is working pretty well. The key things I want to make sure they SEE are:
+
+- (Reflection) Why?
+- (Reflection) Quotes/images from the process journal + its scope + its connectedness to prototypes
+- (Reflection) Commits as stand-alone technical reflections and their connectedness to prototypes
+- (Prototypes) WebGL Prototypes as a very special history, reified design, + connections to existing documentation of that moment
+- (Prototypes) In engine view (let's only do one or two here) as another way to view a prototype
+- (Other Traces) To-do, Curation document
+- (Other Traces) Code
+- (Other Traces) GitHub visualization stuff (minor, really to lead into Ponte)
+- (Other Traces) Ponte run over the repo to visualize commits in other ways, connect out to the idea of analysis (not my job?)
+- (Other Traces) The constructedness of this talk in relation to v r 5 (kind of doubling back to the beginning? Or maybe only reveal this element at the end as a funny thing... the endlessness of design practice...)
+
+Note that this is all structured right now with a mind to explaining *MDM* and not so much explaining *v r 5* -- how much do I care about that? Can they be blended, or does one need to have supremacy for it to work?
+
+How confident am I talking about what the fuck v r 5 meant anyway?
+
+Would it be funny to run the talk from the markdown preview inside VS Code? Getting too fucking ridiculous? Or I could at least show that I *could* do that.
+
+But yes back to that question a bout v r 5... maybe it should be more that I convey the general idea of the project, and then I more generally point out just how much you and I can learn about that process by the documentation... so not about necessarily conveying the actual "this is what it is" but rather the "this is how it was"...
+
+On Ponte (from Discord):
+
+> Update on this: downloaded and built @Enric Granzotto Llagostera's Ponte because I want to include it in the talk and -- excuse my language but  -- FUCK ME it is an amazing experience to view the v r 5 repo through Ponte's latest iteration.
+
+> As in, I was scrolling horizontally through v r 5's history at 50% zoom and it just spoke to me so much about my life over the last months, made things visible that I haven't thought about, and frankly would have brought tears to my eyes if I weren't in a café right now.
+
+> Truly it's an incredible resource even without all the QDA exporting magic. I already knew it was great in principle, but it has been very special to encounter it in this very particular use case of needing what it does, wanting to talk about it, and finding just how much it delivers.
+
+> Bravo, Enric.
+
+> (One funny thing: I sure don't work on the weekend. So visible in the timeline.)
