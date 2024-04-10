@@ -7,4 +7,5 @@ This repository contains the following design process documentation:
 - [To Do](./to-do.md) - A to-do list for implementation tasks, including resolved tasks and reflections on their resolution.
 - [List of Works](./list-of-works.md) - An attempt to figure out what to actually show in this world of v r 5
 - [Commit History](https://github.com/pippinbarr/v-r-5/commits/main) - Detailed commit messages during the history of the project largely detailing design at the technical level.
+- [Talk(s)](./talks/) - A place to collect talks I may give about this project (as of now there is a talk being built)
 - Closing statement: **tbd**
