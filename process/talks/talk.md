@@ -32,7 +32,11 @@ And so I continued with a plan to examine [*shadows* in the Unity game engine](h
 
 [![A map UI element accidentally reflected in the water](https://pippinbarr.com/v-r-5/process/images/2024-03-20-ui-reflection.png)](https://github.com/pippinbarr/v-r-5/tree/main/process/images/2024-03-20-ui-reflection.png)
 
-Within MDM draw heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
+Within MDM we draw heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
+
+> As you work a problem, you are continually in the process of developing a path into it, forming new appreciations and understandings as you make new moves.
+>
+> -- [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html#:~:text=and%20the%20outcome.-,As%20you%20work%20a%20problem%2C%20you%20are%20continually%20in%20the%20process%20of%20developing%20a%20path%20into%20it%2C%20forming%20new%20appreciations%20and%20understandings%20as%20you%20make%20new%20moves.,-The%20designer%20evaluates)
 
 ## Prototypes
 

@@ -582,3 +582,11 @@ So, requires thought and maybe a small consultation with Rilla.
 ## mercredi, 10 avril 2024
 
 Meanwhile, in Pippin's brain, yeah, we're thinking about doing this in a more ramshackle, direct way. And the most direct way of all would be to write the talk in a markdown document, which I am trying out... now.
+
+13:56 @ Noble
+
+Well I've made a decent start on this now, but I'm being a little slowed by a couple of things
+
+- Where to put an initial explanation of the totality of MDM or at the very least of the role of *version control* so that it's understandable... maybe in Reflections I suppose, which can go all the way to the commit...
+- How to handle the builds element - maybe in my dreams I open Unity and I load different commits either from the command line or from something like SourceThingie... what's it called? SourceTree. Or actually there's a pretty solid representation here in VS Code so that might be enough... and it's kind of cool how embedded it is...
+- Let me test how rapid or not the Unity switch is
