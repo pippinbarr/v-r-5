@@ -12,7 +12,9 @@ So I'm going to talk about the [Method for Design Materialization (MDM)](https:/
 
 And I'll use my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) to show you how it all works.
 
-(You're in its documentation right now!)
+([You're in its documentation right now!](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md))
+
+[![The area light room interior](https://pippinbarr.com/v-r-5/press/images/area-light-interior.png)](https://github.com/pippinbarr/v-r-5/tree/main/press/images/area-light-interior.png)
 
 ## In Praise of Shadows
 
@@ -23,6 +25,8 @@ The *v r* series in general is part of my (long) history of making work that sur
 And so I continued with a plan to examine [*shadows* in the Unity game engine](https://docs.unity3d.com/Manual/Shadows.html), and to make them available for contemplation.
 
 [![The first sketch of v r 5](images/starting-sketch.png)](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-08-15-v-r-5.pdf)
+
+[![A map UI element accidentally reflected in the water](https://pippinbarr.com/v-r-5/process/images/2024-03-20-ui-reflection.png)](https://github.com/pippinbarr/v-r-5/tree/main/process/images/2024-03-20-ui-reflection.png)
 
 ## Reflections
 
