@@ -14,9 +14,9 @@ And I'll use my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) to show
 
 ([You're in its documentation right now!](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md))
 
-[![The area light room interior](https://pippinbarr.com/v-r-5/press/images/area-light-interior.png)](https://github.com/pippinbarr/v-r-5/tree/main/press/images/area-light-interior.png)
-
 ## In Praise of Shadows
+
+[![The area light room interior](https://pippinbarr.com/v-r-5/press/images/area-light-interior.png)](https://github.com/pippinbarr/v-r-5/tree/main/press/images/area-light-interior.png)
 
 *v r 5* was inspired by the book [In Praise of Shadows by Jun'ichirō Tanizaki](https://en.wikipedia.org/wiki/In_Praise_of_Shadows). Especially Tanizaki's writing about [the nuances and categories of shadows](https://en.wikipedia.org/wiki/In_Praise_of_Shadows?useskin=vector#:~:text=In%20addition%20to%20contrasting%20light%20and%20dark%2C%20Tanizaki%20further%20considers%20the%20layered%20tones%20of%20various%20kinds%20of%20shadows%20and%20their%20power%20to%20reflect%20low%20sheen%20materials%20like%20gold%20embroidery%2C%20patina%20and%20cloudy%20crystals.%20In%20addition%2C%20he%20distinguishes%20between%20the%20values%20of%20gleam%20and%20shine.).
 
@@ -26,9 +26,9 @@ And so I continued with a plan to examine [*shadows* in the Unity game engine](h
 
 [![The first sketch of v r 5](images/starting-sketch.png)](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-08-15-v-r-5.pdf)
 
-[![A map UI element accidentally reflected in the water](https://pippinbarr.com/v-r-5/process/images/2024-03-20-ui-reflection.png)](https://github.com/pippinbarr/v-r-5/tree/main/process/images/2024-03-20-ui-reflection.png)
-
 ## Reflections
+
+[![A map UI element accidentally reflected in the water](https://pippinbarr.com/v-r-5/process/images/2024-03-20-ui-reflection.png)](https://github.com/pippinbarr/v-r-5/tree/main/process/images/2024-03-20-ui-reflection.png)
 
 Within MDM draw heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
 
