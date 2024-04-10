@@ -4,6 +4,8 @@
 
 ## Introduction
 
+![Pippin on Google Street View](https://pippinbarr.com/about/me/images/pippin-on-google-street-view.png)
+
 Hi, I'm [Pippin Barr](https://pippinbarr.com), an experimental game designer and a professor of Computation Arts at Concordia University.
 
 I'm part of the [Games as Research](https://gamesasresearch.com) project to figure out how to document the game design process.
