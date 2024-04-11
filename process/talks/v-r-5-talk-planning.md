@@ -629,3 +629,29 @@ On Ponte (from Discord):
 > Bravo, Enric.
 
 > (One funny thing: I sure don't work on the weekend. So visible in the timeline.)
+
+## jeudi, 11 avril 2024
+
+Today didn't work out too well in terms of being able to look at the talk, but I've spent at least 15-20 minutes just now going over it.
+
+Overall I think it's pretty clear that the core story is of MDM, with v r 5 being more in support, and I think that's fine - MDM is the more important story to tell to the world really? And v r 5 is a nice background/backing to that because it's well documented and looks kind of intelligible to a broad audience.
+
+The big tasks ahead seem to be:
+
+- Just filling out the actual sections, and particularly identifying the key beats of things like the journal, whys, commits, that can be quoted and then can also lead to key builds
+- Figuring out how to curate the build stuff so that I can operate it smoothly without getting into issues of making things load etc.? The branch-loading of commits thing seems to work the best because it's fairly easy to get back to the main branch (needed for seeing the full commit history), and because I guess I can name the branches helpfully? OR is it best that I do that live because otherwise it just looks like I've pre-baked everything
+- And the continuing relationship of doing live version control stuff while Unity is open being kind of annoying... but I should test whether anything bad happens if I just ignore Unity in favour of the webgl builds? (And do I want to stick to the webgl builds or use Unity after all? How bad are the delays, really? I should time them?)
+- Polish
+- Gaining some sense of scale and time - how long does it take to give a talk like this? It's become something more significant than I've really done in the past with document-based presenting because of all the linking and other stuff
+
+I think with a good mindset I could get a lot done in an hour or two? Just got to find the hour or two.
+
+I like the idea that there are multiple versions of the talk that can be given from this material - the 30 minute one, the 60 minute one, etc.
+
+So tasks:
+
+- Time how long it takes to create a new commit-branch, switch to Unity, let it do its updating, and run the game in that state
+- Time how long the same thing takes to WebGL it (while taking note of how janky or not it looks to see Unity struggling away in the background?)
+- OR only open Unity at the end of that sequence - so it's just builds, and then it's "designer-space" for a couple of the examples...
+- Choose the key examples for whys, journal, commits, other traces - we can have too many and just show fewer if need be
+- Build out the rest of the basic texts
