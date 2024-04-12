@@ -219,17 +219,16 @@ But which also has a fantastic timeline view which is amazing to scrub through (
 
 (And of course [this talk is in the project repository as well](https://github.com/pippinbarr/v-r-5/blob/main/process/talks/talk.md)! It has its own [commit history](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md)!)
 
-## of Design
+## (New ways of thinking) of Design
 
-### It's all there
+### Here Comes Everything
 
-### The conversation with materials
+### Wire-tapping the conversation with materials
 
-### Bodysnatcher
+### Tracing trajectories through design space
 
-- And so the point being that we have all these lenses on design we didn't have (or didn't easily have) before
-- Becoming the designer
-- Life and emotion
-- Time-sliced
-- Conversation with materials (at least for me)
-- How design "really happens," rather than the idealized view of design documents and final releases - the demonolithing of design, and also the deInstagramming of process
+### De-monolithing design
+
+### Developers as humans
+
+### Contemplation of the Bodysnatchers
