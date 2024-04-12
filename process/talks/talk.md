@@ -171,16 +171,16 @@ And in the context of the MDM, this means we have a complete association between
 
 And so we can relive "that time when..."
 
-- ... we were just getting started ([commit 9253994](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b) | [playable build](./builds/9253994/))
-- ... we were just so excited about grass ([commit c16f58c](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac) | [playable build](./builds/c16f58c/))
-- ... we were so disappointed in ourselves ([commit 7cee038](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0) | [playable build](./builds/7cee038/))
-- ... we got some real traction ([commit f65f2c9](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411) | [playable build](./builds/f65f2c9/))
-- ... we finally seemed to understand ([commit 2a4f838](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3) | [playable build](./builds/2a4f838/))
-- ... we remembered how important sound is, even in shadow ([commit cd57422](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a) | [playable build](./builds/cd57422/))
+- ... we were just getting started ([commit 9253994](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b) / [playable build](./builds/9253994/))
+- ... we were just so excited about grass ([commit c16f58c](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac) / [playable build](./builds/c16f58c/))
+- ... we were so disappointed in ourselves ([commit 7cee038](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0) / [playable build](./builds/7cee038/))
+- ... we got some real traction ([commit f65f2c9](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411) / [playable build](./builds/f65f2c9/))
+- ... we finally seemed to understand ([commit 2a4f838](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3) / [playable build](./builds/2a4f838/))
+- ... we remembered how important sound is, even in shadow ([commit cd57422](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a) / [playable build](./builds/cd57422/))
 
 ... those times when *everything happened*.
 
-### Body Snatcher
+### Bodysnatcher
 
 Stranger still, maybe almost mystical, is the fact that you can not only play the game in its myriade states, you can also look at it *through the eyes of the designer/developer*.
 
@@ -200,16 +200,32 @@ It's all a bit Dr. Frankenstein.
 
 ## and Other Traces
 
-This is where we're going to profile
+![Blender model of the game's title](./images/blender-v-r-5.png)
 
-- Other data like to-dos, curation/specialized documents, code,
-- Canned Meta-data like GitHub visualizations:
-  - <https://github.com/pippinbarr/v-r-5/pulse>
-  - Can go through them but I think the must "interesting" thing here is how inferior they are to Ponte
-- Ponte, the idea of time-as-life, rhythms, funny beats and breaks, ...
-- This talk is [in the project repository as well](https://github.com/pippinbarr/v-r-5/blob/main/process/talks/talk.md)! It has its own [commit history](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md)!
+But wait there's more! There's as much as you can handle, because in archiving the entire project in this timesliced way, there are all kinds of other documents and artifacts to look at, like:
+
+- The [to-do list](https://pippinbarr.com/v-r-5/process/to-do.html) maintained across the project's lifetime
+- The [curation document](https://pippinbarr.com/v-r-5/process/list-of-works.html) used to track the set of exhibits in the game
+- The [specific code files](https://github.com/pippinbarr/v-r-5/blob/main/_unity-project/v-r-5/Assets/Scripts/Behaviours/FlickerBehaviour.cs) that drive the game's behaviour
+- The various [3D, image, audio, and other assets](https://github.com/pippinbarr/v-r-5/tree/main/_unity-project/v-r-5/Assets) that populate the game
+
+And then there are also the more overarching visualizations of the nature of the project, including [GitHub's own "pulse" tool](https://github.com/pippinbarr/v-r-5/pulse).
+
+More importantly, there is Enric Llagostera's in development tool [Ponte](https://github.com/enricllagostera/ponte/), which is specifically made to convert MDM-based repositories into data fit for Qualitative Data Analysis software.
+
+But which also has a fantastic timeline view which is amazing to scrub through (and in my case reminisce with).
+
+![Ponte timeline interface](./images/ponte.png)
+
+(And of course [this talk is in the project repository as well](https://github.com/pippinbarr/v-r-5/blob/main/process/talks/talk.md)! It has its own [commit history](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md)!)
 
 ## of Design
+
+### It's all there
+
+### The conversation with materials
+
+### Bodysnatcher
 
 - And so the point being that we have all these lenses on design we didn't have (or didn't easily have) before
 - Becoming the designer
@@ -217,6 +233,3 @@ This is where we're going to profile
 - Time-sliced
 - Conversation with materials (at least for me)
 - How design "really happens," rather than the idealized view of design documents and final releases - the demonolithing of design, and also the deInstagramming of process
-
-- The idea of the closing statement
-- The idea of the talk that is built within the method that helps you to reflect on what it all means
