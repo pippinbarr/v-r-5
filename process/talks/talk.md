@@ -150,11 +150,11 @@ And in the context of the MDM, this means we have a complete association between
 And so we can relive "that time when..."
 
 - [... we were just getting started](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b) ([build b9b5de2]())
-- [... we were just so excited about grass](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac)
-- [... we were so disappointed in ourselves](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0)
-- [... we got some real traction](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411)
-- [... we finally seemed to understand](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3)
-- [... we remember how important sound is, even in shadow](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a)
+- [... we were just so excited about grass](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac) ([build c16f58c]())
+- [... we were so disappointed in ourselves](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0) ([build 7cee038]())
+- [... we got some real traction](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411) ([build f65f2c9]())
+- [... we finally seemed to understand](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3) ([build 2a4f838]())
+- [... we remember how important sound is, even in shadow](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a) ([build cd57422]())
 
 That time when *anything significant happened*.
 
