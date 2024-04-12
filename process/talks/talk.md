@@ -24,7 +24,7 @@ And I'll use my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) to show
 
 > Artisans of old, when they finished their works in lacquer and decorated them in sparkling patterns, must surely have had in mind dark rooms and sought to turn to good effect what feeble light there was. Their extravagant use of gold, too, I should imagine, came of understanding how it gleams forth from out of the darkness and reflects the lamplight.
 >
-> -- Jun'ichirō Tanizaki, *In Praise of Shadows in Praise of Shadows*
+> -- Jun'ichirō Tanizaki, *In Praise of Shadows*
 
 ### The *v r* series
 
@@ -43,7 +43,7 @@ And so I continued with a plan to examine [*shadows* in the Unity game engine](h
 
 ### *v r 5*
 
-Long story short, [I finished it](https://pippinbarr.com/v-r-5/info).
+Long story short, [I finished it](https://pippinbarr.com/v-r-5/webgl/).
 
 But I'm not here to make the long story short, so...
 
@@ -53,15 +53,17 @@ But I'm not here to make the long story short, so...
 
 ### The Reflective Practitioner
 
-Within MDM we draw heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
+The MDM draws heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
 
 > As you work a problem, you are continually in the process of developing a path into it, forming new appreciations and understandings as you make new moves.
 >
-> -- [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html#:~:text=and%20the%20outcome.-,As%20you%20work%20a%20problem%2C%20you%20are%20continually%20in%20the%20process%20of%20developing%20a%20path%20into%20it%2C%20forming%20new%20appreciations%20and%20understandings%20as%20you%20make%20new%20moves.,-The%20designer%20evaluates)
+> -- [Donald Schön interviewed by John Bennett in Bringing Design to Software](https://hci.stanford.edu/publications/bds/9-schon.html#:~:text=and%20the%20outcome.-,As%20you%20work%20a%20problem%2C%20you%20are%20continually%20in%20the%20process%20of%20developing%20a%20path%20into%20it%2C%20forming%20new%20appreciations%20and%20understandings%20as%20you%20make%20new%20moves.,-The%20designer%20evaluates)
+
+So, how can we keep track of and make visible this process of developing a path?
 
 ### Documenting reflective practice
 
-Ideally or often, a documented game would have a [public facing website](https://pippinbarr.com/v-r-5/info) that can provide layers of understanding of the project.
+Ideally or often, a well-documented (research-creation) game would have a [public facing website](https://pippinbarr.com/v-r-5/info) that can provide layers of understanding of the project.
 
 At the heart of the MDM is having a [process documentation component](https://pippinbarr.com/v-r-5/info/#:~:text=Documentation,the%20Code%20Repository) that you maintain during the life of the project and that is publicly visible.
 
@@ -69,66 +71,108 @@ We've come up with a few standard forms of documentation that we all try to adhe
 
 #### Why?s
 
-The point of this - the idea of continually pushing yourself to have a high level understanding of the meaning of your work (research-creation specific)
+The ["Why?" document](https://pippinbarr.com/v-r-5/process/why) serves as a place to iterate on the big questions and reasons for making the project all, to think about *what it is* or *what it should be*.
 
-Also just that idea of *reminding yourself* that you have a core idea as well - because sometimes you're in the midst of a project and you just cannot remember what the fuck you are doing
+This helps with being accountable to an actual research objective in a research setting.
 
-Show them, show that they are in a chronology
+This helps to remind you of what on earth you are doing when you inevitably get lost in the weeds of really making the thing.
+
+And so in the lifetime of a project you try to write [multiple](https://pippinbarr.com/v-r-5/process/why#v1--friday-25-august-2023), [different](https://pippinbarr.com/v-r-5/process/why#v2--thursday-5-october-2023), [versions](https://pippinbarr.com/v-r-5/process/why#v3--tuesday-30-january-2024), of [your why](https://pippinbarr.com/v-r-5/process/why#v4--thursday-21-march-2024).
 
 #### Journal
 
-Something I've been doing for a long time in different forms
+One of the key rhythms of the MDM is design journaling: taking time to pause regularly (perhaps every week, or more often, or less) to reflect on the state of the project and what is on your mind.
 
-- Links
-- to
-- old
-- docs
+You can and should do this as part of a (research-)creative practice anyway. I've been doing something like it with games [since around 2011](https://pippinbarr.com/the-artist-is-present/process/process-journal.html#simplicity-kills-2011-08-24).
 
-A general sweep through the v r 5 journal ?
+And there are all kinds of different sketches, insights, affects, and stories you can include in there...
 
-Show some examples,
+- [Early ideas in a notebook](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-08-15-v-r-5.pdf)
+- [Pictorials of a specific design issue](https://pippinbarr.com/v-r-5/process/journal#the-shitties-and-gritties-of-terrain--monday-21-august-2023)
+- [Taxonomizing the design space](https://pippinbarr.com/v-r-5/process/journal#taxonomizing-shadow-and-light-the-island-as-a-place-structures--thursday-24-august-2023)
+- [Aesthetic victories](https://pippinbarr.com/v-r-5/process/journal#the-grasses-blowin-in-the-wind--wednesday-6-september-2023)
+- [Architectural sketches](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-09-08-v-r-5.pdf)
+- [Technical disasters](https://pippinbarr.com/v-r-5/process/journal#the-fight-continues-now-with-blender--tuesday-19-september-2023)
+- [More technical disasters](https://pippinbarr.com/v-r-5/process/journal#fuck-you-webgl--settings-mania--thursday-21-september-2023)
+- [Terrible realizations](https://pippinbarr.com/v-r-5/process/journal#the-zium-museum-prototype--wednesday-22-november-2023)
+- [Feelings](https://pippinbarr.com/v-r-5/process/journal#:~:text=BUT%20I%20suppose%20there%E2%80%99s,as%20easily%20be%20wrong.)
+- [Personal growth](https://pippinbarr.com/v-r-5/process/journal#:~:text=The%20continuing%20saga,feel%20more%20intimate.)
+- [Little Big Moments](https://pippinbarr.com/v-r-5/process/journal#:~:text=The%20moment%20where%20I%20finally%20got%20the%20gold%20vase%20that%20changed%20my%20thinking%20about%20composition%20a%20lot.%20Isn%E2%80%99t%20it%20a%20beaut%3F)
+- [Did I  mention technical disasters?](https://pippinbarr.com/v-r-5/process/journal#:~:text=For%20some%20reason%20and%20as%20some%20point%2C%20the%20shadows/illumination%20levels%20on%20the%20building%20itself%20(built%20in%20Blender)%20has%20become%20utterly%20fucked!%20Like%20big%20square%20patchs%20on%20the%20roof%20as%20an%20example%20(but%20it%E2%80%99s%20interior%20too)%3A)
+- [Learning nothing?](https://pippinbarr.com/v-r-5/process/journal#:~:text=Which%E2%80%A6%20again%2C%20I%E2%80%99m,the%20action%20is.)
+- [Retrospectives](https://pippinbarr.com/v-r-5/process/journal#:~:text=I%20continue%20to,more%20jokes.%20Haha.)
+- [Swearing](https://pippinbarr.com/v-r-5/process/journal#:~:text=successful%20game.%20Nah.-,Writing%20another/final%20why,because%20I%20am%20a%20good%20boy%20who%20wants%20a%20dog%20biscuit.)
 
-- a history of work,
-- the potential for multi-media,
-- Life stuff
-- the role of emotion,
-- the swearing, the goings-wrong (crucial)
+And, again, this is great because *anyone can (and should!) do it*, with or without a fancy documentation methodology.
 
-(Realistically just kind of one example of each of these ideas I suppose?)
+#### Commits
 
-Again making sure that these lead us to commits/prototypes that are then reflective in some way of that moment in design history. Which is always, but bonus points if it really lands...
+And now for the grand reveal: *version control*.
 
-This is great because anyone can do it, with or without version control
+At the heart of the MDM is the realization that we can use the traditional software-engineer technology of version control to track, archive, and understand the design process.
 
-#### ✨ Commits ✨
+Normally, version control is about tracking traditional software development, like say a [popular game development framework for JavaScript](https://github.com/phaserjs/phaser).
 
-This is a potential big moment if we reveal *here specifically* that this is the kind of engine of amazement of MDM in general? The other stuff *could* be done just as you go along... and that feeds well into the next segment... I think that works pretty well. In which case I should probably *not* explain version control until here, or not deeply
+You can see all the files just like on a computer, but you can *also* see the [entire history of changes in a series of *commit messages*](https://github.com/phaserjs/phaser/commits/master/).
 
-This is the moment where we understand version control at least a little bit. (It could be semi-hilarious to make a change to the talk and show its representation in the history of the project at some point... probably at the end though)
+Each time the developer does something significant to the project, they [*commit* the work and write a short message about what they did](https://github.com/phaserjs/phaser/commit/4df43d7bed035ec21dfc7832c2be458fe01e2855).
 
-But also to show
+So what if we used those messages to reflect on the *design implications of the work done*? We'd have [a record of design as it happens in conjunction with technical practice](https://github.com/pippinbarr/v-r-5/commits/main/?after=4a69aaff9c3da12dc98eab2d6b6e87b50075fffd+34), things like:
 
-- Technical practice, conversation with materials
-- Design taking place at the very lowest levels, decisions being made, attempts being made, design space being explored in a not-totally-linear way
-- Emotion is probably in here too
-- And maybe other stuff (the smart thing is to identify *n* commits that show off different ideas, but that also lead us to specific prototypes worth seeing)
+- [The very beginning](https://github.com/pippinbarr/v-r-5/commit/9cd09cf3b4eab7605014cd4a9f7e9ac83473e77c)
+- [Early technical progress](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b)
+- [Gardening](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac)
+- [Architecting](https://github.com/pippinbarr/v-r-5/commit/e6fb07bcc920321c35c34c2fc011284fce66d4ed)
+- [Technical lamentations](https://github.com/pippinbarr/v-r-5/commit/e669357f09a68eaf8651753b9ab545e41704d26c)
+- [Darkness and confusion](https://github.com/pippinbarr/v-r-5/commit/861f53bcf27d1c61c95c735c162fede7eca5ddf9)
+- [Working hard and being underwhelmed](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0)
+- [Victories in the shadows](https://github.com/pippinbarr/v-r-5/commit/9aac0ede0336a0e828ad3a8fe5142816c6ae2409)
+- [Sculpting](https://github.com/pippinbarr/v-r-5/commit/caeb485c055208fb33dc1cb09d0dcc39491bdf3e)
+- [Audio engineering](https://github.com/pippinbarr/v-r-5/commit/101685cef91aa161ae551ed644d40346a180fabb)
+- [Cartography](https://github.com/pippinbarr/v-r-5/commit/e80da0851cc620350093c55a2e568095c74b9a4a)
 
-Showing the association between the specific commit and ALL the files involved, not just about it being a diary (though even that is a really important thing, a diary provoked by your process)
-
-Show the VS Code interface somewhere in here - I can edit the talk and show it showing up...?
+Now we have a complete linkage between technical practice, design thinking, and the *actual state of the project at that moment*. This is powerful.
 
 ## Prototypes
 
-(At the heart of game design is *prototyping*, and version control allows us to see them all.)
+### Prototyping
 
-And so this is where we need to
+And so, now for the *grander* reveal: a complete history of prototypes.
 
-- Create branches to commits that allow me to show different webgl builds (or in engine, but I feel like that's trouble, so I just might want to be selective about the commits, pre-plan them)
-- Show the game in engine at the end but also at some other stage of production - that difference between seeing the game as a player and being able to see it, quite literally, from the positionality of the designer... (is there some really fucking weird sense in which you can become a closer and closer version of the designer themselves? Body Snatcher?)
+An understandably huge part of the game design process is the direct engagement with the materiality of the software under construction, the *prototypes* produced iteratively throughout the project.
 
-This bit should be kind of fun as well because I think the idea would be to return to moments I spoke about in the journal/why/commits section and show how we can see and be the design at that moment in time... unimaginably powerful...
+### In Search of Lost Prototypes
 
-This is the part where the game itself is back to life
+The miracle of version control is not just that we get a time-sliced view of all the changes to the project, but also that we can *revisit any moment in the project's history*.
+
+And in the context of the MDM, this means we have a complete association between the reflective design thinking in our whys, journal entries, and commit messages and *the project as it was at that moment*.
+
+And so we can relive "that time when..."
+
+- [... we were just getting started](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b) ([build b9b5de2]())
+- [... we were just so excited about grass](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac)
+- [... we were so disappointed in ourselves](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0)
+- [... we got some real traction](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411)
+- [... we finally seemed to understand](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3)
+- [... we remember how important sound is, even in shadow](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a)
+
+That time when *anything significant happened*.
+
+### Body Snatcher
+
+Stranger still, maybe almost mystical, is the fact that you can not only play the game in its myriade states, you can also look at it *through the eyes of the designer/developer*.
+
+By loading all the files of a specific commit, you can fire up the project in Unity yourself, and see what I saw...
+
+- ... while I was looking at a blank page ("Initial commit of MDM Unity template," commit a9e3ff3), or
+- ... while I was playing at horticulture ("Added grass details to the island", commit c16f58c), or
+- ... while I was in the thick of exhibit installations ("Added window, orbiter, low quality, and others (webgl updated)
+", commit 147cc79), or
+- ... at any other time!
+
+It's all a bit Dr. Frankenstein.
+
+*It's aliiiiiiiive! The design process is aliiiiiiiive!*
 
 ## and Other Traces
 
