@@ -655,3 +655,16 @@ So tasks:
 - OR only open Unity at the end of that sequence - so it's just builds, and then it's "designer-space" for a couple of the examples...
 - Choose the key examples for whys, journal, commits, other traces - we can have too many and just show fewer if need be
 - Build out the rest of the basic texts
+
+## vendredi, 12 avril 2024
+
+Making pretty decent headway into this. I'm all the way "through" the prototypes in terms of the webgl builds. I've painstakingly (it wasn't that hard) duplicated the webgl folder for a series of builds so I can just magically click-to-show them as no big deal.
+
+Major tasks remaining (quite a fucking few):
+
+- Put in some images to break things up, it's hard on the eyes right now I think
+- ~~Choose perhaps two (perhaps only look at one) commits that I will venture to check out *during the talk* in order to demonstrate the body snatcher concept~~
+- Build out the "other traces" section - mostly about a holistic view of the pieces of a project that aren't mostly texts explicitly there for reflection, aren't narrated in the same way... really just want individual examples of these
+- Followed by GitHub viz
+- Followed by Ponte viz
+- Followed by some kind of incredible ending
