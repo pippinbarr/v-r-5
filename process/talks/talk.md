@@ -232,3 +232,13 @@ But which also has a fantastic timeline view which is amazing to scrub through (
 ### Developers as humans
 
 ### Malkovich Malkovich Malkovich
+
+## Well, thanks
+
+This was *In Praise of Shadows: Reflections, Prototypes, and Other Traces of Design*, a talk by Pippin Barr, who can be reached at
+
+> <pippin.barr@concordia.ca>
+
+and generally followed at
+
+> [pippinbarr.com](https://pippinbarr.com)

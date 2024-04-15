@@ -716,3 +716,13 @@ Notes:
   - Disappointment with the Zium room
   - ... and, etc.
 - That could conceivably serve to intertwine the story of the documentation more strongly with the story of the actual game?
+
+### Uh, dude, you should mention your book
+
+- Yup, I should. I will.
+
+### Things to do
+
+- Think about the dramatic arc, is there a version where the bulk of the talk dives into N specific commits, their journal entry, their commit-cluster, their build, their editor view, ...?
+- Think about dialling back the intro - this may be more of a note-to-self to just move it along there a bit more, rather than an edit
+- Include your book because you wrote a book and it's very relevant when you get to just after Schön? Or it could be at the end as a sort of proof of concept... like, yeah, I wrote a book because of this/could write a book because of this...
