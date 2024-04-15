@@ -180,7 +180,7 @@ And so we can relive "that time when..."
 
 ... those times when *everything happened*.
 
-### Bodysnatcher
+### Being John Malkovich
 
 Stranger still, maybe almost mystical, is the fact that you can not only play the game in its myriade states, you can also look at it *through the eyes of the designer/developer*.
 
@@ -194,9 +194,9 @@ By loading all the files of a specific commit, you can fire up the project in Un
 ", commit 147cc79), or
 - ... at any other time!
 
-It's all a bit Dr. Frankenstein.
-
-*It's aliiiiiiiive! The design process is aliiiiiiiive!*
+> "There is truth, and there are lies, and art always tells the truth. Even when it's lying."
+>
+> -- Craig Schwartz (in John Malkovich) in *Being John Malkovich*
 
 ## and Other Traces
 
@@ -231,4 +231,4 @@ But which also has a fantastic timeline view which is amazing to scrub through (
 
 ### Developers as humans
 
-### Contemplation of the Bodysnatchers
+### Malkovich Malkovich Malkovich
