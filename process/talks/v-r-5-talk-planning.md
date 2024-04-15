@@ -668,3 +668,14 @@ Major tasks remaining (quite a fucking few):
 - Followed by GitHub viz
 - Followed by Ponte viz
 - Followed by some kind of incredible ending
+
+## lundi, 15 avril 2024
+
+I'm going to do a "run through" on the talk now and I'll take notes here as needed as I notice things. I'll have a timer going but I'm not imagining this will work as a timed version. But that said I'll be shooting for 45 minutes or so because that'll meet both sessions (Utah is 1h30 so I can be more relaxed and go over, Texas in 1h straight up and I want to leave time for conversation).
+
+Notes:
+
+- It took me 35 minutes to actually get to COMMITS and that is almost certainly way too long, I think we'd hope to cut that by at least 10-15 minutes... which is huuuuge..
+- OR I just need to rethink how I talk about the commits, not as the be-all-end-all but kind of the key "innovation" but which needed all this context to make sense
+- Partly I'm just "taking it easy" in terms of how I'm presenting this (which is good), but it's also... there's just a lot of stuff going on... and I think too that I can remember with the journal especially that there's this chance to revisit the journal via the builds/commits later on rather than think I have to say it all there...
+- I think I can and probably should skate the surface a little bit more than I am, in essence.
