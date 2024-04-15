@@ -679,3 +679,40 @@ Notes:
 - OR I just need to rethink how I talk about the commits, not as the be-all-end-all but kind of the key "innovation" but which needed all this context to make sense
 - Partly I'm just "taking it easy" in terms of how I'm presenting this (which is good), but it's also... there's just a lot of stuff going on... and I think too that I can remember with the journal especially that there's this chance to revisit the journal via the builds/commits later on rather than think I have to say it all there...
 - I think I can and probably should skate the surface a little bit more than I am, in essence.
+- 55 minutes to get to the end of Prototypes
+- Will I realistically have time to show the other stuff?
+- I think I seem to need some slightly different pacing to think through here
+- 1:02:35 by the end, which is actually really not bad and would see me through either of the two, so I don't necessarily need to be **radical** in hewing it down, but I think if I can lose 10-15 minutes it would be more welcome of questions and discussion
+- I think in giving it this first run-through I noticed:
+  - How little it ends up being about shadows and understanding shadows in Unity
+  - How it doesn't have a very coherent story of the making of v r 5, how there's spotlighting of specific beats, but that you don't really get a sense of the arc, but rather you get a sense that there is documentation of an arc you don't see
+  - How text-heavy things are as it stands (well, it is a text heavy process, but do I maybe need to think that through?)
+- The biggest question for me in this exactly moment is... do I need to think about this a little more and even rewrite/remake something at a structural level, or do I declare it as "fine" and move on?
+- I do think it does a good job of giving me a platform to explain and demonstrate the elements of MDM and to make a case for their important, so that's kind of the base level taken care of
+- But I think it would be neat, too, if there was more of a structured sense of a shape to all this?
+- Unclear I'll end up having time to do the Ponte bit at the end?
+- I really like the beat of "well, I made it, but that's just the short story" ... that's a good thing
+- And I like making that repeated point of: the final thing is not the story, it obscures what really happens and obscures the nature of design essentially
+- I think, again, the key is: this would work and I think it is a valuable story of MDM with v r 5 playing a kind of background role... but it's tempting to want it to be more of a dramatic arc that it is currently...
+- But I can see how that could eat up a LOT of time
+- Hm, fuck, this is difficult to think through. Tomorrow me might have to take a look.
+
+### A scary note I may not deal with
+
+- Just to note it down, not necessarily to say I should do it: what if I marked out three specific commits (one a journal entry) and showed the whole thing based around that specific commit(s) (how many would I really need?)
+- That would be potentially really neat because it would allow for more of an anchoring in the timescale of the project rather than treating commits as illustrative of general ideas (and I could keep those other illustrative commits/journal entries anyway to kind of show of as needed?)
+- The risk is that this is secretly a lot of work and maybe too major a change.. but the benefit might be that I'm able to show all the pieces kind of working together? (Do I want to leave the "why" to the end instead of having pride of place? It's not quite as juicy as I would like it to be)
+- What would the beats be in that story?
+  - The very beginning (maybe a journal entry?) where the whole thing is just notes from a notebook, a build of a cube, and so on...
+  - Grass(?) doesn't tell much of a story of shadows though
+  - First Dark Room
+  - Disappointment
+  - Prototyping multiple chambers...
+- I mean the problem you can already see is that there *aren't* a small number of representative beats in this story so ... I mean the point to some extent is that a design process like this ISN'T a neat story so you're not going to be able to characterize it in just a couple of moves
+- So to some extent there's no way to do it?
+- Unless I say I'm more trying to recover KEY MOMENTS where something really significant happened?
+  - Grass and realism
+  - First dark room
+  - Disappointment with the Zium room
+  - ... and, etc.
+- That could conceivably serve to intertwine the story of the documentation more strongly with the story of the actual game?
