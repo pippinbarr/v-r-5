@@ -726,3 +726,87 @@ Notes:
 - Think about the dramatic arc, is there a version where the bulk of the talk dives into N specific commits, their journal entry, their commit-cluster, their build, their editor view, ...?
 - Think about dialling back the intro - this may be more of a note-to-self to just move it along there a bit more, rather than an edit
 - Include your book because you wrote a book and it's very relevant when you get to just after Schön? Or it could be at the end as a sort of proof of concept... like, yeah, I wrote a book because of this/could write a book because of this...
+
+## mardi, 16 avril 2024
+
+Alright well after talking it through with Rilla, it pretty obvious that my heart-brain or brain-heart or breart or heain or... you know, that part of the anatomy, want and needs me to refactor this talk so that it has more of a narrative structuring of how MDM works. Illustrating things through the Art of Storytelling instead of the formalisms or technique.
+
+So I need to pick, let's say... 3-5 moments that are illustrative of "something" and then
+
+- Identify the key journal entry(ies)
+- Identify the cluster of relevant commits
+- Identify a build (or builds) to demonstrate the reality
+- Maybe be ready to branch to each build in the Malkovich mode? Or maybe save that to the end for just one of them. (Yeah the latter, gets too confusing to make that point more than once. It could even be an "Other Traces" really.)
+
+So we go:
+
+1. Introductions (including my book)
+2. In praise of shadows (the inspiration, the game)
+3. Beat 1
+4. Beat 2
+5. Beat 3
+6. Beat 4?
+7. Beat 5?
+8. Other traces of design
+9. Take homes
+10. Thankses
+
+So what are the beats?
+
+### Very early
+
+- Pleasingly *simple* here because it's just setup, not too much detail, but remarkable to be able to see the project before it was anything
+- <https://github.com/pippinbarr/v-r-5/commit/24d9d5cb414cfa003800e3f5627e28ba30afc181>
+- Journal: Started a Unity project
+- Technical set-up, mega-early observations
+- Build: [playable build](./builds/9253994/)
+
+### The island
+
+- Multiple commits around things like
+  - First build with the island
+  - Journal: The shitties and gritties of terrain
+  - Downsampling
+  - Resizing
+  - Texturing
+  - Restarting the island
+  - Point filter
+  - Grass
+  - Better grass
+  - Bump textures and bad self shadowing
+- "Am I... almost at the shadows?" - <https://github.com/pippinbarr/v-r-5/commit/8d555c196dc769e75ca8e9637d6ceba086768f08#:~:text=%2D%20Am%20I...%20almost%20at%20the%20shadows%3F>
+- There are multiple journal entries here too, I think the way to really go here is to link to journals and commits with text highlights, and then also to have builds of... most? Some? Depends on the webgl status...
+- Definitely a really generative topic, captured by realism and "good graphics" and so on...
+
+### Buildings and shadow acne
+
+- It's almost comical how many of these there are!
+
+### Disappointing/abortive starts ?
+
+- Spotlight room
+- Zium room
+
+### Traction
+
+- First pass of making a ton of rooms (in situ)
+- Second pass of making a ton of rooms (on the plane)
+- Then eventually positioning them
+
+### Sculptures
+
+### Horticulture?
+
+### The talk?
+
+---
+
+So that would be
+
+- In the beginning (simple introduction to the idea of seeing all these things)
+- Landscaping (lots of learning, fighting, obsession with the "wrong thing"?)
+- Architecture (so many restarts, more obsession with the "wrong" things? shadows as an enemy, ...)
+- Stages of grief and joy (the early triumph->disappointment->traction sequence that takes up most of development?)
+- Decor (horticultural pursuits, sculptures, maps)
+
+That's five and I think they're a good five. I guess I need to "make it so" now?
