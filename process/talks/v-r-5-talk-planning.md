@@ -810,3 +810,21 @@ So that would be
 - Decor (horticultural pursuits, sculptures, maps)
 
 That's five and I think they're a good five. I guess I need to "make it so" now?
+
+## mardi, 16 mai 2024
+
+Runthrough notes.
+
+- 6:21 to "The v r series"
+- 12:12 to "The MDM and design reflection"
+- (I think this is a nice pace so far.)
+- 23:00 to "In the beginning"
+- (It still feels like a nice place, clear, the things I'm saying are helpful...)
+- (So if I can keep the "story time" down to like 20 minutes we're pretty golden. Can I? Probably not. Or maybe I can.)
+- (Let's find out)
+- 28:52 to "Landscaping"
+- ...42:16 to "Architecture"
+- (Which is to say: there's no way I can plausibly do more than three and so I simply won't. And also it is to say that I can and should probably go a bit faster through this stuff, I don't need necessarily to dwell as much as I have been)
+- (But the good thing is that I think I only need to really address the architectural elements and I'm done for this heavy lifting)
+- (And then I'll "just" include a bunch of other stuff as more of a "grab bag" that I can talk about or point to for further discussion as needed.)
+- (Plus this Utah version of the talk can run a bit longer, like to 60:00 say, without it being any kind of problem, so I've got a little bit of room to work some kinks out I suppose.)
