@@ -136,7 +136,51 @@ So, the MDM means we know what the designer was *thinking* and what they were *s
 
 ## Landscaping
 
-![Image of an unattractive digital island](./images/landscaping.png)
+A key early concept in the project was to present the shadows of the Unity game engine in a naturalistic setting:
+
+> *Specifically, I’ve been interested in setting up v r 5’s buildings and shadows on an island. So I grabbed a (the only easy to find) free island from the Unity asset store: Free Island Collection by Bicameral Studios.*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Specifically%2C%20I%E2%80%99ve%20been%20interested%20in%20setting%20up%20v%20r%205%E2%80%99s%20buildings%20and%20shadows%20on%20an%20island.%20So%20I%20grabbed%20a%20(the%20only%20easy%20to%20find)%20free%20island%20from%20the%20Unity%20asset%20store%3A%20Free%20Island%20Collection%20by%20Bicameral%20Studios.)
+
+Therein lies a tale of woe specifically around file sizes and my requirement to make this project work as a website. [It turns out that fancy islands eat a lot of disk space](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=These%20are%20some,just%20too%20big.).
+
+After fighting the woe for a while, I ended up with this:
+
+![The island with a single texture](./images/pre-texturing-island.png)  
+([*Playable build*](./builds/landscaping/c953f3ca715f113539cd21c311d658bec077e1b3/))
+
+Note how much this *does feel like something now*. We have a character controller, a place, a... vibe?
+
+But please marvel that this odd early experience of the game world *still exists* for contemplation.
+
+> *My next step I think is to regrab the island and either retexture it with my downsampled textures (I hope this is doable as it would be the easier option) or export the height map and retexture is manually (I hope I don’t have to do this).*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=My%20next%20step%20I%20think%20is%20to%20regrab%20the%20island%20and%20either%20retexture%20it%20with%20my%20downsampled%20textures%20(I%20hope%20this%20is%20doable%20as%20it%20would%20be%20the%20easier%20option)%20or%20export%20the%20height%20map%20and%20retexture%20is%20manually%20(I%20hope%20I%20don%E2%80%99t%20have%20to%20do%20this).)
+
+But eventually, after [endless downsampling of textures](https://github.com/pippinbarr/v-r-5/commit/8070ad9c3b371077d9fa38364af1c50f1af55aa4) and [starting over](https://github.com/pippinbarr/v-r-5/commit/e52ca30b9304da8905b8fb12c022b9fbf6d1bc70) and [discovering the point-filter texture setting](https://github.com/pippinbarr/v-r-5/commit/b500dc83e89abd7b52a1370061ab82674caa7116) I... well I restarted again in the endless building and washing away of these design sandcastles that we can reclaim from the sea.
+
+> *So the situation is that I’m starting my island “from scratch”*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20the%20situation%20is%20that%20I%E2%80%99m%20starting%20my%20island%20%E2%80%9Cfrom%20scratch%E2%80%9D)
+
+![Self-textured island](./images/textureman-textureman.png)  
+(![*Playable build*](./builds/landscaping/d78d7f7203a381cc388129d9fa1ec981c7d9ce38/))
+
+It was all pretty impossibly tiring, but eventually...
+
+... there was the grass.
+
+> *Spent my time this morning on the grass details which are a key way to add some visual noise that drowns out the repeating textures among other things.*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Spent%20my%20time%20this%20morning%20on%20the%20grass%20details%20which%20are%20a%20key%20way%20to%20add%20some%20visual%20noise%20that%20drowns%20out%20the%20repeating%20textures%20among%20other%20things.)
+
+![Image of poisonous grass](./images/grass-details-pre-color-tweaks.png)  
+
+Too green actually, so I toned it down.
+
+![Image of naturalistic grass](./images/grass-details-pre-color-tweaks.png)  
+
+> *So there’s still a little bit of work remaining here, but the island is starting to look kind of how I want, which would mean I could start construction, haha, but yeah construction.*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20there%E2%80%99s%20still%20a%20little%20bit%20of%20work%20remaining%20here%2C%20but%20the%20island%20is%20starting%20to%20look%20kind%20of%20how%20I%20want%2C%20which%20would%20mean%20I%20could%20start%20construction%2C%20haha%2C%20but%20yeah%20construction.)
+
+![A beautiful island?](./images/a-beautiful-island.png)  
+([*Playable build*](./builds/landscaping/8d555c196dc769e75ca8e9637d6ceba086768f08/))
 
 ## Architecture
 
