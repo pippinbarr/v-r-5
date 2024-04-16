@@ -155,13 +155,13 @@ But please marvel that this odd early experience of the game world *still exists
 > *My next step I think is to regrab the island and either retexture it with my downsampled textures (I hope this is doable as it would be the easier option) or export the height map and retexture is manually (I hope I don’t have to do this).*  
 > -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=My%20next%20step%20I%20think%20is%20to%20regrab%20the%20island%20and%20either%20retexture%20it%20with%20my%20downsampled%20textures%20(I%20hope%20this%20is%20doable%20as%20it%20would%20be%20the%20easier%20option)%20or%20export%20the%20height%20map%20and%20retexture%20is%20manually%20(I%20hope%20I%20don%E2%80%99t%20have%20to%20do%20this).)
 
-But eventually, after [endless downsampling of textures](https://github.com/pippinbarr/v-r-5/commit/8070ad9c3b371077d9fa38364af1c50f1af55aa4) and [starting over](https://github.com/pippinbarr/v-r-5/commit/e52ca30b9304da8905b8fb12c022b9fbf6d1bc70) and [discovering the point-filter texture setting](https://github.com/pippinbarr/v-r-5/commit/b500dc83e89abd7b52a1370061ab82674caa7116) I... well I restarted again in the endless building and washing away of these design sandcastles that we can reclaim from the sea.
+But eventually, after [endless downsampling of textures](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=4f66ea8-,Working%20on%20textures,-pippinbarr) and [starting over](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=Working%20on%20a%20fresh%20island) and [discovering the point-filter texture setting](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=Changes%20to%20point%2Dbased%20filter%20on%20textures) I... well I restarted again in the endless building and washing away of these design sandcastles.
 
 > *So the situation is that I’m starting my island “from scratch”*  
 > -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20the%20situation%20is%20that%20I%E2%80%99m%20starting%20my%20island%20%E2%80%9Cfrom%20scratch%E2%80%9D)
 
 ![Self-textured island](./images/textureman-textureman.png)  
-(![*Playable build*](./builds/landscaping/d78d7f7203a381cc388129d9fa1ec981c7d9ce38/))
+([*Playable build*](./builds/landscaping/d78d7f7203a381cc388129d9fa1ec981c7d9ce38/))
 
 It was all pretty impossibly tiring, but eventually...
 
@@ -170,17 +170,26 @@ It was all pretty impossibly tiring, but eventually...
 > *Spent my time this morning on the grass details which are a key way to add some visual noise that drowns out the repeating textures among other things.*  
 > -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Spent%20my%20time%20this%20morning%20on%20the%20grass%20details%20which%20are%20a%20key%20way%20to%20add%20some%20visual%20noise%20that%20drowns%20out%20the%20repeating%20textures%20among%20other%20things.)
 
+And it was green!
+
 ![Image of poisonous grass](./images/grass-details-pre-color-tweaks.png)  
 
 Too green actually, so I toned it down.
 
-![Image of naturalistic grass](./images/grass-details-pre-color-tweaks.png)  
+![Image of naturalistic grass](./images/grass-details-post-color-tweaks.png)  
+
+And eventually, somehow, after texturing and grassing the whole island, I had something presentable.
 
 > *So there’s still a little bit of work remaining here, but the island is starting to look kind of how I want, which would mean I could start construction, haha, but yeah construction.*  
 > -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20there%E2%80%99s%20still%20a%20little%20bit%20of%20work%20remaining%20here%2C%20but%20the%20island%20is%20starting%20to%20look%20kind%20of%20how%20I%20want%2C%20which%20would%20mean%20I%20could%20start%20construction%2C%20haha%2C%20but%20yeah%20construction.)
 
 ![A beautiful island?](./images/a-beautiful-island.png)  
 ([*Playable build*](./builds/landscaping/8d555c196dc769e75ca8e9637d6ceba086768f08/))
+
+All this in a game ostensibly about walking into rooms to view *shadows*?
+
+> *So I suppose I want to say here that it has been very generative spending some time with the terrain even though my initial thought had been “grab an island as is and chuck stuff on”. I’ve enjoyed learning the tool, it’s been very satisfying building something “of my own” (with inherited components from the Unity Store Asset), and there’s a lot of “shadow stuff” involved that I might not have realized so easily otherwise.*  
+> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20suppose,so%20easily%20otherwise.)
 
 ## Architecture
 
