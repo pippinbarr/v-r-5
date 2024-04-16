@@ -10,9 +10,13 @@ Hi, I'm [Pippin Barr](https://pippinbarr.com), an experimental game designer and
 
 I'm part of the [Games as Research](https://gamesasresearch.com) project to figure out how to document the game design process.
 
-So I'm going to talk about the [Method for Design Materialization (MDM)](https://direct.mit.edu/desi/article-abstract/39/1/55/114217/Generative-Logics-and-Conceptual-Clicks-A-Case?redirectedFrom=fulltext), which is our current best idea.
+I wrote a book using the approaches to documentation we're researching! It wouldn't have been possible any other way. It's called [The Stuff Games Are Made Of](https://mitpress.mit.edu/9780262546119/the-stuff-games-are-made-of/).
 
-And I'll use my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) to show you how it all works.
+![Cover of The Stuff Games Are Made Of](./images/the-stuff-games-are-made-of.png)
+
+So, I'm going to talk about the [Method for Design Materialization (MDM)](https://direct.mit.edu/desi/article-abstract/39/1/55/114217/Generative-Logics-and-Conceptual-Clicks-A-Case?redirectedFrom=fulltext), which is our Big Idea.
+
+And I'll tell the story of my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) through the process documentation to show you how it all works.
 
 ## In Praise of Shadows
 
@@ -24,7 +28,7 @@ And I'll use my newest game [*v r 5*](https://pippinbarr.com/v-r-5/info) to show
 
 *v r 5* was inspired by the book [In Praise of Shadows by Jun'ichirō Tanizaki](https://en.wikipedia.org/wiki/In_Praise_of_Shadows). Especially Tanizaki's writing about [the nuances and categories of shadows](https://en.wikipedia.org/wiki/In_Praise_of_Shadows?useskin=vector#:~:text=In%20addition%20to%20contrasting%20light%20and%20dark%2C%20Tanizaki%20further%20considers%20the%20layered%20tones%20of%20various%20kinds%20of%20shadows%20and%20their%20power%20to%20reflect%20low%20sheen%20materials%20like%20gold%20embroidery%2C%20patina%20and%20cloudy%20crystals.%20In%20addition%2C%20he%20distinguishes%20between%20the%20values%20of%20gleam%20and%20shine.).
 
-> Artisans of old, when they finished their works in lacquer and decorated them in sparkling patterns, must surely have had in mind dark rooms and sought to turn to good effect what feeble light there was. Their extravagant use of gold, too, I should imagine, came of understanding how it gleams forth from out of the darkness and reflects the lamplight.
+> *Artisans of old, when they finished their works in lacquer and decorated them in sparkling patterns, must surely have had in mind dark rooms and sought to turn to good effect what feeble light there was. Their extravagant use of gold, too, I should imagine, came of understanding how it gleams forth from out of the darkness and reflects the lamplight.*
 >
 > -- Jun'ichirō Tanizaki, *In Praise of Shadows*
 
@@ -41,19 +45,17 @@ The *v r* series in general is part of my (long) history of making work that sur
 
 ### The next one
 
-[![The first sketch of v r 5](images/starting-sketch.png)](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-08-15-v-r-5.pdf)
+![y-translation room in v r 5](./images/y-translation-interior.png)
 
 And so I continued with a plan to examine [*shadows* in the Unity game engine](https://docs.unity3d.com/Manual/Shadows.html), and to make them available for contemplation.
 
-### *v r 5*
-
-![y-translation room in v r 5](./images/y-translation-interior.png)
-
 Long story short, [I finished it](https://pippinbarr.com/v-r-5/webgl/).
 
-But I'm not here to make the long story short, so...
+But I'm not here to make the long story short. It's opposite day!
 
-## Reflections
+Rather, I want to show you five key design (process) themes that made *v r 5* what it became, using the MDM to illustrate them.
+
+## The MDM and Design Reflection
 
 [![A map UI element accidentally reflected in the water](https://pippinbarr.com/v-r-5/process/images/2024-03-20-ui-reflection.png)](https://github.com/pippinbarr/v-r-5/tree/main/process/images/2024-03-20-ui-reflection.png)
 
@@ -63,13 +65,93 @@ But I'm not here to make the long story short, so...
 
 The MDM draws heavily on the work of [Donald Schön](https://hci.stanford.edu/publications/bds/9-schon.html) and his understanding of design as a *reflective conversation with materials*.
 
-> As you work a problem, you are continually in the process of developing a path into it, forming new appreciations and understandings as you make new moves.
+> *As you work a problem, you are continually in the process of developing a path into it, forming new appreciations and understandings as you make new moves.*
 >
 > -- [Donald Schön interviewed by John Bennett in Bringing Design to Software](https://hci.stanford.edu/publications/bds/9-schon.html#:~:text=and%20the%20outcome.-,As%20you%20work%20a%20problem%2C%20you%20are%20continually%20in%20the%20process%20of%20developing%20a%20path%20into%20it%2C%20forming%20new%20appreciations%20and%20understandings%20as%20you%20make%20new%20moves.,-The%20designer%20evaluates)
 
 So, how can we keep track of and make visible this process of developing a path?
 
-### Documenting reflective practice
+There are plenty of answers, like "a diary!" or "a reality TV show!" but some of us come from a computer science background, so our answer was
+
+*Version control*!
+
+### Version control?
+
+At the heart of the MDM is the realization that we can use the traditional software-engineering technology of version control to track, archive, and understand the design process.
+
+At heart, version control is about maintaining a history of all significant changes to a software project.
+
+Normally, this means tracking traditional software development, like say a [popular game development framework for JavaScript](https://github.com/phaserjs/phaser).
+
+![Phaser commit history](./images/phaser-repo.png)
+
+You can see all the files just like on a computer, but you can *also* see the [entire history of changes in a series of *commit messages*](https://github.com/phaserjs/phaser/commits/master/).
+
+![Phaser commit history](./images/phaser-commit-history.png)
+
+Each time the developer does something significant to the project, they [*commit* the work and write a short message about what they did](https://github.com/phaserjs/phaser/commit/4df43d7bed035ec21dfc7832c2be458fe01e2855).
+
+![A commit message for Phaser](./images/phaser-commit.png)
+
+And so you end up being able to see every technical change to this long term project, timestamped, and with a brief description of what was done (and sometimes why it was done).
+
+### Version control for design?
+
+The central insight of MDM is to use the super-powered *record keeping* of version control.
+
+But instead of terse, all-business descriptions of work, we focus on using verson control to keep track of *design reflection*, to record the ongoing *conversation with materials* of a reflective practitioner, to *document their trajectory through design space*.
+
+We have a two really central best practice elements involved in this:
+
+1. Maintaining a [*design process journal*](https://pippinbarr.com/v-r-5/process/journal.html) inside the project repository that contains regularly updated reflective design thinking
+2. Writing a [*reflective commit message*](https://github.com/pippinbarr/v-r-5/commit/101685cef91aa161ae551ed644d40346a180fabb) every time we make a significant change to the project
+
+These two practices alone allow us to then tell an incredible detailed story of the design process, to provide *empirical evidence* of design that is generally otherwise lost in the mists of time.
+
+So, let's explore some of those moments in *v r 5* so I can show you what I mean...
+
+## In the beginning
+
+![Early sketch for v r 5](./images/starting-sketch.png)
+
+Every project starts somewhere, and in the MDM we encourage designers to start a repository *immediately*, not to wait until they have something "worth seeing."
+
+For *v r 5* this means we have [a commit of an early sketch and reflection](https://github.com/pippinbarr/v-r-5/commit/9647a77283462ad2276a6d6476ee667c0c720cd9).
+
+And the sketch itself can be viewed [via the process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Initial%20notebook%20sketches,about%20the%20game.) or [directly in the repository itself](https://github.com/pippinbarr/v-r-5/blob/9647a77283462ad2276a6d6476ee667c0c720cd9/process/pdfs/2023-08-15.pdf).
+
+This is quickly followed a couple of days later by setting up a Unity project, yielding [a journal entry on the subject](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Well%2C%20one%20of%20the%20big%20things%20is%20just%20opening%20Unity%20and%20I%20can%20at%20least%20claim%20to%20have%20done%20that%20over%20today.%20I%20created%20a%20Unity%20project%20in%20the%20most%20recent%20LTS%20version%20(2022.3.7f1%20LTS%20for%20the%20record)%2C%20made%20a%20cube%2C%20and%20built%20it%20for%20WebGL%20so%20that%20there%E2%80%99s%20something%20to%20see.).
+
+Crucially, though, thanks to - you guessed it - *version control*, we don't just get the reflective journal entry.
+
+We also get [the entire file system of the *project* at the moment in time](https://github.com/pippinbarr/v-r-5/tree/24d9d5cb414cfa003800e3f5627e28ba30afc181).
+
+And because of that, we can quite simply recover the *game itself* as it was when those reflections were written. Behold its majesty:
+
+![Image of a bright white cube suspended in the sky](./images/in-the-beginning.png)
+
+That's not just a screenshot, we can straightforwardly [*run the game itself*](./builds/in-the-beginning/24d9d5cb414cfa003800e3f5627e28ba30afc181/) as it was then.
+
+So, the MDM means we know what the designer was *thinking* and what they were *seeing* and what they were *doing*, even for this perhaps "unimpressive" moment in design.
+
+## Landscaping
+
+![Image of an unattractive digital island](./images/landscaping.png)
+
+## Architecture
+
+![Image of a poorly shadowed building](./images/architecture.png)
+
+## The stages of design grief and joy
+
+![Image of an early underwhelming room prototype](./images/grief.png)
+
+## Decorative Arts
+
+![An underwhelming sculptural element](./images/decorative.png)
+
+---
+---
 
 ![The v r 5 website homepage](./images/v-r-5-website.png)
 
