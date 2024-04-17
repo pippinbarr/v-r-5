@@ -211,7 +211,7 @@ Eventually I actually bit the bullet and made a room...
 
 ... it looked pretty bad, but at the time I was convinced I was above such things.
 
-![Image of the first dark room](./images/architecture.png)
+![Image of the first dark room](./images/architecture.png)  
 ([*Playable build*](./builds/architecture/e6fb07bcc920321c35c34c2fc011284fce66d4ed/))
 
 I was not.
