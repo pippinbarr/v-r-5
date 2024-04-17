@@ -139,7 +139,7 @@ So, the MDM means we know what the designer was *thinking* and what they were *s
 A key early concept in the project was to present the shadows of the Unity game engine in a naturalistic setting:
 
 > *Specifically, I’ve been interested in setting up v r 5’s buildings and shadows on an island. So I grabbed a (the only easy to find) free island from the Unity asset store: Free Island Collection by Bicameral Studios.*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Specifically%2C%20I%E2%80%99ve%20been%20interested%20in%20setting%20up%20v%20r%205%E2%80%99s%20buildings%20and%20shadows%20on%20an%20island.%20So%20I%20grabbed%20a%20(the%20only%20easy%20to%20find)%20free%20island%20from%20the%20Unity%20asset%20store%3A%20Free%20Island%20Collection%20by%20Bicameral%20Studios.)
+> -- [Process journal, 21 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Specifically%2C%20I%E2%80%99ve%20been%20interested%20in%20setting%20up%20v%20r%205%E2%80%99s%20buildings%20and%20shadows%20on%20an%20island.%20So%20I%20grabbed%20a%20(the%20only%20easy%20to%20find)%20free%20island%20from%20the%20Unity%20asset%20store%3A%20Free%20Island%20Collection%20by%20Bicameral%20Studios.)
 
 Therein lies a tale of woe specifically around file sizes and my requirement to make this project work as a website. [It turns out that fancy islands eat a lot of disk space](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=These%20are%20some,just%20too%20big.).
 
@@ -153,12 +153,12 @@ Note how much this *does feel like something now*. We have a character controlle
 But please marvel that this odd early experience of the game world *still exists* for contemplation.
 
 > *My next step I think is to regrab the island and either retexture it with my downsampled textures (I hope this is doable as it would be the easier option) or export the height map and retexture is manually (I hope I don’t have to do this).*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=My%20next%20step%20I%20think%20is%20to%20regrab%20the%20island%20and%20either%20retexture%20it%20with%20my%20downsampled%20textures%20(I%20hope%20this%20is%20doable%20as%20it%20would%20be%20the%20easier%20option)%20or%20export%20the%20height%20map%20and%20retexture%20is%20manually%20(I%20hope%20I%20don%E2%80%99t%20have%20to%20do%20this).)
+> -- [Process journal, 21 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=My%20next%20step%20I%20think%20is%20to%20regrab%20the%20island%20and%20either%20retexture%20it%20with%20my%20downsampled%20textures%20(I%20hope%20this%20is%20doable%20as%20it%20would%20be%20the%20easier%20option)%20or%20export%20the%20height%20map%20and%20retexture%20is%20manually%20(I%20hope%20I%20don%E2%80%99t%20have%20to%20do%20this).)
 
 But eventually, after [endless downsampling of textures](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=4f66ea8-,Working%20on%20textures,-pippinbarr) and [starting over](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=Working%20on%20a%20fresh%20island) and [discovering the point-filter texture setting](https://github.com/pippinbarr/v-r-5/commits/main/?after=803e99c42231af1bfbfcea1f637b3377a399fe1b+139#:~:text=Changes%20to%20point%2Dbased%20filter%20on%20textures) I... well I restarted again in the endless building and washing away of these design sandcastles.
 
 > *So the situation is that I’m starting my island “from scratch”*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20the%20situation%20is%20that%20I%E2%80%99m%20starting%20my%20island%20%E2%80%9Cfrom%20scratch%E2%80%9D)
+> -- [Process journal, 5 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20the%20situation%20is%20that%20I%E2%80%99m%20starting%20my%20island%20%E2%80%9Cfrom%20scratch%E2%80%9D)
 
 ![Self-textured island](./images/textureman-textureman.png)  
 ([*Playable build*](./builds/landscaping/d78d7f7203a381cc388129d9fa1ec981c7d9ce38/))
@@ -168,7 +168,7 @@ It was all pretty impossibly tiring, but eventually...
 ... there was the grass.
 
 > *Spent my time this morning on the grass details which are a key way to add some visual noise that drowns out the repeating textures among other things.*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Spent%20my%20time%20this%20morning%20on%20the%20grass%20details%20which%20are%20a%20key%20way%20to%20add%20some%20visual%20noise%20that%20drowns%20out%20the%20repeating%20textures%20among%20other%20things.)
+> -- [Process journal, 6 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Spent%20my%20time%20this%20morning%20on%20the%20grass%20details%20which%20are%20a%20key%20way%20to%20add%20some%20visual%20noise%20that%20drowns%20out%20the%20repeating%20textures%20among%20other%20things.)
 
 And it was green!
 
@@ -181,7 +181,7 @@ Too green actually, so I toned it down.
 And eventually, somehow, after texturing and grassing the whole island, I had something presentable.
 
 > *So there’s still a little bit of work remaining here, but the island is starting to look kind of how I want, which would mean I could start construction, haha, but yeah construction.*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20there%E2%80%99s%20still%20a%20little%20bit%20of%20work%20remaining%20here%2C%20but%20the%20island%20is%20starting%20to%20look%20kind%20of%20how%20I%20want%2C%20which%20would%20mean%20I%20could%20start%20construction%2C%20haha%2C%20but%20yeah%20construction.)
+> -- [Process journal, 6 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20there%E2%80%99s%20still%20a%20little%20bit%20of%20work%20remaining%20here%2C%20but%20the%20island%20is%20starting%20to%20look%20kind%20of%20how%20I%20want%2C%20which%20would%20mean%20I%20could%20start%20construction%2C%20haha%2C%20but%20yeah%20construction.)
 
 ![A beautiful island?](./images/a-beautiful-island.png)  
 ([*Playable build*](./builds/landscaping/8d555c196dc769e75ca8e9637d6ceba086768f08/))
@@ -189,170 +189,81 @@ And eventually, somehow, after texturing and grassing the whole island, I had so
 All this in a game ostensibly about walking into rooms to view *shadows*?
 
 > *So I suppose I want to say here that it has been very generative spending some time with the terrain even though my initial thought had been “grab an island as is and chuck stuff on”. I’ve enjoyed learning the tool, it’s been very satisfying building something “of my own” (with inherited components from the Unity Store Asset), and there’s a lot of “shadow stuff” involved that I might not have realized so easily otherwise.*  
-> -- [Process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20suppose,so%20easily%20otherwise.)
+> -- [Process journal, 12 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20suppose,so%20easily%20otherwise.)
 
 ## Architecture
 
-![Image of a poorly shadowed building](./images/architecture.png)
+> *How involved in architecture do I want to get? Some of this process is reminding me of the Quist chapter in The Reflective Practitioner in terms of all the complexities and expertise of architects - the site and all that. I want this thing to look... well nice and intentional, but I don’t want to labour TOO hard on that effect, so simplicity will be key.*  
+> -- [Process journal, 23 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=How%20involved%20in,will%20be%20key.)
 
-## The stages of design grief and joy
+In many ways this architectural mission almost dwarfed the actual project of looking at shadows. Again, the architecture is *where the shadows happen*, so it's important, but I became maniacally obsessed with controlling it...
 
-![Image of an early underwhelming room prototype](./images/grief.png)
+> *One of the key ways to demonstrate shadows in specific “lights” (ahaha) is that you control the lighting environment around them. As such I can imagine wanting quite a large number of interior spaces where there is no (or very little) light involved and so can be lit specifically with particular kinds of shadows in mind.*  
+> -- [Process journal, 24 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=One%20of%20the%20key,of%20shadows%20in%20mind.)
 
-## Decorative Arts
+![Sketch of a room layout](./images/room-layout-sketch.png)  
+[*Room layout sketch*](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-09-08-v-r-5.pdf)
 
-![An underwhelming sculptural element](./images/decorative.png)
+Eventually I actually bit the bullet and made a room...
 
----
----
+> *Dear diary, I finally made a dark room. The island itself seems to be in sufficiently good condition that it felt time to move over to shadows. ... I did manage to get a room that’s a reasonable first draft of a setting to observe a shadow in a more or less controlled environment*  
+> -- [Process journal, 11 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=I%20did%20manage%20to%20get%20a%20room%20that%E2%80%99s%20a%20reasonable%20first%20draft%20of%20a%20setting%20to%20observe%20a%20shadow%20in%20a%20more%20or%20less%20controlled%20environment.)
 
-![The v r 5 website homepage](./images/v-r-5-website.png)
+... it looked pretty bad, but at the time I was convinced I was above such things.
 
-Ideally or often, a well-documented (research-creation) game would have a [public facing website](https://pippinbarr.com/v-r-5/info) that can provide layers of understanding of the project.
+![Image of the first dark room](./images/architecture.png)
+([*Playable build*](./builds/architecture/e6fb07bcc920321c35c34c2fc011284fce66d4ed/))
 
-At the heart of the MDM is having a [process documentation component](https://pippinbarr.com/v-r-5/info/#:~:text=Documentation,the%20Code%20Repository) that you maintain during the life of the project and that is publicly visible.
+I was not.
 
-We've come up with a few standard forms of documentation that we all try to adhere to as much as we can.
+> *Ran into that all-time classic pain in the ass shadow acne and other shadow artifaces that are just part of life with shadows.*  
+> -- [Commit 5bb5585](https://github.com/pippinbarr/v-r-5/commit/5bb5585f13ef9a4d0d86a08568672c3599a8366a#:~:text=Ran%20into%20that%20all%2Dtime%20classic%20pain%20in%20the%20ass%20shadow%20acne%20and%20other%20shadow%20artifaces%20that%20are%20just%20part%20of%20life%20with%20shadows.)
 
-#### Why?s
+![Shadow acne](./images/shadow-acne.png)  
+([*Playable build*](./builds/architecture/5bb5585f13ef9a4d0d86a08568672c3599a8366a/))
 
-![v r 5's Why page](./images/v-r-5-why.png)
+No no no, I wanted to have *control*. Was I not like a god unto this island?
 
-The ["Why?" document](https://pippinbarr.com/v-r-5/process/why) serves as a place to iterate on the big questions and reasons for making the project all, to think about *what it is* or *what it should be*.
+> *I ultimately want the exteriors to have as little non-naturalistic lighting and shadows as possible as a default. I like the unnatural stuff to be at least somewhat under my control. Control control control.*  
+> -- [Process journal, 20 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=But%20I%20ultimately%20want%20the%20exteriors%20to%20have%20as%20little%20non%2Dnaturalistic%20lighting%20and%20shadows%20as%20possible%20as%20a%20default.%20I%20like%20the%20unnatural%20stuff%20to%20be%20at%20least%20somewhat%20under%20my%20control.%20Control%20control%20control.)
 
-This helps with being accountable to an actual research objective in a research setting.
+Apparently not. All of which led to this [very intense technical confrontation with Unity and how it works (and doesn't work) in terms of shadows](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Things%20I%20have%20looked%20into%20at%20some%20level%20as%20a%20potential%20help%20when%20trying%20to%20understand%20how%20to%20make%20webgl%20look%20alright%20(haven%E2%80%99t%20tried%20all%20of%20these%2C%20it%E2%80%99s%20ongoing)%E2%80%A6).
 
-This helps to remind you of what on earth you are doing when you inevitably get lost in the weeds of really making the thing.
+I won't belabour the point too much further, but this [extensive nightmaring with buildings](https://github.com/pippinbarr/v-r-5/commit/861f53bcf27d1c61c95c735c162fede7eca5ddf9) was absolutely at the heart of the majority of making the game. Like, for *months*. Until I finally, finally seemed to sort them out in the dumbest way I could image...
 
-And so in the lifetime of a project you try to write [multiple](https://pippinbarr.com/v-r-5/process/why#v1--friday-25-august-2023), [different](https://pippinbarr.com/v-r-5/process/why#v2--thursday-5-october-2023), [versions](https://pippinbarr.com/v-r-5/process/why#v3--tuesday-30-january-2024), of [your why](https://pippinbarr.com/v-r-5/process/why#v4--thursday-21-march-2024).
+> *So I was like… oh okay, I guess I just build the room out of Unity cubes???*  
+> -- [Process journal, 7 February 2024](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20was%20like%E2%80%A6%20oh%20okay%2C%20I%20guess%20I%20just%20build%20the%20room%20out%20of%20Unity%20cubes%3F%3F%3F)
 
-#### Journal
+And from there was able to proceed to my dream formalism of row upon row of neatly ordered buildings with shadows in them...
 
-![v r 5 Journal](./images/v-r-5-journal.png)
+![Buildings aligned on a grid](./images/order-is-restored.png)  
+([*Playble build*](./builds/architecture/))
 
-One of the key rhythms of the MDM is design journaling: taking time to pause regularly (perhaps every week, or more often, or less) to reflect on the state of the project and what is on your mind.
+That is, for many reason, most of them almost purely psychological, I had to *figure out the buildings* in order to unlock the ability to make the *actual game*.
 
-You can and should do this as part of a (research-)creative practice anyway. I've been doing something like it with games [since around 2011](https://pippinbarr.com/the-artist-is-present/process/process-journal.html#simplicity-kills-2011-08-24).
+Sometimes game making is a bit like that thing of making a croissant by milling your own wheat.
 
-And there are all kinds of different sketches, insights, affects, and stories you can include in there...
+## And Other Traces of Design
 
-- [Early ideas in a notebook](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-08-15-v-r-5.pdf)
-- [Pictorials of a specific design issue](https://pippinbarr.com/v-r-5/process/journal#the-shitties-and-gritties-of-terrain--monday-21-august-2023)
-- [Taxonomizing the design space](https://pippinbarr.com/v-r-5/process/journal#taxonomizing-shadow-and-light-the-island-as-a-place-structures--thursday-24-august-2023)
-- [Aesthetic victories](https://pippinbarr.com/v-r-5/process/journal#the-grasses-blowin-in-the-wind--wednesday-6-september-2023)
-- [Architectural sketches](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-09-08-v-r-5.pdf)
-- [Technical disasters](https://pippinbarr.com/v-r-5/process/journal#the-fight-continues-now-with-blender--tuesday-19-september-2023)
-- [More technical disasters](https://pippinbarr.com/v-r-5/process/journal#fuck-you-webgl--settings-mania--thursday-21-september-2023)
-- [Terrible realizations](https://pippinbarr.com/v-r-5/process/journal#the-zium-museum-prototype--wednesday-22-november-2023)
-- [Feelings](https://pippinbarr.com/v-r-5/process/journal#:~:text=BUT%20I%20suppose%20there%E2%80%99s,as%20easily%20be%20wrong.)
-- [Personal growth](https://pippinbarr.com/v-r-5/process/journal#:~:text=The%20continuing%20saga,feel%20more%20intimate.)
-- [Little Big Moments](https://pippinbarr.com/v-r-5/process/journal#:~:text=The%20moment%20where%20I%20finally%20got%20the%20gold%20vase%20that%20changed%20my%20thinking%20about%20composition%20a%20lot.%20Isn%E2%80%99t%20it%20a%20beaut%3F)
-- [Did I  mention technical disasters?](https://pippinbarr.com/v-r-5/process/journal#:~:text=For%20some%20reason%20and%20as%20some%20point%2C%20the%20shadows/illumination%20levels%20on%20the%20building%20itself%20(built%20in%20Blender)%20has%20become%20utterly%20fucked!%20Like%20big%20square%20patchs%20on%20the%20roof%20as%20an%20example%20(but%20it%E2%80%99s%20interior%20too)%3A)
-- [Learning nothing?](https://pippinbarr.com/v-r-5/process/journal#:~:text=Which%E2%80%A6%20again%2C%20I%E2%80%99m,the%20action%20is.)
-- [Retrospectives](https://pippinbarr.com/v-r-5/process/journal#:~:text=I%20continue%20to,more%20jokes.%20Haha.)
-- [Swearing](https://pippinbarr.com/v-r-5/process/journal#:~:text=successful%20game.%20Nah.-,Writing%20another/final%20why,because%20I%20am%20a%20good%20boy%20who%20wants%20a%20dog%20biscuit.)
+There is a lot more to say and show about just how much process was captured using MDM with *v r 5*. More than there's really time to get into, but just so you know there's also...
 
-And, again, this is great because *anyone can (and should!) do it*, with or without a fancy documentation methodology.
+- The [Why?s](https://pippinbarr.com/v-r-5/process/why.html) that progressively try to capture what the point of the project is
+- The [To-do list](https://pippinbarr.com/v-r-5/process/to-do.html) that helps to describe concrete tasks and [responses to those tasks](https://pippinbarr.com/v-r-5/process/to-do.html#:~:text=But%20in%20practice%20it%20was%20less%20than%20amazing.%20Gigantic%20sun%2Dcast%20shadow%20against%20a%20mega%2Dplane%20that%20captures%20the%20island%20in%20profile%3F%20Kind%20of%20amazing%20in%20principle)
+- The [List of Works](https://pippinbarr.com/v-r-5/process/list-of-works.html) where I put on the curator hat to figure out what exhibits would be on the island
+- The [code itself](https://github.com/pippinbarr/v-r-5/blob/main/_unity-project/v-r-5/Assets/Scripts/Behaviours/FlickerBehaviour.cs) that could be the object of a software studies approach
+- My colleague Enric Llagostera's analysis tool [Ponte](https://github.com/enricllagostera/ponte/) which helps visualize a project's chronology and export data from the repository to QDA software
+- The *Being John Malkovich* Effect, as yet underexplored, of having anyone be able to sit in front of *exactly the same Unity project* as me, at any point in its history, having read my notes, etc.
+- [This talk that I am giving right now](https://github.com/pippinbarr/v-r-5/tree/main/process/talks/talk.md) is in the repository [complete with its own commit history](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md)
+- ... and that's not to mention a number of other approaches we're investigating, including the technique of memoing from grounded theory, the use of voice notes, the question of how to track non-digital processes, and... more.
 
-#### Commits
+## Lest we forget
 
-And now for the grand reveal: *version control*.
+I *did actually finish this game*. Remember it from the beginning?
 
-At the heart of the MDM is the realization that we can use the traditional software-engineer technology of version control to track, archive, and understand the design process.
+![The interior of the spotlight cookie room](https://pippinbarr.com/v-r-5/press/images/cookie-interior.png)  
+([*Playable build*](https://pippinbarr.com/v-r-5/webgl/))
 
-![Phaser commit history](./images/phaser-commits.png)
-
-Normally, version control is about tracking traditional software development, like say a [popular game development framework for JavaScript](https://github.com/phaserjs/phaser).
-
-You can see all the files just like on a computer, but you can *also* see the [entire history of changes in a series of *commit messages*](https://github.com/phaserjs/phaser/commits/master/).
-
-Each time the developer does something significant to the project, they [*commit* the work and write a short message about what they did](https://github.com/phaserjs/phaser/commit/4df43d7bed035ec21dfc7832c2be458fe01e2855).
-
-![v r 5 commit history](./images/v-r-5-commits.png)
-
-So what if we used those messages to reflect on the *design implications of the work done*? We'd have [a record of design as it happens in conjunction with technical practice](https://github.com/pippinbarr/v-r-5/commits/main/?after=4a69aaff9c3da12dc98eab2d6b6e87b50075fffd+34), things like:
-
-- [The very beginning](https://github.com/pippinbarr/v-r-5/commit/9cd09cf3b4eab7605014cd4a9f7e9ac83473e77c)
-- [Early technical progress](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b)
-- [Gardening](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac)
-- [Architecting](https://github.com/pippinbarr/v-r-5/commit/e6fb07bcc920321c35c34c2fc011284fce66d4ed)
-- [Technical lamentations](https://github.com/pippinbarr/v-r-5/commit/e669357f09a68eaf8651753b9ab545e41704d26c)
-- [Darkness and confusion](https://github.com/pippinbarr/v-r-5/commit/861f53bcf27d1c61c95c735c162fede7eca5ddf9)
-- [Working hard and being underwhelmed](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0)
-- [Victories in the shadows](https://github.com/pippinbarr/v-r-5/commit/9aac0ede0336a0e828ad3a8fe5142816c6ae2409)
-- [Sculpting](https://github.com/pippinbarr/v-r-5/commit/caeb485c055208fb33dc1cb09d0dcc39491bdf3e)
-- [Audio engineering](https://github.com/pippinbarr/v-r-5/commit/101685cef91aa161ae551ed644d40346a180fabb)
-- [Cartography](https://github.com/pippinbarr/v-r-5/commit/e80da0851cc620350093c55a2e568095c74b9a4a)
-
-Now we have a complete linkage between technical practice, design thinking, and the *actual state of the project at that moment*. This is powerful.
-
-## Prototypes
-
-![Prototype for the Zium Museum](./images/zium-prototype.png)
-
-### Prototyping
-
-And so, now for the *grander* reveal: a complete history of prototypes.
-
-An understandably huge part of the game design process is the direct engagement with the materiality of the software under construction, the *prototypes* produced iteratively throughout the project.
-
-### In Search of Lost Prototypes
-
-The miracle of version control is not just that we get a time-sliced view of all the changes to the project, but also that we can *revisit any moment in the project's history*.
-
-![Prototyping buildings in v r 5](./images/prototypes.png)
-
-And in the context of the MDM, this means we have a complete association between the reflective design thinking in our whys, journal entries, and commit messages and *the project as it was at that moment*.
-
-And so we can relive "that time when..."
-
-- ... we were just getting started ([commit 9253994](https://github.com/pippinbarr/v-r-5/commit/b9b5de295eabd74e44d18e019f5dd49bb3f31a3b) / [playable build](./builds/9253994/))
-- ... we were just so excited about grass ([commit c16f58c](https://github.com/pippinbarr/v-r-5/commit/c16f58c258755bac1508329093d914d04976edac) / [playable build](./builds/c16f58c/))
-- ... we were so disappointed in ourselves ([commit 7cee038](https://github.com/pippinbarr/v-r-5/commit/7cee038c9fb6722bb87d0ac592308f9a3d6f3dd0) / [playable build](./builds/7cee038/))
-- ... we got some real traction ([commit f65f2c9](https://github.com/pippinbarr/v-r-5/commit/f65f2c978ec6b564d77ace9c63aaf1e61c0bf411) / [playable build](./builds/f65f2c9/))
-- ... we finally seemed to understand ([commit 2a4f838](https://github.com/pippinbarr/v-r-5/commit/2a4f838019fa96a77dd656b1852ec05e63fbfab3) / [playable build](./builds/2a4f838/))
-- ... we remembered how important sound is, even in shadow ([commit cd57422](https://github.com/pippinbarr/v-r-5/commit/cd574220bc073ede193b0ff44b0425cb111d014a) / [playable build](./builds/cd57422/))
-
-... those times when *everything happened*.
-
-### Being John Malkovich
-
-Stranger still, maybe almost mystical, is the fact that you can not only play the game in its myriade states, you can also look at it *through the eyes of the designer/developer*.
-
-![Unity editor view of v r 5](./images/v-r-5-in-unity-editor.png)
-
-By loading all the files of a specific commit, you can fire up the project in Unity yourself, and see what I saw...
-
-- ... while I was looking at Unity's equivalent of a blank page ("Initial commit of MDM Unity template," commit a9e3ff3), or
-- ... while I was playing at horticulture ("Added grass details to the island", commit c16f58c), or
-- ... while I was in the thick of exhibit installations ("Added window, orbiter, low quality, and others (webgl updated)
-", commit 147cc79), or
-- ... at any other time!
-
-> "There is truth, and there are lies, and art always tells the truth. Even when it's lying."
->
-> -- Craig Schwartz (in John Malkovich) in *Being John Malkovich*
-
-## and Other Traces
-
-![Blender model of the game's title](./images/blender-v-r-5.png)
-
-But wait there's more! There's as much as you can handle, because in archiving the entire project in this timesliced way, there are all kinds of other documents and artifacts to look at, like:
-
-- The [to-do list](https://pippinbarr.com/v-r-5/process/to-do.html) maintained across the project's lifetime
-- The [curation document](https://pippinbarr.com/v-r-5/process/list-of-works.html) used to track the set of exhibits in the game
-- The [specific code files](https://github.com/pippinbarr/v-r-5/blob/main/_unity-project/v-r-5/Assets/Scripts/Behaviours/FlickerBehaviour.cs) that drive the game's behaviour
-- The various [3D, image, audio, and other assets](https://github.com/pippinbarr/v-r-5/tree/main/_unity-project/v-r-5/Assets) that populate the game
-
-And then there are also the more overarching visualizations of the nature of the project, including [GitHub's own "pulse" tool](https://github.com/pippinbarr/v-r-5/pulse).
-
-More importantly, there is Enric Llagostera's in development tool [Ponte](https://github.com/enricllagostera/ponte/), which is specifically made to convert MDM-based repositories into data fit for Qualitative Data Analysis software.
-
-But which also has a fantastic timeline view which is amazing to scrub through (and in my case reminisce with).
-
-![Ponte timeline interface](./images/ponte.png)
-
-(And of course [this talk is in the project repository as well](https://github.com/pippinbarr/v-r-5/blob/main/process/talks/talk.md)! It has its own [commit history](https://github.com/pippinbarr/v-r-5/commits/main/process/talks/talk.md)!)
+And now you know, because you've seen the acne, heard the cries of agony, and felt the insanity building, that it's never as simple as it looks by the end.
 
 ## (New ways of thinking) of Design
 
@@ -370,10 +281,12 @@ But which also has a fantastic timeline view which is amazing to scrub through (
 
 ## Well, thanks
 
-This was *In Praise of Shadows: Reflections, Prototypes, and Other Traces of Design*, a talk by Pippin Barr, who can be reached at
+This has been *In Praise of Shadows: Reflections, Prototypes, and Other Traces of Design*, a talk by Pippin Barr, who can be reached at
 
 > <pippin.barr@concordia.ca>
 
-and generally followed at
+and generally tracked via
 
 > [pippinbarr.com](https://pippinbarr.com)
+
+or asked questions now or later as you wish.
