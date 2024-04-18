@@ -53,7 +53,7 @@ Long story short, [I finished it](https://pippinbarr.com/v-r-5/webgl/).
 
 But I'm not here to make the long story short. It's opposite day!
 
-Rather, I want to show you five key design (process) themes that made *v r 5* what it became, using the MDM to illustrate them.
+Rather, I want to show you four key design (process) themes that made *v r 5* what it became, using the MDM to illustrate them.
 
 ## The MDM and Design Reflection
 
@@ -289,7 +289,7 @@ And I thought...
 
 The next gleam happened when I made the basic point light setup a touch more sophisticated...
 
-> *I moved the current iteration of the exhibiting room  onto an actual space on the island, put in a point light, and a cube, and had it cast a shadow into the corner, which creates quite a nice form in the interaction between the shadow and the corner's structure. In doing it I realized I think I *do* want a "physical" representative of the light, so I put the light inside a small luminous sphere (to symbolize point lighting) and I do think that helps make the scene more legible.*  
+> *I moved the current iteration of the exhibiting room  onto an actual space on the island, put in a point light, and a cube, and had it cast a shadow into the corner, which creates quite a nice form in the interaction between the shadow and the corner's structure. In doing it I realized I think I do want a "physical" representative of the light, so I put the light inside a small luminous sphere (to symbolize point lighting) and I do think that helps make the scene more legible.*  
 > -- [Commit 023a072](https://github.com/pippinbarr/v-r-5/commit/023a072201b4962d331fb5849fe93a0723b2e614)
 
 ![Image of the first shadowcube](./images/shadow-cube.png)  
@@ -342,20 +342,6 @@ I *did actually finish this game*. Remember it from the beginning?
 ([*Playable build*](https://pippinbarr.com/v-r-5/webgl/))
 
 And now you know, because you've seen the acne, heard the cries of agony, and felt the insanity building, that it's never as simple as it looks by the end.
-
-## (New ways of thinking) of Design
-
-### Here Comes Everything
-
-### Wire-tapping the conversation with materials
-
-### Tracing trajectories through design space
-
-### De-monolithing design
-
-### Developers as humans
-
-### Malkovich Malkovich Malkovich
 
 ## Well, thanks
 

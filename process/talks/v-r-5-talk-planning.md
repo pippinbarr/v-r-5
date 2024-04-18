@@ -870,3 +870,21 @@ There were some beats that really made me believe... should I be looking at thos
 - The grass room
 
 Am I better off telling an abbreviated "horror stories" about shadow acne and seams and so on? And then also the You Gotta Believe moments?
+
+## jeudi, 18 avril 2024
+
+It's the final run-through (to the tune of Final Countdown by Europe)
+
+- 22:43 to In the beginning
+  - It's kind of a "relaxed" pace, but I think I don't hate that? I think it will work for today anyway, and I may need to think of tightening up for Texas (or just skipping a theme?)
+- 29:36 to Landscaping (~7m)
+  - I think that one works nicely
+- 42:09 to My Architect(ure) (~12.5m)
+  - This went as well as always but it sure takes time
+- 52:17 to Gleaming (~10m)
+  - This felt good which is *great news*, though clearly we're still in a tough spot relative to time (neat to eat into the relaxed beginning is one answer)
+- 1:02:00 to Other Traces (~10m)
+  - I think that was pretty okay
+- 1:05 to end (~3m)
+
+As I gave that ending, I'm going to drop the "here are the themes" thing. It feels too much like belabouring the point.
