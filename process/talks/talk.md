@@ -49,7 +49,7 @@ The *v r* series in general is part of my (long) history of making work that sur
 
 And so I continued with a plan to examine [*shadows* in the Unity game engine](https://docs.unity3d.com/Manual/Shadows.html), and to make them available for contemplation.
 
-Long story short, [I finished it](https://pippinbarr.com/v-r-5/webgl/).
+Long story short, [I finished it](./builds/final/).
 
 But I'm not here to make the long story short. It's opposite day!
 
@@ -311,7 +311,7 @@ And then, finally, and most beautiful to me, is the very literal tribute to *In 
 > -- [Commit ba2b7c8](https://github.com/pippinbarr/v-r-5/commit/ba2b7c88d75ec22ab0d315b05f67a1b1acc8452a)
 
 ![In Praise of Shadows](./images/in-praise-of-shadows.png)  
-([*Playable build*](https://pippinbarr.com/v-r-5/webgl/))
+([*Playable build*](./builds/final/))
 
 And which I almost *ruined* with... A FLASHLIGHT???
 
@@ -336,10 +336,10 @@ There is a lot more to say and show about just how much process was captured usi
 
 ## Lest we forget
 
-I *did actually finish this game*. Remember it from the beginning?
+I *did actually finish this game*.
 
 ![The interior of the spotlight cookie room](https://pippinbarr.com/v-r-5/press/images/cookie-interior.png)  
-([*Playable build*](https://pippinbarr.com/v-r-5/webgl/))
+([*Playable build*](./builds/final/))
 
 And now you know, because you've seen the acne, heard the cries of agony, and felt the insanity building, that it's never as simple as it looks by the end.
 
