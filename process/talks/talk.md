@@ -232,7 +232,7 @@ I was not.
 
 No no no, I wanted to have *control*. Was I not like a god unto this island?
 
-> *it *does* still have the issue of looking completely insane shadow-acne wise from specific distances and angles, something new to think about (I want to solve it for outdoor scenes but I'm interested in preserving/provoking at least in some interiors to "show it off"*  
+> *it does still have the issue of looking completely insane shadow-acne wise from specific distances and angles, something new to think about (I want to solve it for outdoor scenes but I'm interested in preserving/provoking at least in some interiors to "show it off"*  
 > -- [Commit e966973](https://github.com/pippinbarr/v-r-5/commit/e9669739dd8260efa1dfbdffc90a302c2b80d76a#:~:text=it%20*does*%20still%20have%20the%20issue%20of%20looking%20completely%20insane%20shadow%2Dacne%20wise%20from%20specific%20distances%20and%20angles)
 
 ![Shadow acne](./images/e9-shadow-acne.png)  
@@ -276,7 +276,7 @@ But there's always a counterpoint. There were key moments across the development
 
 Early on, this was "The First Dark Room":
 
-> *Finally managed to get over one ProBuilder hump in order to constract a testing chamber for dark/controlled environments. So I now have a room in the shape I'd envisaged (a space where you do a little turnabout to get in to reduce infiltration of outside lighting) and a point light and a cube in there to check out the shadow casting.*
+> *Finally managed to get over one ProBuilder hump in order to constract a testing chamber for dark/controlled environments. So I now have a room in the shape I'd envisaged (a space where you do a little turnabout to get in to reduce infiltration of outside lighting) and a point light and a cube in there to check out the shadow casting.*  
 > -- [Commit e6fb07b](https://github.com/pippinbarr/v-r-5/commit/e6fb07bcc920321c35c34c2fc011284fce66d4ed)
 
 ![Image of the first dark room](./images/first-dark-room-interior.png)  
