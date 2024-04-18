@@ -71,7 +71,7 @@ The MDM draws heavily on the work of [Donald Schön](https://hci.stanford.edu/pu
 
 So, how can we keep track of and make visible this process of developing a path?
 
-There are plenty of answers, like "a diary!" or "a reality TV show!" but some of us come from a computer science background, so our answer was
+There are plenty of answers, like "a documentary!" or "a reality TV show!" but some of us come from a computer science background, so our answer was
 
 *Version control*!
 
@@ -118,39 +118,47 @@ Every project starts somewhere, and in the MDM we encourage designers to start a
 
 For *v r 5* this means we have [a commit of an early sketch and reflection](https://github.com/pippinbarr/v-r-5/commit/9647a77283462ad2276a6d6476ee667c0c720cd9).
 
-And the sketch itself can be viewed [via the process journal](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Initial%20notebook%20sketches,about%20the%20game.) or [directly in the repository itself](https://github.com/pippinbarr/v-r-5/blob/9647a77283462ad2276a6d6476ee667c0c720cd9/process/pdfs/2023-08-15.pdf).
+And the sketch itself exists [directly in the repository itself](https://github.com/pippinbarr/v-r-5/blob/9647a77283462ad2276a6d6476ee667c0c720cd9/process/pdfs/2023-08-15.pdf).
 
-This is quickly followed a couple of days later by setting up a Unity project, yielding [a journal entry on the subject](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Well%2C%20one%20of%20the%20big%20things%20is%20just%20opening%20Unity%20and%20I%20can%20at%20least%20claim%20to%20have%20done%20that%20over%20today.%20I%20created%20a%20Unity%20project%20in%20the%20most%20recent%20LTS%20version%20(2022.3.7f1%20LTS%20for%20the%20record)%2C%20made%20a%20cube%2C%20and%20built%20it%20for%20WebGL%20so%20that%20there%E2%80%99s%20something%20to%20see.).
+This was quickly followed a couple of days later by setting up a Unity project, yielding [a journal entry on the subject](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Well%2C%20one%20of%20the%20big%20things%20is%20just%20opening%20Unity%20and%20I%20can%20at%20least%20claim%20to%20have%20done%20that%20over%20today.%20I%20created%20a%20Unity%20project%20in%20the%20most%20recent%20LTS%20version%20(2022.3.7f1%20LTS%20for%20the%20record)%2C%20made%20a%20cube%2C%20and%20built%20it%20for%20WebGL%20so%20that%20there%E2%80%99s%20something%20to%20see.).
 
 Crucially, though, thanks to - you guessed it - *version control*, we don't just get the reflective journal entry.
 
 We also get [the entire file system of the *project* at the moment in time](https://github.com/pippinbarr/v-r-5/tree/24d9d5cb414cfa003800e3f5627e28ba30afc181).
 
-And because of that, we can quite simply recover the *game itself* as it was when those reflections were written. Behold its majesty:
+And because of that, we have the *game itself* as it was when those reflections were written. Software being made of files. Behold its majesty:
 
 ![Image of a bright white cube suspended in the sky](./images/in-the-beginning.png)
 
-That's not just a screenshot, we can straightforwardly [*run the game itself*](./builds/in-the-beginning/24d9d5cb414cfa003800e3f5627e28ba30afc181/) as it was then.
+And we don't just have a screenshot, we can straightforwardly [*run the game itself*](./builds/in-the-beginning/24d9d5cb414cfa003800e3f5627e28ba30afc181/) as it was then.
 
-So, the MDM means we know what the designer was *thinking* and what they were *seeing* and what they were *doing*, even for this perhaps "unimpressive" moment in design.
+(Admittedly it's a lot like a screenshot with a loading screen.)
+
+The MDM means we know what the designer was *thinking* and what they were *seeing* and what they were *doing*, even for the simplest, earliest moments of design.
 
 ## Landscaping
 
-A key early concept in the project was to present the shadows of the Unity game engine in a naturalistic setting:
+A key early concept in the project was to present the shadows of the Unity game engine in a naturalistic setting. Remembering "the island" cited in that very first sketch, I tried the obvious shortcut:
 
 > *Specifically, I’ve been interested in setting up v r 5’s buildings and shadows on an island. So I grabbed a (the only easy to find) free island from the Unity asset store: Free Island Collection by Bicameral Studios.*  
 > -- [Process journal, 21 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Specifically%2C%20I%E2%80%99ve%20been%20interested%20in%20setting%20up%20v%20r%205%E2%80%99s%20buildings%20and%20shadows%20on%20an%20island.%20So%20I%20grabbed%20a%20(the%20only%20easy%20to%20find)%20free%20island%20from%20the%20Unity%20asset%20store%3A%20Free%20Island%20Collection%20by%20Bicameral%20Studios.)
 
-Therein lies a tale of woe specifically around file sizes and my requirement to make this project work as a website. [It turns out that fancy islands eat a lot of disk space](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=These%20are%20some,just%20too%20big.).
+For some reason I didn't link to the asset store, but [these are the islands I'm talking about](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753):
 
-After fighting the woe for a while, I ended up with this:
+![A promotional shot of the Free Island Collection from the Unity Asset Store](./images/free-island-collection.png)
+
+But! Herein lies a tale of woe specifically around realism and beauty versus file sizes and my requirement to make this project work as a website. [It turns out that fancy islands eat a lot of disk space](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=These%20are%20some,just%20too%20big.).
+
+After fighting the woe for a while, I ended up going back to basics by "painting" my own horrible island, ending up with this:
 
 ![The island with a single texture](./images/pre-texturing-island.png)  
 ([*Playable build*](./builds/landscaping/c953f3ca715f113539cd21c311d658bec077e1b3/))
 
-Note how much this *does feel like something now*. We have a character controller, a place, a... vibe?
+For all that this is amateur hour, note how much this *does feel like something now*. We have a character controller, a place, a... vibe?
 
-But please marvel that this odd early experience of the game world *still exists* for contemplation.
+And crucially, from the perspective of design research, this odd early version of the game world *still exists* for contemplation.
+
+But still, I was not happy with it.
 
 > *My next step I think is to regrab the island and either retexture it with my downsampled textures (I hope this is doable as it would be the easier option) or export the height map and retexture is manually (I hope I don’t have to do this).*  
 > -- [Process journal, 21 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=My%20next%20step%20I%20think%20is%20to%20regrab%20the%20island%20and%20either%20retexture%20it%20with%20my%20downsampled%20textures%20(I%20hope%20this%20is%20doable%20as%20it%20would%20be%20the%20easier%20option)%20or%20export%20the%20height%20map%20and%20retexture%20is%20manually%20(I%20hope%20I%20don%E2%80%99t%20have%20to%20do%20this).)
@@ -160,17 +168,19 @@ But eventually, after [endless downsampling of textures](https://github.com/pipp
 > *So the situation is that I’m starting my island “from scratch”*  
 > -- [Process journal, 5 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20the%20situation%20is%20that%20I%E2%80%99m%20starting%20my%20island%20%E2%80%9Cfrom%20scratch%E2%80%9D)
 
+And a lot of learning later:
+
 ![Self-textured island](./images/textureman-textureman.png)  
 ([*Playable build*](./builds/landscaping/d78d7f7203a381cc388129d9fa1ec981c7d9ce38/))
 
-It was all pretty impossibly tiring, but eventually...
+I was getting somewhere. I was making somewhere. And then...
 
-... there was the grass.
+... then there was the grass.
 
 > *Spent my time this morning on the grass details which are a key way to add some visual noise that drowns out the repeating textures among other things.*  
 > -- [Process journal, 6 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Spent%20my%20time%20this%20morning%20on%20the%20grass%20details%20which%20are%20a%20key%20way%20to%20add%20some%20visual%20noise%20that%20drowns%20out%20the%20repeating%20textures%20among%20other%20things.)
 
-And it was green!
+And it was so green!
 
 ![Image of poisonous grass](./images/grass-details-pre-color-tweaks.png)  
 
@@ -178,7 +188,7 @@ Too green actually, so I toned it down.
 
 ![Image of naturalistic grass](./images/grass-details-post-color-tweaks.png)  
 
-And eventually, somehow, after texturing and grassing the whole island, I had something presentable.
+And eventually, somehow, after all the restarts, all the laborious texturing and grassing the whole island, I had something presentable.
 
 > *So there’s still a little bit of work remaining here, but the island is starting to look kind of how I want, which would mean I could start construction, haha, but yeah construction.*  
 > -- [Process journal, 6 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20there%E2%80%99s%20still%20a%20little%20bit%20of%20work%20remaining%20here%2C%20but%20the%20island%20is%20starting%20to%20look%20kind%20of%20how%20I%20want%2C%20which%20would%20mean%20I%20could%20start%20construction%2C%20haha%2C%20but%20yeah%20construction.)
@@ -191,28 +201,26 @@ All this in a game ostensibly about walking into rooms to view *shadows*?
 > *So I suppose I want to say here that it has been very generative spending some time with the terrain even though my initial thought had been “grab an island as is and chuck stuff on”. I’ve enjoyed learning the tool, it’s been very satisfying building something “of my own” (with inherited components from the Unity Store Asset), and there’s a lot of “shadow stuff” involved that I might not have realized so easily otherwise.*  
 > -- [Process journal, 12 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20suppose,so%20easily%20otherwise.)
 
-## Architecture
+When you play the final version of *v r 5*, the island more or less just looks like an island. It looks intentional. It looks like that's what I wanted. But through this design documentation we can see that wasn't the case at all.
+
+It was a series of hard-won moves made in design space, awkward conversations with materials, and a consistent, overriding desire to have a *place* to work in.
+
+## My Architect(ure)
 
 > *How involved in architecture do I want to get? Some of this process is reminding me of the Quist chapter in The Reflective Practitioner in terms of all the complexities and expertise of architects - the site and all that. I want this thing to look... well nice and intentional, but I don’t want to labour TOO hard on that effect, so simplicity will be key.*  
-> -- [Process journal, 23 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=How%20involved%20in,will%20be%20key.)
+> -- Famous last words, [Process journal, 23 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=How%20involved%20in,will%20be%20key.)
 
-In many ways this architectural mission almost dwarfed the actual project of looking at shadows. Again, the architecture is *where the shadows happen*, so it's important, but I became maniacally obsessed with controlling it...
-
-> *One of the key ways to demonstrate shadows in specific “lights” (ahaha) is that you control the lighting environment around them. As such I can imagine wanting quite a large number of interior spaces where there is no (or very little) light involved and so can be lit specifically with particular kinds of shadows in mind.*  
-> -- [Process journal, 24 August 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=One%20of%20the%20key,of%20shadows%20in%20mind.)
+Pretty early on I nailed down a specific room shape I thought would make sense, thinking literally in terms of a folded structure that would reduce outside light.
 
 ![Sketch of a room layout](./images/room-layout-sketch.png)  
 [*Room layout sketch*](https://github.com/pippinbarr/v-r-5/blob/main/process/pdfs/2023-09-08-v-r-5.pdf)
 
 Eventually I actually bit the bullet and made a room...
 
-> *Dear diary, I finally made a dark room. The island itself seems to be in sufficiently good condition that it felt time to move over to shadows. ... I did manage to get a room that’s a reasonable first draft of a setting to observe a shadow in a more or less controlled environment*  
-> -- [Process journal, 11 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=I%20did%20manage%20to%20get%20a%20room%20that%E2%80%99s%20a%20reasonable%20first%20draft%20of%20a%20setting%20to%20observe%20a%20shadow%20in%20a%20more%20or%20less%20controlled%20environment.)
-
-... it looked pretty bad, but at the time I was convinced I was above such things.
-
 ![Image of the first dark room](./images/architecture.png)  
 ([*Playable build*](./builds/architecture/e6fb07bcc920321c35c34c2fc011284fce66d4ed/))
+
+... it looked pretty bad, but at the time I was convinced I was above such things.
 
 I was not.
 
@@ -224,24 +232,47 @@ I was not.
 
 No no no, I wanted to have *control*. Was I not like a god unto this island?
 
-> *I ultimately want the exteriors to have as little non-naturalistic lighting and shadows as possible as a default. I like the unnatural stuff to be at least somewhat under my control. Control control control.*  
-> -- [Process journal, 20 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=But%20I%20ultimately%20want%20the%20exteriors%20to%20have%20as%20little%20non%2Dnaturalistic%20lighting%20and%20shadows%20as%20possible%20as%20a%20default.%20I%20like%20the%20unnatural%20stuff%20to%20be%20at%20least%20somewhat%20under%20my%20control.%20Control%20control%20control.)
+> *it *does* still have the issue of looking completely insane shadow-acne wise from specific distances and angles, something new to think about (I want to solve it for outdoor scenes but I'm interested in preserving/provoking at least in some interiors to "show it off"*  
+> -- [Commit e966973](https://github.com/pippinbarr/v-r-5/commit/e9669739dd8260efa1dfbdffc90a302c2b80d76a#:~:text=it%20*does*%20still%20have%20the%20issue%20of%20looking%20completely%20insane%20shadow%2Dacne%20wise%20from%20specific%20distances%20and%20angles)
 
-Apparently not. All of which led to this [very intense technical confrontation with Unity and how it works (and doesn't work) in terms of shadows](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Things%20I%20have%20looked%20into%20at%20some%20level%20as%20a%20potential%20help%20when%20trying%20to%20understand%20how%20to%20make%20webgl%20look%20alright%20(haven%E2%80%99t%20tried%20all%20of%20these%2C%20it%E2%80%99s%20ongoing)%E2%80%A6).
+![Shadow acne](./images/e9-shadow-acne.png)  
+([*Playable build*](./builds/architecture/e9669739dd8260efa1dfbdffc90a302c2b80d76a/Build/))
 
-I won't belabour the point too much further, but this [extensive nightmaring with buildings](https://github.com/pippinbarr/v-r-5/commit/861f53bcf27d1c61c95c735c162fede7eca5ddf9) was absolutely at the heart of the majority of making the game. Like, for *months*. Until I finally, finally seemed to sort them out in the dumbest way I could image...
+So, no, apparently apparently I was *not* a god unto this island. All of which led to [this very intense technical confrontation with Unity and how it works (and doesn't work) in terms of shadows](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Things%20I%20have%20looked%20into%20at%20some%20level%20as%20a%20potential%20help%20when%20trying%20to%20understand%20how%20to%20make%20webgl%20look%20alright%20(haven%E2%80%99t%20tried%20all%20of%20these%2C%20it%E2%80%99s%20ongoing)%E2%80%A6).
 
-> *So I was like… oh okay, I guess I just build the room out of Unity cubes???*  
-> -- [Process journal, 7 February 2024](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=So%20I%20was%20like%E2%80%A6%20oh%20okay%2C%20I%20guess%20I%20just%20build%20the%20room%20out%20of%20Unity%20cubes%3F%3F%3F)
+I won't belabour this point too much further, but this went on... well it felt like forever:
 
-And from there was able to proceed to my dream formalism of row upon row of neatly ordered buildings with shadows in them...
+![](./images/room-commits/01.png)  
+![](./images/room-commits/02.png)  
+![](./images/room-commits/03.png)  
+![](./images/room-commits/04.png)  
+![](./images/room-commits/05.png)  
+![](./images/room-commits/06.png)  
+![](./images/room-commits/07.png)  
+![](./images/room-commits/08.png)  
+![](./images/room-commits/09.png)  
+![](./images/room-commits/10.png)  
+![](./images/room-commits/11.png)  
+![](./images/room-commits/12.png)  
+![](./images/room-commits/13.png)  
+![](./images/room-commits/14.png)  
+![](./images/room-commits/15.png)  
+![](./images/room-commits/16.png)  
+![](./images/room-commits/17.png)  
+![](./images/room-commits/18.png)  
+![](./images/room-commits/19.png)  
+![](./images/room-commits/20.png)  
+![](./images/room-commits/21.png)  
 
-![Buildings aligned on a grid](./images/order-is-restored.png)  
-([*Playble build*](./builds/architecture/))
-
-That is, for many reason, most of them almost purely psychological, I had to *figure out the buildings* in order to unlock the ability to make the *actual game*.
+And yet, in some ways it feels like this *had to happen*. Pity the poor formalist, labouring endlessly on his brutalist miniatures when he doesn't even know how to pour concrete.
 
 Sometimes game making is a bit like that thing of making a croissant by milling your own wheat.
+
+Sometimes brutalist, formalist undertakings are shot through with agony and mistakes and redos and... well, that's kind of nice?
+
+## Moments that gleamed in the dark
+
+- ...
 
 ## And Other Traces of Design
 

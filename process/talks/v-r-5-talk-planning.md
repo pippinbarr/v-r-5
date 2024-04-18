@@ -828,3 +828,47 @@ Runthrough notes.
 - (But the good thing is that I think I only need to really address the architectural elements and I'm done for this heavy lifting)
 - (And then I'll "just" include a bunch of other stuff as more of a "grab bag" that I can talk about or point to for further discussion as needed.)
 - (Plus this Utah version of the talk can run a bit longer, like to 60:00 say, without it being any kind of problem, so I've got a little bit of room to work some kinks out I suppose.)
+
+## mercredi, 17 avril 2024
+
+This is just to say, I checked the ice-box, and the fucking plums were gone? Seriously???
+
+I went for a long walk. 12,000 steps today in total.
+
+I thought about the talk, having given it a read on the plane to SLC. I felt worried by it then, in part because I was just feeling tired and overwhelmed by travel, chair responsibilities, leaving family in Montreal, and so on.
+
+But it's true that I think it can still be improved. And one of my notes to myself, a refrain, was about Geraint's point about how funny formalism is, how funny formalists are.
+
+And I like that puncturing (of myself) that exists in the documentation (compare to Judd). There's this desire to be professional and to make something very perfect and austere and conceptual, but then the really is all about mowing grass inside buildings and being unable to figure out why the shadows cast the wrong way, and so on. And it turns out that the installations themselves are kind of trivial and that what mattered or what was so hard was the *place*.
+
+And it's funny that was hard, but it's also a really true note about how a project like this works. What you think or thought was the most important thing isn't really... so there's a sense in which I was overcaptured by beauty and perfection, but also that those things were deemed necessary in my heart for things to work.
+
+Can we imagine the island with seamy buildings on a monotextured terrain? We cannot. Or we can, but we could not be taken seriously.
+
+And so there's something really funny about this decent through layers of godliness, architecture, all the way down to being a humble lighting technician, ... so that we can look at shadows on a wall (paging Dr. Plato etc.)
+
+And that's kind of the story that the island and the buildings can tell... the huge distance from professional perfection that exists most of the time, the comedy of that, but also the necessity of it, ... and then in the end the comedy of that kind of enterprise anyway.
+
+But also the value of *learning* (texturing the island), ...
+
+The talk cannot, in the end, lay down the law about some specific thing about design - it's meant to be about how MDM lets you into the inside, and that from that you can extract stories and knowledge and evidence about real, messy, reflective design practice. And the luxury and necessity of doing that.
+
+Who am I trying to convince here? Who are they? Do they want to analyse games and game design? Do they have their own digital creative practice?
+
+A through-line is really... I thought the game was going to be all about taxonomizing shadows; but in the end that was the easiest thing. The hard part was pouring the concrete, landscaping the island, mowing the grass, the service roles.
+
+The Why?s as a north star for this, to keep you going.
+
+The architecture story is more difficult because it feels deflating? Like I kept having all these big plans and efficiency dreams... but in the end I made exactly the thing I planned to make very early on... and I don't know how much I truly learned doing it?
+
+Is it a story of the landscape again, but gone wrong?
+
+There were some beats that really made me believe... should I be looking at those?
+
+- The shadow cube
+- The vase gleaming in the dark windowed room
+- The moving lights
+- The grass room
+- The sun dias (?)
+
+Am I better off telling an abbreviated "horror stories" about shadow acne and seams and so on? And then also the You Gotta Believe moments?
