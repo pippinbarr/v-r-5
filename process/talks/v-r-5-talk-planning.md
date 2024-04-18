@@ -865,10 +865,8 @@ Is it a story of the landscape again, but gone wrong?
 
 There were some beats that really made me believe... should I be looking at those?
 
-- The shadow cube
 - The vase gleaming in the dark windowed room
 - The moving lights
 - The grass room
-- The sun dias (?)
 
 Am I better off telling an abbreviated "horror stories" about shadow acne and seams and so on? And then also the You Gotta Believe moments?

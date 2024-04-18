@@ -272,7 +272,54 @@ Sometimes brutalist, formalist undertakings are shot through with agony and mist
 
 ## Moments that gleamed in the dark
 
-- ...
+But there's always a counterpoint. There were key moments across the development of the game that helped me to keep my faith that this was worthwhile, that essentially reconnected me to the "In Praise" mode of thinking.
+
+Early on, this was "The First Dark Room":
+
+> *Finally managed to get over one ProBuilder hump in order to constract a testing chamber for dark/controlled environments. So I now have a room in the shape I'd envisaged (a space where you do a little turnabout to get in to reduce infiltration of outside lighting) and a point light and a cube in there to check out the shadow casting.*
+> -- [Commit e6fb07b](https://github.com/pippinbarr/v-r-5/commit/e6fb07bcc920321c35c34c2fc011284fce66d4ed)
+
+![Image of the first dark room](./images/first-dark-room-interior.png)  
+([*Playable build*](./builds/architecture/e6fb07bcc920321c35c34c2fc011284fce66d4ed/))
+
+And I thought...
+
+> *This is going to work*  
+> -- [Process Journal, 11 September 2023](https://pippinbarr.com/v-r-5/process/journal.html#:~:text=Really%20love%20the,going%20to%20work)
+
+The next gleam happened when I made the basic point light setup a touch more sophisticated...
+
+> *I moved the current iteration of the exhibiting room  onto an actual space on the island, put in a point light, and a cube, and had it cast a shadow into the corner, which creates quite a nice form in the interaction between the shadow and the corner's structure. In doing it I realized I think I *do* want a "physical" representative of the light, so I put the light inside a small luminous sphere (to symbolize point lighting) and I do think that helps make the scene more legible.*  
+> -- [Commit 023a072](https://github.com/pippinbarr/v-r-5/commit/023a072201b4962d331fb5849fe93a0723b2e614)
+
+![Image of the first shadowcube](./images/shadow-cube.png)  
+([*Playable build*](./builds/gleams/023a072201b4962d331fb5849fe93a0723b2e614/))
+
+Things were starting to feel... kind of beautiful?
+
+And then came the moment where I tried out a vase with a gold material applied to it and it just unlocked so much for me, including the basic tribute to the original essay.
+
+> *Should every vase be gold? Probably the answer is yes and I should still create an "alcove version" where there's not much light but just enough to catch the glimmer etc. Can contruct some kind of alcove thing (maybe even look at sources) for the main tribute... but I also like just having the vase everywhere as a repeat tribute to the gold in In Praise*  
+> -- [Commit 9aac0ed](https://github.com/pippinbarr/v-r-5/commit/9aac0ede0336a0e828ad3a8fe5142816c6ae2409)
+
+![Image of the first vase](./images/the-first-vase.png)  
+([*Playable build*](./builds/gleams/9aac0ede0336a0e828ad3a8fe5142816c6ae2409/))
+
+And then, finally, and most beautiful to me, is the very literal tribute to *In Praise of Shadows*, which I installed quite close to the end.
+
+> *Created the Title Room which shows the game title and subtitle and just contains a BARELY LIT vase on plinth to capture the idea of the glint of gold in the darkness, where the darkness IS shadow... which somehow never lands in my brain accurately? It's a cool point. Kewl point bro.*  
+> -- [Commit ba2b7c8](https://github.com/pippinbarr/v-r-5/commit/ba2b7c88d75ec22ab0d315b05f67a1b1acc8452a)
+
+![In Praise of Shadows](./images/in-praise-of-shadows.png)  
+([*Playable build*](https://pippinbarr.com/v-r-5/webgl/))
+
+And which I almost *ruined* with... A FLASHLIGHT???
+
+![A flashlight???](./images/flashlight.png)
+
+😅
+
+But in the end, these moments of beauty did gleam out at me, and we have records of those moments, to go with and explain their inevitable presence in the final game itself.
 
 ## And Other Traces of Design
 
