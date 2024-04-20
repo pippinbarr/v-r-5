@@ -888,3 +888,19 @@ It's the final run-through (to the tune of Final Countdown by Europe)
 - 1:05 to end (~3m)
 
 As I gave that ending, I'm going to drop the "here are the themes" thing. It feels too much like belabouring the point.
+
+## samedi, 20 avril 2024
+
+Well, when I gave the actual talk it ran pretty much exactly as practice - I'd say it hit around 58 minutes? So it would still be good to think of a way to pull it back. I didn't rush anything last time, and went on at least one tangent, so I suppose it continues to be the case that I need to just "say less everywhere"... which is... tough to imagine doing, but not impossible. If I can have even 10 minutes at the end it would be helpful and more usable as a talk? There does appear to be empty time *after* the talk at least for me, so there's that little lining.
+
+I don't think there's anything in the talk that could or should be outright *cut*.
+
+Should I add local builds throughout in case the internet is wonky? Or "just" incorporate it into my existing hugo structure and build locally? That might be overkill, but those are the kinds of smart things that smart people sometimes do?
+
+Anyway, the main thing is probably just: go a bit faster, Pippin. Say a bit less. Maybe especially up top. Yeah really everything before In the Beginning could perhaps just skip along faster without too too much ad libbing? Because it's also true there's a million things at the back end to fill time if I had any anxiety about finishing *too* soon.
+
+The cute thing with the keynote was nice and it does make a specific point, but maybe it's a bit too much? Or maybe not, maybe this crowd would - if anything - appreciate it? I like the idea that it gestures out at how much this applies to *all* creative process.
+
+Points of emphasis that I guess can land harder:
+
+- How much this process of reflection *helps me* not just in the post-analysis but in the during-design
